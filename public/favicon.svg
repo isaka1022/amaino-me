@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+  <rect width="36" height="36" rx="6" fill="#1a1a1a"/>
+  <text x="18" y="26" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">A</text>
+  <style>
+    @media (prefers-color-scheme:dark){rect{fill:#ffffff}text{fill:#1a1a1a}}
+  </style>
+</svg>

@@ -1,0 +1,65 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="About" sideBarActiveItemID="about">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">About me</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    井上 周（いのうえ あまね）。AIエンジニア / 精密栄養カウンセラー / マラソンランナー。
+    テクノロジーと健康を軸に「つなげていく、つながっていく」をテーマに活動しています。
+    2026年スペイン移住に向けて準備中。
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Mission</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    技術と知識を "つなげて"、一人ひとりが自分の可能性を最大化できる世界を作る。
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="AIエンジニア / テックリード"
+      subtitle="フリーランス・スタートアップ"
+    >
+      LLM/RAGを活用したプロダクト開発、AI導入コンサルティング。TypeScript, Python, Supabase, Cloudflare等のモダンスタックでの開発。
+    </TimeLineElement>
+    <TimeLineElement
+      title="精密栄養カウンセラー"
+      subtitle="パーソナルカウンセリング"
+    >
+      遺伝子検査・腸内フローラ解析に基づく個別最適化栄養指導。「カラダのことを自分で考えられる人」を増やす活動。
+    </TimeLineElement>
+    <TimeLineElement
+      title="マラソンランナー"
+      subtitle="サブ3達成"
+    >
+      フルマラソン サブ3達成。身体能力の限界に挑戦し続ける中で得た知見を発信。
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-3 columns-2 mx-6">
+    <li>TypeScript / JavaScript</li>
+    <li>Python</li>
+    <li>React / Next.js</li>
+    <li>Astro</li>
+    <li>LLM / RAG</li>
+    <li>Supabase</li>
+    <li>Cloudflare</li>
+    <li>精密栄養学</li>
+    <li>遺伝子検査解析</li>
+  </ul>
+</BaseLayout>
