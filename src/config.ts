@@ -3,5 +3,5 @@
 
 export const SITE_TITLE = 'amaino.me | Amane Inoue';
 export const SITE_DESCRIPTION = 'つなげていく、つながっていく - 井上 周（Amane Inoue）のパーソナルサイト。AI・健康・マラソン・ノマドライフについて発信しています。';
-export const GENERATE_SLUG_FROM_TITLE = true
+export const GENERATE_SLUG_FROM_TITLE = false
 export const TRANSITION_API = true

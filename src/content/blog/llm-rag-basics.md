@@ -2,7 +2,9 @@
 title: "LLMとRAGの基礎 — AIをプロダクトに組み込むための第一歩"
 description: "LLM（大規模言語モデル）とRAG（検索拡張生成）の基本概念を解説します。自社プロダクトにAIを組み込みたいエンジニア向け。"
 pubDate: "Mar 03 2026"
+category: "tech"
 tags: ["AI", "LLM", "RAG"]
+source: "original"
 ---
 
 ## LLMとは何か

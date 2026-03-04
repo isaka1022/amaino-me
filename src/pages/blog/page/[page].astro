@@ -1,41 +1,47 @@
 ---
-import BaseLayout from "@layouts/BaseLayout.astro";
-import HorizontalCard from "@components/HorizontalCard.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import HorizontalCard from "../../../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
-export async function getStaticPaths({ paginate }) {
-  const all_posts = await getCollection("blog", ({ data }) => !data.draft);
-  const all_tags = all_posts.flatMap((post) => {
-    return post.data.tags || [];
-  });
 
-  return all_tags.flatMap((tag) => {
-    const filtred_posts = all_posts.filter((post) => {
-      return post.data.tags?.includes(tag);
-    });
-    return paginate(filtred_posts, {
-      params: { tag },
-      pageSize: 10,
-    });
-  });
+export async function getStaticPaths() {
+  const PAGE_SIZE = 10;
+  const posts = await getCollection("blog", ({ data }) => !data.draft);
+  posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  const totalPages = Math.ceil(posts.length / PAGE_SIZE);
+
+  return Array.from({ length: totalPages - 1 }, (_, i) => ({
+    params: { page: String(i + 2) },
+    props: {
+      posts: posts.slice((i + 1) * PAGE_SIZE, (i + 2) * PAGE_SIZE),
+      currentPage: i + 2,
+      totalPages,
+    },
+  }));
 }
 
-const { page } = Astro.props;
-const params = Astro.params;
+interface Props {
+  posts: Awaited<ReturnType<typeof getCollection<"blog">>>;
+  currentPage: number;
+  totalPages: number;
+}
+
+const { posts, currentPage, totalPages } = Astro.props;
 ---
 
-<BaseLayout title={"Blog - " + params.tag} sideBarActiveItemID="blog">
+<BaseLayout title={`Blog - Page ${currentPage}`} sideBarActiveItemID="blog">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Blog - {params.tag}</div>
+    <div class="text-3xl w-full font-bold">Blog</div>
   </div>
+
   {
-    page.data.length === 0 ? (
+    posts.length === 0 ? (
       <div class="bg-base-200 border-l-4 border-secondary w-full p-4 min-w-full">
         <p class="font-bold">Sorry!</p>
         <p>There are no blog posts to show at the moment. Check back later!</p>
       </div>
     ) : (
       <ul>
-        {page.data.map((post) => (
+        {posts.map((post) => (
           <>
             <HorizontalCard
               title={post.data.title}
@@ -55,9 +61,11 @@ const params = Astro.params;
 
   <div class="flex justify-between">
     {
-      page.url.prev ? (
-        <a href={page.url.prev} class="btn btn-ghost my-10 mx-5">
-          {" "}
+      currentPage > 1 ? (
+        <a
+          href={currentPage === 2 ? "/blog" : `/blog/page/${currentPage - 1}`}
+          class="btn btn-ghost my-10 mx-5"
+        >
           <svg
             class="h-6 w-6 fill-current md:h-8 md:w-8"
             xmlns="http://www.w3.org/2000/svg"
@@ -74,8 +82,11 @@ const params = Astro.params;
       )
     }
     {
-      page.url.next ? (
-        <a href={page.url.next} class="btn btn-ghost my-10 mx-5">
+      currentPage < totalPages ? (
+        <a
+          href={`/blog/page/${currentPage + 1}`}
+          class="btn btn-ghost my-10 mx-5"
+        >
           Older Posts{" "}
           <svg
             class="h-6 w-6 fill-current md:h-8 md:w-8"
@@ -84,7 +95,6 @@ const params = Astro.params;
             height="24"
             viewBox="0 0 24 24"
           >
-            {" "}
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
           </svg>
         </a>
