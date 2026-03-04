@@ -1,0 +1,30 @@
+---
+title: "Unity上でLinuxアプリケーションを作ってビルドするための方法！"
+description: "Unityを使ってインタラクティブなソフトウェアを開発しているのですがそれをラズパイ上でデプロイするときの手順を備忘録がてら書いていきます。 **実際は成功しませんでした。。。**"
+pubDate: "2018-11-12"
+category: "how-to-study"
+source: "wordpress"
+originalUrl: "https://amaino.me/blog/how-to-study/unity-linux/"
+---
+
+Unityを使ってインタラクティブなソフトウェアを開発しているのですがそれをラズパイ上でデプロイするときの手順を備忘録がてら書いていきます。 **実際は成功しませんでした。。。**
+
+## したかったこと
+
+使っているのはMac OSでした。 Mac上のUnityでソフトを開発して、それをラズパイに転送、実行します。
+
+## Mac上での操作
+
+まずはUnityを起動して転送したい File > Build & Settings を開きます。 ![](http://amaino.me/blog/wp-content/uploads/2018/11/13a70f022abe35b8167b41ba16e2ca2e.png) Target Platform を「Linux」 ラズパイの場合はArchitectureを「x86」に設定します。
+
+## Raspberry Piに転送
+
+すると保存する先のディレクトリが聞かれるので、保存したい場所を選択。 〇〇.x86というファイルができているかと思いますので、それをUSBメモリ等に入れてラズパイに転送します。
+
+## Raspberry Pi側の操作
+
+さて、あとはこの「x86」というファイルを実行すればいいだけなのですが、、。 **そこで詰みました。** どうやらRaspberry Pi上でx86を動かすにはエミュレートをする必要があるみたいです。 「exagear」というエミュレータを導入すればインストールできそうな雰囲気はありますが、これはどうやら有料のようなので今回は断念。 また別の方法を探してみたいと思います。 「有料でもやってみたい！」という人なんかは[こちら](https://thepi.io/how-to-run-x86-programs-on-the-raspberry-pi/)が参考になりそうです。
+
+## まとめ
+
+残念ながらUnityで作ったソフトをRaspberry Piで実行するまではできませんでした。 また別の方法を試し、できたら更新していきたいと思います。

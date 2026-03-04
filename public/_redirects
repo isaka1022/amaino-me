@@ -1,0 +1,43 @@
+# Techblog (techblog.amaino.me) -> amaino.me/blog/tech/ redirects
+# Old path: /{category}/{slug}/ -> New path: /blog/tech/{slug}/
+
+/computer-science/vlan/ /blog/tech/vlan/ 301
+/computer-science/regression/ /blog/tech/regression/ 301
+/computer-science/manchester-coding/ /blog/tech/manchester-coding/ 301
+/computer-science/cache/ /blog/tech/cache/ 301
+/computer-science/sriov/ /blog/tech/sriov/ 301
+/computer-science/network-slicing/ /blog/tech/network-slicing/ 301
+/computer-science/decision-tree/ /blog/tech/decision-tree/ 301
+/computer-science/edge-computing/ /blog/tech/edge-computing/ 301
+/computer-science/qy8/ /blog/tech/qy8/ 301
+/development/adjacent-jsx-elements-must-be-wrapped-in-an-enclosing-tag-did-you-want-a-jsx-fragment/ /blog/tech/adjacent-jsx-elements-must-be-wrapped-in-an-enclosing-tag-did-you-want-a-jsx-fragment/ 301
+/development/heroku-no-such-file-error/ /blog/tech/heroku-no-such-file-error/ 301
+/development/the-rails-command-exists-in-these-ruby-versions/ /blog/tech/the-rails-command-exists-in-these-ruby-versions/ 301
+/development/cant-connect-to-local-mysql-server-through-socket-var-lib-mysql-mysql-sock-2/ /blog/tech/cant-connect-to-local-mysql-server-through-socket-var-lib-mysql-mysql-sock-2/ 301
+/development/the-server-quit-without-updating-pid-file/ /blog/tech/the-server-quit-without-updating-pid-file/ 301
+/development/dont-know-how-to-build-task-webpackerinstall/ /blog/tech/dont-know-how-to-build-task-webpackerinstall/ 301
+/development/vsc-initialized/ /blog/tech/vsc-initialized/ 301
+/computer-science/computers/ /blog/tech/computers/ 301
+/computer-science/%e3%83%8f%e3%83%bc%e3%83%89%e3%82%a6%e3%82%a7%e3%82%a2%e3%81%a8%e3%82%bd%e3%83%95%e3%83%88%e3%82%a6%e3%82%a7%e3%82%a2/ /blog/tech/%e3%83%8f%e3%83%bc%e3%83%89%e3%82%a6%e3%82%a7%e3%82%a2%e3%81%a8%e3%82%bd%e3%83%95%e3%83%88%e3%82%a6%e3%82%a7%e3%82%a2/ 301
+/computer-science/bit/ /blog/tech/bit/ 301
+/development/principle-of-programming-2/ /blog/tech/principle-of-programming-2/ 301
+/development/next-js-localhost-port/ /blog/tech/next-js-localhost-port/ 301
+/uncategorized/heteml-wp-upload-size/ /blog/tech/heteml-wp-upload-size/ 301
+/development/lcc-not-found/ /blog/tech/lcc-not-found/ 301
+/development/input-skills/ /blog/tech/input-skills/ 301
+/development/import-to-firestore-from-spreadsheet/ /blog/tech/import-to-firestore-from-spreadsheet/ 301
+/%e3%82%ad%e3%83%a3%e3%83%aa%e3%82%a2/how-to-be-a-engineer/ /blog/tech/how-to-be-a-engineer/ 301
+/development/rails-polymorphic/ /blog/tech/rails-polymorphic/ 301
+/development/psql-error-database-does-not-exist/ /blog/tech/psql-error-database-does-not-exist/ 301
+/development/postgres-error-cant-locate-revision/ /blog/tech/postgres-error-cant-locate-revision/ 301
+/development/factory-bot-skip-callback/ /blog/tech/factory-bot-skip-callback/ 301
+/development/heroku%e3%81%aecleardb%e3%81%8b%e3%82%89%e3%83%80%e3%83%b3%e3%83%97%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%81%84/ /blog/tech/heroku%e3%81%aecleardb%e3%81%8b%e3%82%89%e3%83%80%e3%83%b3%e3%83%97%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e4%bd%9c%e6%88%90%e3%81%97%e3%81%9f%e3%81%84/ 301
+/development/go-delete-array/ /blog/tech/go-delete-array/ 301
+/development/mac-nfc-nfd/ /blog/tech/mac-nfc-nfd/ 301
+/development/apply-another-repository/ /blog/tech/apply-another-repository/ 301
+/development/sed/ /blog/tech/sed/ 301
+/development/gorm-debug/ /blog/tech/gorm-debug/ 301
+/development/rails-mysql-turning/ /blog/tech/rails-mysql-turning/ 301
+/development/numbered-parameter/ /blog/tech/numbered-parameter/ 301
+/development/go-version-update/ /blog/tech/go-version-update/ 301
+/development/difference-docker-compose-stop-down/ /blog/tech/difference-docker-compose-stop-down/ 301
