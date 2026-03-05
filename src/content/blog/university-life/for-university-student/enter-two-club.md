@@ -1,8 +1,9 @@
 ---
 title: "大学で兼部・兼サーはできるのか？実際に部活とサークルを掛け持ちした僕の考え"
-description: "ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) 受験が終わり、晴れて大学に入学する新入生にはたくさんの部活やサークルからの勧誘が待ち受けています。 部活にするか、サークルにするか、悩みますよね。 でも、「どうしても１つに決められない・・・」そんな人もいるかと思います。 そんな人に思い浮かぶのは、「**兼部・兼サー**」という言葉。 「果たして、２つ以上"
+description: "大学で兼部・兼サーは可能？ラグビー部とアカペラサークルを掛け持ちした体験談。メリット・デメリット・失敗しても大丈夫な理由を解説。迷っている新入生へ。"
 pubDate: "2018-03-16"
 category: "university-life"
+tags: ["大学生活", "兼部", "兼サー", "部活", "サークル"]
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/for-university-student/enter-two-club/"
 heroImage: "/blog/wp-content/uploads/2018/03/612f43071a2a0f44423b8bcb86c93e1a-1.png"

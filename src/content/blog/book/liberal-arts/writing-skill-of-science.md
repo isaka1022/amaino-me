@@ -3,6 +3,7 @@ title: "【感想】木下是雄『理科系の作文技術』の感想や内容
 description: "みなさんはどれくらい文章を書きますか？大学生ならレポートや論文、社会人でも報告書や資料など、ふだんから文章を書く人は多いんじゃないかなと思います。"
 pubDate: "2018-11-17"
 category: "book"
+tags: ["読書", "文章術", "要約", "大学生"]
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/liberal-arts/writing-skill-of-science/"
 heroImage: "/blog/wp-content/uploads/2018/11/d939bee03942997b09f813e0aa2ed219.jpg"
