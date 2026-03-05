@@ -28,8 +28,9 @@ export async function GET({ params }: { params: { slug: string } }) {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "60px 72px",
-          backgroundColor: "#0f172a",
+          backgroundColor: "#ffffff",
           fontFamily: "sans-serif",
+          border: "1px solid #e5e5e5",
         },
         children: [
           {
@@ -49,8 +50,9 @@ export async function GET({ params }: { params: { slug: string } }) {
                     style: {
                       fontSize: title.length > 40 ? "44px" : "56px",
                       fontWeight: "bold",
-                      color: "#f1f5f9",
+                      color: "#000000",
                       lineHeight: 1.3,
+                      letterSpacing: "-0.02em",
                       maxWidth: "1056px",
                     },
                     children: title,
@@ -73,7 +75,7 @@ export async function GET({ params }: { params: { slug: string } }) {
                   props: {
                     style: {
                       fontSize: "28px",
-                      color: "#94a3b8",
+                      color: "#888888",
                     },
                     children: SITE_AUTHOR_NAME,
                   },
@@ -83,7 +85,7 @@ export async function GET({ params }: { params: { slug: string } }) {
                   props: {
                     style: {
                       fontSize: "24px",
-                      color: "#3b82f6",
+                      color: "#000000",
                       fontWeight: "bold",
                     },
                     children: "amaino.me",
