@@ -1,8 +1,8 @@
 import type { APIRoute } from 'astro';
 import { setSession } from '../../../lib/auth';
 
-const GITHUB_CLIENT_ID = import.meta.env.GITHUB_CLIENT_ID;
-const GITHUB_CLIENT_SECRET = import.meta.env.GITHUB_CLIENT_SECRET;
+const GITHUB_CLIENT_ID = import.meta.env.GITHUB_CLIENT_ID ?? process.env.GITHUB_CLIENT_ID;
+const GITHUB_CLIENT_SECRET = import.meta.env.GITHUB_CLIENT_SECRET ?? process.env.GITHUB_CLIENT_SECRET;
 const ALLOWED_USER = 'isaka1022';
 
 export const prerender = false;
