@@ -1,0 +1,24 @@
+---
+export interface Props {
+  /** フォームの見出し */
+  title?: string;
+  /** サイドバー用のコンパクト表示（高さを抑える） */
+  compact?: boolean;
+}
+const { title = "メールで更新を受け取る", compact = false } = Astro.props;
+const AIRTABLE_EMBED_URL = "https://airtable.com/embed/appKHUFuKv9cu4OTk/shrwlnWcGKm7c1RAQ";
+const embedHeight = compact ? 320 : 533;
+---
+
+<div class="email-subscribe-form not-prose">
+  <p class="font-medium mb-2 text-sm">{title}</p>
+  <iframe
+    class="airtable-embed rounded-lg"
+    src={AIRTABLE_EMBED_URL}
+    frameborder="0"
+    width="100%"
+    height={embedHeight}
+    style="background: transparent; border: 1px solid hsl(var(--b3));"
+    title="メール登録フォーム"
+  />
+</div>

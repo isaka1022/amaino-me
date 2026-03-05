@@ -1,43 +1,240 @@
 ---
-import { type BlogSchema } from "../content.config";
+import { type BlogSchema, type Category } from "../content.config";
 import BaseLayout from "./BaseLayout.astro";
+import TableOfContents from "../components/TableOfContents.astro";
 import dayjs from "dayjs";
 import localizedFormat from "dayjs/plugin/localizedFormat";
+import { SITE_AUTHOR_NAME, SITE_URL, SITE_SAME_AS } from "../config";
+import EmailSubscribeForm from "../components/EmailSubscribeForm.astro";
 
-export interface Props extends BlogSchema {}
+interface PostNav {
+  title: string;
+  url: string;
+}
 
-const { title, description, pubDate, updatedDate, heroImage, badge, tags = [] } = Astro.props;
+interface RelatedPost {
+  title: string;
+  url: string;
+  pubDate: Date;
+}
+
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+export interface Props extends BlogSchema {
+  headings?: Heading[];
+  readingTimeMin?: number;
+  prevPost?: PostNav | null;
+  nextPost?: PostNav | null;
+  relatedPosts?: RelatedPost[];
+}
+
+const CATEGORY_LABELS: Record<string, string> = {
+  book: "書籍",
+  travel: "旅行",
+  drama: "ドラマ",
+  movie: "映画",
+  "university-life": "大学生活",
+  "life-style": "ライフスタイル",
+  tech: "テック",
+  photo: "写真",
+  "how-to-study": "勉強法",
+  event: "イベント",
+  uncategorized: "その他",
+  "drive-blog": "ブログ運営",
+  programming: "プログラミング",
+  development: "開発",
+};
+
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  heroImage,
+  badge,
+  tags = [],
+  category,
+  headings = [],
+  readingTimeMin,
+  prevPost,
+  nextPost,
+  relatedPosts = [],
+} = Astro.props;
+
 dayjs.extend(localizedFormat);
-const displayDate = dayjs(pubDate).format("ll")
+const displayDate = dayjs(pubDate).format("ll");
 import { Image } from "astro:assets";
+const canonicalUrl = Astro.url.toString();
+const pagePath = Astro.url.pathname;
+const absoluteHeroImageUrl = heroImage
+  ? new URL(heroImage, SITE_URL).toString()
+  : undefined;
+const articleJsonLd: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: title,
+  description,
+  url: canonicalUrl,
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": canonicalUrl,
+  },
+  author: {
+    "@type": "Person",
+    name: SITE_AUTHOR_NAME,
+    url: SITE_URL,
+    sameAs: SITE_SAME_AS,
+  },
+  publisher: {
+    "@type": "Person",
+    name: SITE_AUTHOR_NAME,
+    url: SITE_URL,
+  },
+  datePublished: pubDate.toISOString(),
+  dateModified: (updatedDate ?? pubDate).toISOString(),
+  articleSection: category,
+  inLanguage: "ja",
+  keywords: tags.join(", "),
+};
+if (absoluteHeroImageUrl) {
+  articleJsonLd.image = [absoluteHeroImageUrl];
+}
+
+const categoryLabel = category ? (CATEGORY_LABELS[category] ?? category) : null;
 ---
 
-<BaseLayout title={title} description={description} image={heroImage}, ogType="article">
+<BaseLayout
+  title={title}
+  description={description}
+  image={heroImage}
+  ogType="article"
+  keywords={tags}
+  canonical={canonicalUrl}
+  jsonLd={articleJsonLd}
+  publishedTime={pubDate.toISOString()}
+  modifiedTime={(updatedDate ?? pubDate).toISOString()}
+>
   <main class="md:flex md:justify-center">
-    <article class="prose prose-lg max-w-[750px] prose-img:mx-auto">
-      {heroImage && <Image width={750} height={422} format="webp" src={heroImage} alt={title} class="w-full mb-6" />}
-      <h1 class="title my-2 text-4xl font-bold">{title}</h1>
-      {pubDate && <time>{displayDate}</time>}
-      <br />
-      {badge && <div class="badge badge-secondary my-1">{badge}</div>}
+    <article class="prose max-w-[750px] prose-img:mx-auto">
+      {heroImage && <img width={750} height={422} src={heroImage} alt={title} class="w-full mb-6 rounded-lg" loading="eager" />}
+      <h1 class="title my-2 text-2xl font-bold">{title}</h1>
+      <div class="flex items-center gap-3 flex-wrap mb-1">
+        {pubDate && <time class="text-base-content/60">{displayDate}</time>}
+        {readingTimeMin && (
+          <span class="text-base-content/50 text-sm flex items-center gap-1">
+            <svg class="size-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            {readingTimeMin}分で読める
+          </span>
+        )}
+        {badge && <div class="badge badge-secondary">{badge}</div>}
+        {categoryLabel && (
+          <a href={`/blog/category/${category}`} class="badge badge-primary no-underline">
+            {categoryLabel}
+          </a>
+        )}
+      </div>
       {
-        tags &&
-          tags.map((tag) => (
-            <a href={`/blog/tag/${tag}`} class="badge badge-outline ml-2 no-underline">
-              {tag}
-            </a>
-          ))
+        tags.length > 0 && (
+          <div class="flex flex-wrap gap-1 mb-2">
+            {tags.map((tag) => (
+              <a href={`/blog/tag/${tag}`} class="badge badge-outline no-underline">
+                {tag}
+              </a>
+            ))}
+          </div>
+        )
       }
       {
         updatedDate && (
-          <div>
-            {" "}
-            Last updated on <time>{updatedDate}</time>{" "}
+          <div class="text-sm text-base-content/50">
+            最終更新: <time>{dayjs(updatedDate).format("ll")}</time>
           </div>
         )
       }
       <div class="divider my-2"></div>
+      <TableOfContents headings={headings} />
       <slot />
+
+      {/* Previous / Next navigation */}
+      {(prevPost || nextPost) && (
+        <div class="divider my-6"></div>
+        <nav class="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-4">
+          {prevPost ? (
+            <a href={prevPost.url} class="group flex flex-col p-4 rounded-lg border border-base-300 hover:border-primary transition-colors">
+              <span class="text-xs text-base-content/50 mb-1">&larr; 前の記事</span>
+              <span class="text-sm font-medium group-hover:text-primary transition-colors line-clamp-2">{prevPost.title}</span>
+            </a>
+          ) : <div />}
+          {nextPost ? (
+            <a href={nextPost.url} class="group flex flex-col p-4 rounded-lg border border-base-300 hover:border-primary transition-colors text-right">
+              <span class="text-xs text-base-content/50 mb-1">次の記事 &rarr;</span>
+              <span class="text-sm font-medium group-hover:text-primary transition-colors line-clamp-2">{nextPost.title}</span>
+            </a>
+          ) : <div />}
+        </nav>
+      )}
+
+      {/* メール登録 */}
+      <div class="not-prose mt-8 p-6 rounded-lg border border-base-300 bg-base-200/50">
+        <EmailSubscribeForm title="記事の更新をメールで受け取る" />
+      </div>
+
+      {/* Related posts */}
+      {relatedPosts.length > 0 && (
+        <div class="not-prose mt-8">
+          <h2 class="text-xl font-bold mb-4">あわせて読みたい</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {relatedPosts.map((rp) => (
+              <a href={rp.url} class="group block p-4 rounded-lg border border-base-300 hover:border-primary transition-colors">
+                <span class="text-sm font-medium group-hover:text-primary transition-colors line-clamp-2">{rp.title}</span>
+                <span class="text-xs text-base-content/50 mt-1 block">{dayjs(rp.pubDate).format("ll")}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
     </article>
   </main>
+
+  {/* GA4 スクロール深度計測（25%, 50%, 75%, 90%） */}
+  <script define:vars={{ pagePath }}>
+    (function () {
+      const thresholds = [25, 50, 75, 90];
+      const storageKey = 'scroll_depth_' + pagePath;
+      let fired = [];
+      try {
+        fired = JSON.parse(sessionStorage.getItem(storageKey) || '[]');
+      } catch (_) {}
+
+      function fire(depth) {
+        if (fired.includes(depth)) return;
+        fired.push(depth);
+        try { sessionStorage.setItem(storageKey, JSON.stringify(fired)); } catch (_) {}
+        if (typeof gtag === 'function') {
+          gtag('event', 'scroll_depth', {
+            depth_percent: String(depth),
+            page_path: pagePath,
+            page_title: document.title,
+          });
+        }
+      }
+
+      function check() {
+        const scrolled = window.scrollY;
+        const total = document.documentElement.scrollHeight - window.innerHeight;
+        if (total <= 0) return;
+        const pct = Math.round((scrolled / total) * 100);
+        thresholds.forEach(function (t) {
+          if (pct >= t) fire(t);
+        });
+      }
+
+      window.addEventListener('scroll', check, { passive: true });
+      check();
+    })();
+  </script>
 </BaseLayout>
