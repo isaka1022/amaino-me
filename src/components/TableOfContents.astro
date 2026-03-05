@@ -1,0 +1,82 @@
+---
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  headings: Heading[];
+}
+
+const { headings } = Astro.props;
+const filteredHeadings = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
+---
+
+{filteredHeadings.length > 0 && (
+  <nav class="toc not-prose mb-6 rounded-lg border border-base-300 bg-base-200/30">
+    <button
+      id="toc-toggle"
+      class="flex w-full items-center justify-between p-4 font-bold text-sm cursor-pointer"
+      aria-expanded="true"
+      aria-controls="toc-list"
+    >
+      <span>目次</span>
+      <svg id="toc-chevron" class="size-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+      </svg>
+    </button>
+    <ol id="toc-list" class="px-4 pb-4 space-y-1 text-sm">
+      {filteredHeadings.map((h) => (
+        <li class={h.depth === 3 ? "ml-4" : ""}>
+          <a
+            href={`#${h.slug}`}
+            class="toc-link block py-0.5 text-base-content/70 hover:text-primary transition-colors no-underline"
+            data-slug={h.slug}
+          >
+            {h.text}
+          </a>
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.getElementById('toc-toggle');
+    const list = document.getElementById('toc-list');
+    const chevron = document.getElementById('toc-chevron');
+    if (!toggle || !list) return;
+
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      list.style.display = expanded ? 'none' : '';
+      if (chevron) chevron.style.transform = expanded ? 'rotate(-90deg)' : '';
+    });
+
+    const links = document.querySelectorAll('.toc-link');
+    const headingEls = Array.from(links).map((l) =>
+      document.getElementById(l.getAttribute('data-slug') ?? '')
+    ).filter(Boolean);
+
+    if (!headingEls.length) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            links.forEach((l) => l.classList.remove('text-primary', 'font-semibold'));
+            const active = document.querySelector(`.toc-link[data-slug="${entry.target.id}"]`);
+            if (active) {
+              active.classList.add('text-primary', 'font-semibold');
+            }
+          }
+        }
+      },
+      { rootMargin: '-80px 0px -60% 0px', threshold: 0 }
+    );
+    headingEls.forEach((el) => observer.observe(el));
+  });
+</script>
