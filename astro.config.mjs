@@ -9,7 +9,12 @@ export default defineConfig({
   site: 'https://amaino.me',
   output: 'static',
   adapter: vercel(),
-  integrations: [mdx(), sitemap()],
+  integrations: [
+    mdx(),
+    sitemap({
+      filter: (page) => !page.includes('/admin/'),
+    }),
+  ],
   vite: {
     plugins: [tailwindcss()],
   },

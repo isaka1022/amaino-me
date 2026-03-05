@@ -15,6 +15,11 @@ const activeClass = "bg-base-300";
 </ul>
 
 <script define:vars={{ sideBarActiveItemID: sideBarActiveItemID, activeClass: activeClass }}>
-const activeItemElem = document.getElementById(sideBarActiveItemID);
-activeItemElem && activeItemElem.classList.add(activeClass);
+function applyActiveClass() {
+  document.querySelectorAll(".menu a").forEach((el) => el.classList.remove(activeClass));
+  const activeItemElem = document.getElementById(sideBarActiveItemID);
+  activeItemElem && activeItemElem.classList.add(activeClass);
+}
+applyActiveClass();
+document.addEventListener("astro:page-load", applyActiveClass);
 </script>

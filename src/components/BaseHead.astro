@@ -4,6 +4,9 @@
 import '../styles/global.css';
 import {
 	SITE_AUTHOR_NAME,
+	SITE_AUTHOR_JOB_TITLE,
+	SITE_AUTHOR_DESCRIPTION,
+	SITE_AUTHOR_KNOWS_ABOUT,
 	SITE_DESCRIPTION,
 	SITE_LOCALE,
 	SITE_TITLE,
@@ -64,7 +67,10 @@ const globalJsonLd: Array<Record<string, unknown>> = [
 		"@type": "Person",
 		name: SITE_AUTHOR_NAME,
 		url: siteOrigin,
+		description: SITE_AUTHOR_DESCRIPTION,
 		sameAs: SITE_SAME_AS,
+		jobTitle: SITE_AUTHOR_JOB_TITLE,
+		knowsAbout: SITE_AUTHOR_KNOWS_ABOUT,
 	},
 	{
 		"@context": "https://schema.org",

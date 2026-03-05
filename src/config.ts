@@ -15,3 +15,17 @@ export const SITE_SAME_AS = [
 ];
 export const GENERATE_SLUG_FROM_TITLE = false
 export const TRANSITION_API = true
+
+export const SITE_AUTHOR_JOB_TITLE = 'Software Engineer / Precision Nutrition Counselor';
+export const SITE_AUTHOR_DESCRIPTION =
+  'ソフトウェアエンジニア / 精密栄養カウンセラー / アドベンチャーランナー。LLM/RAGプロダクト開発、精密栄養指導、サハラマラソン完走。';
+export const SITE_AUTHOR_KNOWS_ABOUT = [
+  'Large Language Models',
+  'Retrieval-Augmented Generation',
+  'TypeScript',
+  'Precision Nutrition',
+  'Gut Microbiome Analysis',
+  'Genetic Testing',
+  'Adventure Running',
+  'Nomad Life',
+];
