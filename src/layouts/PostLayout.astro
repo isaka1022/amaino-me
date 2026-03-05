@@ -70,6 +70,8 @@ const displayDate = dayjs(pubDate).format("ll");
 import { Image } from "astro:assets";
 const canonicalUrl = Astro.url.toString();
 const pagePath = Astro.url.pathname;
+// heroImageがない記事はタイトル入りOGP画像を動的生成
+const ogImage = heroImage ?? `/og${pagePath.replace(/\/$/, "")}.png`;
 const absoluteHeroImageUrl = heroImage
   ? new URL(heroImage, SITE_URL).toString()
   : undefined;
@@ -120,7 +122,7 @@ const categoryLabel = category ? (CATEGORY_LABELS[category] ?? category) : null;
 <BaseLayout
   title={title}
   description={description}
-  image={heroImage}
+  image={ogImage}
   ogType="article"
   keywords={tags}
   canonical={canonicalUrl}

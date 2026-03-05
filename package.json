@@ -17,6 +17,7 @@
     "@astrojs/sitemap": "^3.7.0",
     "@astrojs/vercel": "^9.0.4",
     "@tailwindcss/vite": "^4.2.1",
+    "@vercel/og": "^0.11.1",
     "astro": "^5.18.0",
     "daisyui": "^5.5.19",
     "dayjs": "^1.11.9",
