@@ -61,3 +61,105 @@ a.book-card:hover {
     white-space: nowrap !important;
     text-decoration: none !important;
 }
+
+/* === Link Card (OGP) === */
+.prose a.link-card,
+a.link-card {
+    display: block !important;
+    border: 1px solid oklch(var(--bc) / 0.2) !important;
+    border-radius: 0.75rem !important;
+    background: oklch(var(--b2)) !important;
+    transition: border-color 0.2s, box-shadow 0.2s !important;
+    text-decoration: none !important;
+    color: inherit !important;
+    margin: 1.5rem 0 !important;
+    font-weight: normal !important;
+    overflow: hidden !important;
+}
+
+.prose a.link-card:hover,
+a.link-card:hover {
+    border-color: oklch(var(--p)) !important;
+    box-shadow: 0 2px 12px oklch(var(--bc) / 0.1) !important;
+}
+
+.link-card .link-card-content {
+    display: flex !important;
+    align-items: stretch !important;
+    gap: 0 !important;
+    min-height: 100px !important;
+}
+
+.link-card .link-card-text {
+    flex: 1 !important;
+    min-width: 0 !important;
+    padding: 1rem 1.25rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.25rem !important;
+}
+
+.link-card .link-card-title {
+    font-size: 0.95rem !important;
+    font-weight: 600 !important;
+    line-height: 1.4 !important;
+    color: oklch(var(--bc)) !important;
+    margin: 0 !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+}
+
+.link-card .link-card-description {
+    font-size: 0.8rem !important;
+    color: oklch(var(--bc) / 0.6) !important;
+    margin: 0 !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    line-height: 1.5 !important;
+}
+
+.link-card .link-card-meta {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.4rem !important;
+    margin-top: auto !important;
+    padding-top: 0.5rem !important;
+}
+
+.link-card .link-card-favicon {
+    width: 16px !important;
+    height: 16px !important;
+    flex-shrink: 0 !important;
+}
+
+.link-card .link-card-site {
+    font-size: 0.75rem !important;
+    color: oklch(var(--bc) / 0.5) !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+
+.link-card .link-card-image {
+    flex-shrink: 0 !important;
+    width: 140px !important;
+    overflow: hidden !important;
+}
+
+.link-card .link-card-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+    margin: 0 !important;
+}
+
+@media (max-width: 480px) {
+    .link-card .link-card-image {
+        width: 100px !important;
+    }
+}

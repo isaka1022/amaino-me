@@ -3,6 +3,7 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import vercel from '@astrojs/vercel';
 import tailwindcss from "@tailwindcss/vite";
+import { rehypeLinkCard } from './src/lib/rehype-link-card.mjs';
 
 // https://astro.build/config
 export default defineConfig({
@@ -15,6 +16,9 @@ export default defineConfig({
       filter: (page) => !page.includes('/admin/'),
     }),
   ],
+  markdown: {
+    rehypePlugins: [rehypeLinkCard],
+  },
   vite: {
     plugins: [tailwindcss()],
   },
