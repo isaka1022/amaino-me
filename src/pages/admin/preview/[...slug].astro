@@ -1,0 +1,134 @@
+---
+import AdminLayout from "../../../layouts/AdminLayout.astro";
+import TableOfContents from "../../../components/TableOfContents.astro";
+import { getCollection } from "astro:content";
+import dayjs from "dayjs";
+import localizedFormat from "dayjs/plugin/localizedFormat";
+
+export const prerender = false;
+
+dayjs.extend(localizedFormat);
+
+const CATEGORY_LABELS: Record<string, string> = {
+  book: "書籍",
+  travel: "旅行",
+  drama: "ドラマ",
+  movie: "映画",
+  "university-life": "大学生活",
+  "life-style": "ライフスタイル",
+  tech: "テック",
+  photo: "写真",
+  "how-to-study": "勉強法",
+  event: "イベント",
+  uncategorized: "その他",
+};
+
+const SOURCE_LABELS: Record<string, string> = {
+  wordpress: "WordPress",
+  techblog: "TechBlog",
+  note: "note",
+  qiita: "Qiita",
+  original: "オリジナル",
+};
+
+const { slug } = Astro.params;
+const allPosts = await getCollection("blog");
+const post = allPosts.find((p) => p.id === slug);
+
+if (!post) {
+  return Astro.redirect("/admin/?error=not_found");
+}
+
+const { Content, headings } = await post.render();
+
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  heroImage,
+  badge,
+  tags = [],
+  category,
+  draft,
+  source,
+  originalUrl,
+} = post.data;
+
+const displayDate = dayjs(pubDate).format("ll");
+const categoryLabel = category ? (CATEGORY_LABELS[category] ?? category) : null;
+const sourceLabel = source ? (SOURCE_LABELS[source] ?? source) : null;
+---
+
+<AdminLayout title={`プレビュー: ${title}`}>
+  <div class="mb-4">
+    <a href="/admin/" class="btn btn-ghost btn-sm gap-1">
+      <svg class="size-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      記事一覧に戻る
+    </a>
+  </div>
+
+  {draft && (
+    <div class="alert alert-warning mb-4">
+      <svg class="size-5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
+      </svg>
+      <span>この記事は<strong>下書き</strong>です。公開されていません。</span>
+    </div>
+  )}
+
+  {source && (
+    <div class="alert alert-info mb-4">
+      <svg class="size-5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      <div>
+        <span>ソース: <strong>{sourceLabel}</strong></span>
+        {originalUrl && (
+          <a href={originalUrl} target="_blank" rel="noopener" class="link ml-2">
+            元記事を見る ↗
+          </a>
+        )}
+      </div>
+    </div>
+  )}
+
+  <article class="prose max-w-[750px] mx-auto">
+    {heroImage && (
+      <img
+        width={750}
+        height={422}
+        src={heroImage}
+        alt={title}
+        class="w-full mb-6 rounded-lg"
+        loading="eager"
+      />
+    )}
+    <h1 class="title my-2 text-2xl font-bold">{title}</h1>
+    <div class="flex items-center gap-3 flex-wrap mb-1">
+      {pubDate && <time class="text-base-content/60">{displayDate}</time>}
+      {badge && <div class="badge badge-secondary">{badge}</div>}
+      {categoryLabel && (
+        <span class="badge badge-primary">{categoryLabel}</span>
+      )}
+      {draft && <span class="badge badge-warning">下書き</span>}
+    </div>
+    {tags.length > 0 && (
+      <div class="flex flex-wrap gap-1 mb-2">
+        {tags.map((tag) => (
+          <span class="badge badge-outline">{tag}</span>
+        ))}
+      </div>
+    )}
+    {updatedDate && (
+      <div class="text-sm text-base-content/50">
+        最終更新: <time>{dayjs(updatedDate).format("ll")}</time>
+      </div>
+    )}
+    <div class="divider my-2"></div>
+    <TableOfContents headings={headings} />
+    <Content />
+  </article>
+</AdminLayout>

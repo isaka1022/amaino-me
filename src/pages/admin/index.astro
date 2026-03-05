@@ -131,9 +131,9 @@ function buildFilterUrl(params: Record<string, string>): string {
             <tr>
               <td>
                 <a
-                  href={`/blog/${post.id}/`}
-                  target="_blank"
-                  rel="noopener"
+                  href={post.data.draft ? `/admin/preview/${post.id}` : `/blog/${post.id}/`}
+                  target={post.data.draft ? undefined : "_blank"}
+                  rel={post.data.draft ? undefined : "noopener"}
                   class="link link-hover font-medium"
                 >
                   {post.data.title}
