@@ -8,6 +8,21 @@
       "has": [{ "type": "host", "value": "techblog.amaino.me" }],
       "destination": "https://amaino.me/blog/tech/",
       "permanent": true
+    },
+    {
+      "source": "/blog/programming/post-2871/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/%E6%9C%AA%E5%88%86%E9%A1%9E/computer-memory/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/%E6%9C%AA%E5%88%86%E9%A1%9E/post-72/",
+      "destination": "/blog/",
+      "permanent": true
     }
   ]
 }
