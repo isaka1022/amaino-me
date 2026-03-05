@@ -86,23 +86,23 @@ a.link-card:hover {
 .link-card .link-card-content {
     display: flex !important;
     align-items: stretch !important;
-    gap: 0 !important;
-    min-height: 100px !important;
+    height: 100px !important;
 }
 
 .link-card .link-card-text {
     flex: 1 !important;
     min-width: 0 !important;
-    padding: 1rem 1.25rem !important;
+    padding: 0.75rem 1rem !important;
     display: flex !important;
     flex-direction: column !important;
-    gap: 0.25rem !important;
+    gap: 0.2rem !important;
+    overflow: hidden !important;
 }
 
 .link-card .link-card-title {
-    font-size: 0.95rem !important;
+    font-size: 0.9rem !important;
     font-weight: 600 !important;
-    line-height: 1.4 !important;
+    line-height: 1.35 !important;
     color: oklch(var(--bc)) !important;
     margin: 0 !important;
     display: -webkit-box !important;
@@ -112,14 +112,14 @@ a.link-card:hover {
 }
 
 .link-card .link-card-description {
-    font-size: 0.8rem !important;
+    font-size: 0.75rem !important;
     color: oklch(var(--bc) / 0.6) !important;
     margin: 0 !important;
     display: -webkit-box !important;
-    -webkit-line-clamp: 2 !important;
+    -webkit-line-clamp: 1 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
-    line-height: 1.5 !important;
+    line-height: 1.4 !important;
 }
 
 .link-card .link-card-meta {
@@ -127,17 +127,16 @@ a.link-card:hover {
     align-items: center !important;
     gap: 0.4rem !important;
     margin-top: auto !important;
-    padding-top: 0.5rem !important;
 }
 
 .link-card .link-card-favicon {
-    width: 16px !important;
-    height: 16px !important;
+    width: 14px !important;
+    height: 14px !important;
     flex-shrink: 0 !important;
 }
 
 .link-card .link-card-site {
-    font-size: 0.75rem !important;
+    font-size: 0.7rem !important;
     color: oklch(var(--bc) / 0.5) !important;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
@@ -146,7 +145,8 @@ a.link-card:hover {
 
 .link-card .link-card-image {
     flex-shrink: 0 !important;
-    width: 140px !important;
+    width: 120px !important;
+    height: 100px !important;
     overflow: hidden !important;
 }
 
@@ -160,6 +160,6 @@ a.link-card:hover {
 
 @media (max-width: 480px) {
     .link-card .link-card-image {
-        width: 100px !important;
+        width: 90px !important;
     }
 }
