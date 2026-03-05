@@ -5,6 +5,8 @@ pubDate: "2019-10-21"
 category: "tech"
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/cant-connect-to-local-mysql-server-through-socket-var-lib-mysql-mysql-sock-2/"
+draft: true
+heroImage: "/blog/wp-content/uploads/2019/10/1bb58f06ede295e79ccf04946e3a76be.jpg"
 ---
 
 ## 背景
@@ -23,7 +25,7 @@ $ rails s
 
 日付：2019/10/19
 
-Ruby ：2.5.1  
+Ruby ：2.5.1 
 Rails ：6.0.0
 
 ## エラー内容

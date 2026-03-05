@@ -34,7 +34,7 @@ const blogSchema = z.object({
   lang: z.enum(["ja", "en"]).default("ja"),
   draft: z.boolean().default(false),
   originalUrl: z.string().optional(),
-  source: z.enum(["wordpress", "techblog", "note", "original"]).optional(),
+  source: z.enum(["wordpress", "techblog", "note", "qiita", "original"]).optional(),
 });
 
 export type BlogSchema = z.infer<typeof blogSchema>;

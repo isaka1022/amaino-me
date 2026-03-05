@@ -13,7 +13,7 @@ originalUrl: "https://techblog.amaino.me/development/rails-polymorphic/"
 
 ### オブジェクト指向の3大要素
 
-カプセル化、継承と並ぶ、オブジェクト指向の3大要素のうちの一つです。  
+カプセル化、継承と並ぶ、オブジェクト指向の3大要素のうちの一つです。 
 
 ### ダックタイピング
 
@@ -25,7 +25,7 @@ originalUrl: "https://techblog.amaino.me/development/rails-polymorphic/"
 
 オブジェクトの実態が違っても、決まった振る舞い（同じメソッドを呼び出すなど）をすることで、同じオブジェクトとして扱えることです。
 
-いちいちオブジェクトの実態のことを考えてコードを書いていたらコードは汚くなるし、大変です。  
+いちいちオブジェクトの実態のことを考えてコードを書いていたらコードは汚くなるし、大変です。 
 メソッド（命令）を全部同じ名前で使えば、その内容についてはオブジェクトごとに勝手に変わっても大丈夫になります。
 
 ## ポリモーフィック関連
@@ -40,28 +40,28 @@ originalUrl: "https://techblog.amaino.me/development/rails-polymorphic/"
 
 ```
 class Cafe < ApplicationRecord
-  has_many :search_tags, through: :cafe_search_tags
-  has_many :cafe_search_tags
+ has_many :search_tags, through: :cafe_search_tags
+ has_many :cafe_search_tags
 end
 
 class Spot < ApplicationRecord
-  has_many :search_tags, through: :spot_search_tags
-  has_many :spot_search_tags
+ has_many :search_tags, through: :spot_search_tags
+ has_many :spot_search_tags
 end
 
 class CafeSearchTag < ApplicationRecord
-  belongs_to :cafe
-  belongs_to :search_tag
+ belongs_to :cafe
+ belongs_to :search_tag
 end
 
 class SpotSearchTag < ApplicationRecord
-  belongs_to :spot
-  belongs_to :search_tag
+ belongs_to :spot
+ belongs_to :search_tag
 end
 
 class SearchTag < ApplicationRecord
-  has_many :cafe_search_tags
-  has_many :spot_search_tags
+ has_many :cafe_search_tags
+ has_many :spot_search_tags
 end
 
 
@@ -69,29 +69,29 @@ end
 
 このようにCafeとSpotそれぞれと、SeachTagとの間に中間テーブルを定義してあげないといけません。
 
-さらにこの書き方だと、SearchTagから観たときに、それがSpotにあるのかCafeにあるのかをチェックしなければいけません。  
+さらにこの書き方だと、SearchTagから観たときに、それがSpotにあるのかCafeにあるのかをチェックしなければいけません。 
 例えばあるタグが付随するCafeとSpotを引っ張りたいときなどは大変です。
 
 そこでポリモーフィック関連を使って、以下のように書くことができました。
 
 ```
 class Cafe < ApplicationRecord
-  has_many :search_tags, through: :destination_search_tags
-  has_many :destination_search_tags, as: :destinationable
+ has_many :search_tags, through: :destination_search_tags
+ has_many :destination_search_tags, as: :destinationable
 end
 
 class Spot < ApplicationRecord
-  has_many :search_tags, through: :destination_search_tags
-  has_many :destination_search_tags, as: :destinationable
+ has_many :search_tags, through: :destination_search_tags
+ has_many :destination_search_tags, as: :destinationable
 end
 
 class DestinationSearchTag < ApplicationRecord
-  belongs_to :destinationable, polymorphic: true
-  belongs_to :search_tag
+ belongs_to :destinationable, polymorphic: true
+ belongs_to :search_tag
 end
 
 class SearchTag < ApplicationRecord
-  has_many :destination_search_tags
+ has_many :destination_search_tags
 end
 ```
 

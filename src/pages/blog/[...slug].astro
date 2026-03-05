@@ -4,20 +4,49 @@ import type { BlogSchema } from "../../content.config";
 import PostLayout from "../../layouts/PostLayout.astro";
 
 export async function getStaticPaths() {
-  const postEntries = await getCollection("blog", ({ data }) => !data.draft);
-  return postEntries.map((entry) => ({
+  const allPosts = await getCollection("blog", ({ data }) => !data.draft);
+  allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+  return allPosts.map((entry, index) => ({
     params: { slug: entry.id },
-    props: { entry },
+    props: {
+      entry,
+      prevPost: allPosts[index + 1] ?? null,
+      nextPost: allPosts[index - 1] ?? null,
+      allPosts,
+    },
   }));
 }
 
 interface Props {
   entry: CollectionEntry<"blog">;
+  prevPost: CollectionEntry<"blog"> | null;
+  nextPost: CollectionEntry<"blog"> | null;
+  allPosts: CollectionEntry<"blog">[];
 }
 
-const { entry } = Astro.props;
+const { entry, prevPost, nextPost, allPosts } = Astro.props;
 const post: BlogSchema = entry.data;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
+
+const rawBody = entry.body ?? "";
+const charCount = rawBody.replace(/\s+/g, "").length;
+const readingTimeMin = Math.max(1, Math.round(charCount / 500));
+
+const currentTags = entry.data.tags ?? [];
+const relatedPosts = allPosts
+  .filter((p) => p.id !== entry.id)
+  .map((p) => {
+    let score = 0;
+    if (p.data.category === entry.data.category) score += 2;
+    const pTags = p.data.tags ?? [];
+    score += currentTags.filter((t) => pTags.includes(t)).length * 3;
+    return { post: p, score };
+  })
+  .filter((r) => r.score > 0)
+  .sort((a, b) => b.score - a.score || b.post.data.pubDate.valueOf() - a.post.data.pubDate.valueOf())
+  .slice(0, 6)
+  .map((r) => r.post);
 ---
 
 <PostLayout
@@ -28,6 +57,12 @@ const { Content } = await render(entry);
   updatedDate={post.updatedDate}
   badge={post.badge}
   tags={post.tags}
+  category={post.category}
+  headings={headings}
+  readingTimeMin={readingTimeMin}
+  prevPost={prevPost ? { title: prevPost.data.title, url: `/blog/${prevPost.id}` } : null}
+  nextPost={nextPost ? { title: nextPost.data.title, url: `/blog/${nextPost.id}` } : null}
+  relatedPosts={relatedPosts.map((p) => ({ title: p.data.title, url: `/blog/${p.id}`, pubDate: p.data.pubDate }))}
 >
   <Content />
 </PostLayout>

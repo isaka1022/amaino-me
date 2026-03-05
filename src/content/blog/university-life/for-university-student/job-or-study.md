@@ -5,6 +5,7 @@ pubDate: "2018-10-04"
 category: "life-style"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/for-university-student/job-or-study/"
+heroImage: "/blog/wp-content/uploads/2018/10/6a0d4797b53ddc26f551ee620e9c9ed1.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) 理系の学生にとって進路を考える時に「進学するか、就職するか」というのは大きな悩みなのでは無いでしょうか？ 僕も散々悩んだあげく、大学院へ進学することにしました。 今回は僕が大学院へ進学することにした理由を書きたいと思います。

@@ -5,6 +5,7 @@ pubDate: "2018-11-20"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/find-books/"
+heroImage: "/blog/wp-content/uploads/2018/11/9cd93567216ec7d17e04d0165ad54311.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！書評ブロガーのあまね([@isaka122](https://twitter.com/isaka122))です！ みなさんはどうやって本を選んでいますか？ いざ、「本を読もう！」と思ってもなかなかどの本を選ぶかは難しいのではないでしょうか？ 好きな本を「読めばいいよ！」と言われても、戸惑ってしまいますよね。 そこで、今回は僕が普段使っている本の選び方を紹介したいと思います！ **この記事を読むことで、本の選び方を5つ知ることができますよ！**

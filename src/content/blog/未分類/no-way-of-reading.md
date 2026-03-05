@@ -5,6 +5,7 @@ pubDate: "2018-11-21"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/%e6%9c%aa%e5%88%86%e9%a1%9e/no-way-of-reading/"
+heroImage: "/blog/wp-content/uploads/2018/11/37d0f92bf776c061a48457f9d0129d84.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！!読書が好きな、あまね([@isaka122](https://twitter.com/isaka122))です！ みなさんは本をどんな風に読んでいますか？ 書き込む？それとも絶対にきれいに？ 付箋は貼りますか？それとも折り目をつける？ 最初から読む？最後から読む？ 色んな読み方があると思います！ でも、僕がおすすめする読み方はズバリ「こだわらない」読み方です！ 読み方なんて、どうでも良いのです！まずは読んでみてほしいと思います！

@@ -5,6 +5,7 @@ pubDate: "2018-04-09"
 category: "university-life"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/should-meet/"
+heroImage: "/blog/wp-content/uploads/2018/04/e8fe5cd3bbefc390a3ac9a1296a8e42b.png"
 ---
 
 こんにちは！金沢で学生をしています、あまねです。 大学生のみなさん、学生生活を楽しんでいますか？ 「なんかもやもやしている」 「やりたいこととかわからないし、何をすればいいのかわからない」 もしそんな人がいれば僕がおすすめすることが一つあります。 **それは「人に会いに行く」ことです。** 以下、本文です。
@@ -31,4 +32,4 @@ originalUrl: "https://amaino.me/blog/university-life/should-meet/"
 
 ## まとめ
 
-たくさんの人に会えるのが学生の特権です！ 今のうちにたくさんの人に出会い、今後の人生を楽しく生きるヒントを見つけてはどうでしょうか？ もし「会いたい人なんていない」なんてひとには「matcher」というサービスもあります。 http://amaino.me/blog/university-life/job-hunting/visit-ob/ さあ、一歩踏み出してみましょう。
+たくさんの人に会えるのが学生の特権です！ 今のうちにたくさんの人に出会い、今後の人生を楽しく生きるヒントを見つけてはどうでしょうか？ もし「会いたい人なんていない」なんてひとには「matcher」というサービスもあります。 /blog/university-life/job-hunting/visit-ob さあ、一歩踏み出してみましょう。

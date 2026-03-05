@@ -5,6 +5,7 @@ pubDate: "2018-01-05"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/fantasy/alquimista/"
+heroImage: "/blog/wp-content/uploads/2018/01/02d7f54e544962b4747c19cf7586a640.png"
 ---
 
 こんにちは。金沢で学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です。 みなさんは今悩んでいることはありますか？ 特に、進路や就職などの人生の大きな問題はありませんか。 「このままでいいのかな…」 そんなふうに思っている方におすすめなのが今日紹介する『アルケミスト』という本です。 ファンタジー小説なので誰にでも読みやすい本になっています。
@@ -28,3 +29,8 @@ originalUrl: "https://amaino.me/blog/book/fantasy/alquimista/"
 > 人は、自分の夢見ていることをいつでも実現できることに気づいていないのだよ。結局、人は自分の運命より、他人が羊飼いやパン屋どどう思うかという方が、もっと大切になってしまう
 
 と、サンチャゴに他人の価値観でなく自分の夢で生きることを諭します。 このように、この本の中にはサンチャゴだけでなく、僕もおもわずハッとする言葉で溢れています。 きっとみなさんにも勇気と希望を与えてくれると信じています。 ぜひ、１秒でも早く読んでいただけたら、その後の人生は変わるかもしれません。 おすすすめです。
+
+<a href="https://www.amazon.co.jp/s?k=%E3%82%A2%E3%83%AB%E3%82%B1%E3%83%9F%E3%82%B9%E3%83%88" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『アルケミスト』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

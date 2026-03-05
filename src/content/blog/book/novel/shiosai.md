@@ -5,6 +5,7 @@ pubDate: "2018-09-17"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/novel/shiosai/"
+heroImage: "/blog/wp-content/uploads/2018/09/f3d80d7e2cdfc49eb46dfce57d69bdec.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) 今日は、三島由紀夫の『潮騒』を読んだ感想を書きたいと思います。 とてもきれいな作品で、心が思わず浄化されてしまいました。 何度も映画化されている作品ですが、意外と読んだことがない人も多いのでは？ それでは本文です。
@@ -28,3 +29,8 @@ originalUrl: "https://amaino.me/blog/book/novel/shiosai/"
 ## まとめ
 
 何度も言ってしまいますが本当にきれいな作品でした。 もし現代社会で「なんか汚くなってきたな、自分」なんて思っている人がいれば（笑）、ぜひ読んでみてください。 昔を思い出したり、浄化されているような気がした作品でした。
+
+<a href="https://www.amazon.co.jp/s?k=%E6%BD%AE%E9%A8%92" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『潮騒』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

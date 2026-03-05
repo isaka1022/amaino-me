@@ -5,9 +5,10 @@ pubDate: "2018-05-19"
 category: "life-style"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/for-university-student/softbank-pdca/"
+heroImage: "/blog/wp-content/uploads/2018/05/pdca.png"
 ---
 
-こんにちは。金沢で学生をしています、あまねです。 PDCAって言葉、よくききますよね？ Plan(計画を立てる)→Do(実行する)→Check(評価)→Action(改善) の頭文字です。 ビジネスの世界ではよく使われます。 でも、具体的にどういうことかみなさんはわかっていますか？ また、効率的なPDCAの回し方は？ 僕も以前、営業のインターンシップをしていたのですが、その時は全くわかりませんでした。 http://amaino.me/blog/university-life/for-university-student/long-term-internship/ そんな時にこの本を読んで、「なるほど、こうやってPDCAサイクルを回せばいいのか！」とすごく納得することができました。 なので今日はこの本を紹介したいと思います。
+こんにちは。金沢で学生をしています、あまねです。 PDCAって言葉、よくききますよね？ Plan(計画を立てる)→Do(実行する)→Check(評価)→Action(改善) の頭文字です。 ビジネスの世界ではよく使われます。 でも、具体的にどういうことかみなさんはわかっていますか？ また、効率的なPDCAの回し方は？ 僕も以前、営業のインターンシップをしていたのですが、その時は全くわかりませんでした。 /blog/university-life/for-university-student/long-term-internship そんな時にこの本を読んで、「なるほど、こうやってPDCAサイクルを回せばいいのか！」とすごく納得することができました。 なので今日はこの本を紹介したいと思います。
 
 ## 『孫社長のむちゃぶりを解決してきたすごいPDCA』の内容
 

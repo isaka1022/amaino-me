@@ -5,6 +5,7 @@ pubDate: "2020-06-23"
 category: "tech"
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/principle-of-programming-2/"
+heroImage: "/blog/wp-content/uploads/2020/08/a32a98776a818219fa1cf7e7176dca2c.jpeg"
 ---
 
 こんにちは。 今日は『プリンシプルオブプログラミング』という本を読んだので、その感想をまとめます。
@@ -33,16 +34,12 @@ originalUrl: "https://techblog.amaino.me/development/principle-of-programming-2/
 
 たくさんの原則があり、全ては覚えきれないと思いました。 ですが、これから時間を書けて取得していきたい、そんなモチベーションも湧いてきたので、なにか事あるごとにこの本には戻ってくるような気がしてします。 本格的なエンジニアを目指す初心者おすすめだと思います。
 
-[![](https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/6143/9784798046143.jpg?_ex=64x64)](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F13785106%2F)![](//i.moshimo.com/af/i/impression?a_id=1143239&p_id=56&pc_id=56&pl_id=637)
-
-[プリンシプルオブプログラミング](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F13785106%2F)![](//i.moshimo.com/af/i/impression?a_id=1143239&p_id=56&pc_id=56&pl_id=637)
-
-posted with [ヨメレバ](https://yomereba.com)
+**プリンシプルオブプログラミング**
 
 上田勲 秀和システム 2016年03月
 
-[楽天ブックス](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F13785106%2F)![](//i.moshimo.com/af/i/impression?a_id=1143239&p_id=56&pc_id=56&pl_id=637)
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4798046140)
-
-[Kindle](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%25E3%2583%2597%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25B7%25E3%2583%2597%25E3%2583%25AB%25E3%2582%25AA%25E3%2583%2596%25E3%2583%2597%25E3%2583%25AD%25E3%2582%25B0%25E3%2583%25A9%25E3%2583%259F%25E3%2583%25B3%25E3%2582%25B0%26__mk_ja_JP%3D%2583J%2583%255E%2583J%2583i%26url%3Dnode%253D2275256051)
+<a href="https://www.amazon.co.jp/dp/4798046140" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-title">この本をチェック</span></span>
+<span class="book-card-cta">Amazon で見る</span>
+</a>

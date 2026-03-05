@@ -6,6 +6,7 @@ category: "tech"
 tags: ["Ruby on Rails"]
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/numbered-parameter/"
+heroImage: "/blog/wp-content/uploads/2022/07/技術ブログアイキャッチ-5.jpg"
 ---
 
 ある日、レビューしていたRuby on Railsのコードの中で下記のような実装がありまして、所見で何をしているのかわからなかったので調べたことのメモ書きです。

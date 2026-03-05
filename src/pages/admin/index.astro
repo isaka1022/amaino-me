@@ -1,0 +1,156 @@
+---
+import AdminLayout from "../../layouts/AdminLayout.astro";
+import { getCollection } from "astro:content";
+
+export const prerender = false;
+
+const CATEGORY_LABELS: Record<string, string> = {
+  tech: "テック",
+  book: "書籍",
+  travel: "旅行",
+  "university-life": "大学生活",
+  "life-style": "ライフスタイル",
+  movie: "映画",
+  drama: "ドラマ",
+  photo: "写真",
+  event: "イベント",
+  "how-to-study": "勉強法",
+  "drive-blog": "ブログ運営",
+  programming: "プログラミング",
+  development: "開発",
+  uncategorized: "その他",
+};
+
+const SOURCE_LABELS: Record<string, string> = {
+  wordpress: "WordPress",
+  techblog: "TechBlog",
+  note: "note",
+  qiita: "Qiita",
+  original: "オリジナル",
+};
+
+const allPosts = await getCollection("blog");
+allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const categoryParam = Astro.url.searchParams.get("category") ?? "all";
+const statusParam = Astro.url.searchParams.get("status") ?? "all";
+
+let filteredPosts = allPosts;
+
+if (categoryParam !== "all") {
+  filteredPosts = filteredPosts.filter((p) => (p.data.category ?? "uncategorized") === categoryParam);
+}
+
+if (statusParam === "draft") {
+  filteredPosts = filteredPosts.filter((p) => p.data.draft);
+} else if (statusParam === "published") {
+  filteredPosts = filteredPosts.filter((p) => !p.data.draft);
+}
+
+const categories = [...new Set(allPosts.map((p) => p.data.category ?? "uncategorized"))].sort();
+const draftCount = allPosts.filter((p) => p.data.draft).length;
+const publishedCount = allPosts.length - draftCount;
+
+function buildFilterUrl(params: Record<string, string>): string {
+  const url = new URL(Astro.url);
+  url.pathname = "/admin/";
+  Object.entries(params).forEach(([k, v]) => {
+    if (v === "all") url.searchParams.delete(k);
+    else url.searchParams.set(k, v);
+  });
+  return url.toString();
+}
+---
+
+<AdminLayout>
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold mb-2">ブログ記事一覧</h1>
+    <p class="text-sm opacity-70">
+      全 {allPosts.length} 件（公開: {publishedCount} / 下書き: {draftCount}）
+    </p>
+  </div>
+
+  <div class="flex flex-wrap gap-2 mb-6">
+    <span class="text-sm font-medium opacity-70">ステータス:</span>
+    <a
+      href={buildFilterUrl({ status: "all", category: categoryParam })}
+      class={`badge badge-lg ${statusParam === "all" ? "badge-primary" : "badge-ghost"}`}
+    >
+      すべて
+    </a>
+    <a
+      href={buildFilterUrl({ status: "published", category: categoryParam })}
+      class={`badge badge-lg ${statusParam === "published" ? "badge-primary" : "badge-ghost"}`}
+    >
+      公開
+    </a>
+    <a
+      href={buildFilterUrl({ status: "draft", category: categoryParam })}
+      class={`badge badge-lg ${statusParam === "draft" ? "badge-primary" : "badge-ghost"}`}
+    >
+      下書き
+    </a>
+
+    <span class="text-sm font-medium opacity-70 ml-4">カテゴリ:</span>
+    <a
+      href={buildFilterUrl({ status: statusParam, category: "all" })}
+      class={`badge badge-lg ${categoryParam === "all" ? "badge-primary" : "badge-ghost"}`}
+    >
+      すべて
+    </a>
+    {categories.map((cat) => (
+      <a
+        href={buildFilterUrl({ status: statusParam, category: cat })}
+        class={`badge badge-lg ${categoryParam === cat ? "badge-primary" : "badge-ghost"}`}
+      >
+        {CATEGORY_LABELS[cat] ?? cat}
+      </a>
+    ))}
+  </div>
+
+  <div class="overflow-x-auto">
+    <table class="table table-zebra">
+      <thead>
+        <tr>
+          <th>タイトル</th>
+          <th>カテゴリ</th>
+          <th>公開日</th>
+          <th>ステータス</th>
+          <th>ソース</th>
+        </tr>
+      </thead>
+      <tbody>
+        {filteredPosts.length === 0 ? (
+          <tr>
+            <td colspan={5} class="text-center py-8 opacity-60">
+              該当する記事がありません
+            </td>
+          </tr>
+        ) : (
+          filteredPosts.map((post) => (
+            <tr>
+              <td>
+                <a
+                  href={`/blog/${post.id}/`}
+                  target="_blank"
+                  rel="noopener"
+                  class="link link-hover font-medium"
+                >
+                  {post.data.title}
+                </a>
+              </td>
+              <td>{CATEGORY_LABELS[post.data.category ?? "uncategorized"] ?? post.data.category}</td>
+              <td>{post.data.pubDate.toISOString().slice(0, 10)}</td>
+              <td>
+                <span class={`badge badge-sm ${post.data.draft ? "badge-warning" : "badge-success"}`}>
+                  {post.data.draft ? "下書き" : "公開"}
+                </span>
+              </td>
+              <td>{post.data.source ? SOURCE_LABELS[post.data.source] ?? post.data.source : "-"}</td>
+            </tr>
+          ))
+        )}
+      </tbody>
+    </table>
+  </div>
+</AdminLayout>

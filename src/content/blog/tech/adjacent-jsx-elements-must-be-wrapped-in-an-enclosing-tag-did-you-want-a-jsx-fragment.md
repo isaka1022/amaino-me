@@ -6,6 +6,8 @@ category: "tech"
 tags: ["React.js"]
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/adjacent-jsx-elements-must-be-wrapped-in-an-enclosing-tag-did-you-want-a-jsx-fragment/"
+draft: true
+heroImage: "/blog/wp-content/uploads/2019/10/ef9fc671f806ba5364958e3a3be7b087.jpg"
 ---
 
 ## 背景
@@ -16,7 +18,7 @@ Reactを使っていたらChromeのコンソールからエラーが出た。
 
 ## 開発環境
 
-Ruby 2.5.1  
+Ruby 2.5.1 
 Rails 6.0.0
 
 ## エラー内容

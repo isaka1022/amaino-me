@@ -5,13 +5,14 @@ pubDate: "2018-04-23"
 category: "university-life"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/for-university-student/add-way-of-look/"
+heroImage: "/blog/wp-content/uploads/2018/04/18dc82e81b16c615e4e4851628489a8b.png"
 ---
 
 こんにちは、大学生のあまねです。 みなさんは、何のために勉強をしていますか？ 「勉強はつまらない」 「嫌なもの」 だと思っていませんか？ 今日はそんな方たちへ向けて僕が勉強する理由を書きます。 それはずばり「ものの見方を増やすため」です。 実は、ものの見方が増えると自分の人生が楽しくなる可能性があるんですよ。 それでは本文です。
 
 ## 勉強する理由について考えてみた
 
-僕は受験生のときに考えたことがあります。 「これだけ勉強しているけど、いったい何のためなんだろう？」と。 ※ちなみにその受験の結果でもまた色々考えました。 http://amaino.me/blog/university-life/for-high-school-student/study-or-enroll/ そんなある日Twitterを見ていると、あるツイートが流れてきたんです。 それは
+僕は受験生のときに考えたことがあります。 「これだけ勉強しているけど、いったい何のためなんだろう？」と。 ※ちなみにその受験の結果でもまた色々考えました。 /blog/university-life/for-high-school-student/study-or-enroll そんなある日Twitterを見ていると、あるツイートが流れてきたんです。 それは
 
 > 勉強をなぜするのか親に訊いたときに、コップを指して「国語なら『透明なコップに入った濁ったお茶』、算数なら『200mlのコップに半分以下残っているお茶』、社会なら『中国産のコップに入った静岡産のお茶』と色々な視点が持てる。多様な視点や価値観は心を自由にする」というようなことを返された。@8jouhan\_ns
 
@@ -23,4 +24,4 @@ originalUrl: "https://amaino.me/blog/university-life/for-university-student/add-
 
 ## まとめ
 
-勉強すると、ものの見方が増え、その分人生の楽しみ方が広がります。 「勉強はつまらないもの」と決めつけないで、ぜひ、勉強することで自分が興味あること、ワクワクすることを探してみてください。 ちなみに、「でもどう勉強すればわからない・・・」という人のためにこちらの記事を書いています。 http://amaino.me/blog/university-life/for-university-student/how-to-study/
+勉強すると、ものの見方が増え、その分人生の楽しみ方が広がります。 「勉強はつまらないもの」と決めつけないで、ぜひ、勉強することで自分が興味あること、ワクワクすることを探してみてください。 ちなみに、「でもどう勉強すればわからない・・・」という人のためにこちらの記事を書いています。 /blog/university-life/for-university-student/how-to-study

@@ -5,9 +5,10 @@ pubDate: "2018-01-02"
 category: "movie"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/movie/post-198/"
+heroImage: "/blog/wp-content/uploads/2018/01/51pHtJyjKNL.jpg"
 ---
 
-[![美女と野獣【特典映像付き】購入版  (吹替版)](https://images-fe.ssl-images-amazon.com/images/I/51pHtJyjKNL.jpg)](https://www.amazon.co.jp/%E7%BE%8E%E5%A5%B3%E3%81%A8%E9%87%8E%E7%8D%A3%E3%80%90%E7%89%B9%E5%85%B8%E6%98%A0%E5%83%8F%E4%BB%98%E3%81%8D%E3%80%91%E8%B3%BC%E5%85%A5%E7%89%88-%E5%90%B9%E6%9B%BF%E7%89%88-%E3%82%A8%E3%83%9E%C2%B7%E3%83%AF%E3%83%88%E3%82%BD%E3%83%B3/dp/B0746FFX4L?SubscriptionId=AKIAIKL6VF3UZHSR5SCQ&tag=ithaca1202-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0746FFX4L "美女と野獣【特典映像付き】購入版  (吹替版)") 実は先日、『Beauty and the Beast』観てきました！ 今日はその感想です。 ネタバレも含みますのでご注意を！    
+[![美女と野獣【特典映像付き】購入版 (吹替版)](https://images-fe.ssl-images-amazon.com/images/I/51pHtJyjKNL.jpg)](https://www.amazon.co.jp/%E7%BE%8E%E5%A5%B3%E3%81%A8%E9%87%8E%E7%8D%A3%E3%80%90%E7%89%B9%E5%85%B8%E6%98%A0%E5%83%8F%E4%BB%98%E3%81%8D%E3%80%91%E8%B3%BC%E5%85%A5%E7%89%88-%E5%90%B9%E6%9B%BF%E7%89%88-%E3%82%A8%E3%83%9E%C2%B7%E3%83%AF%E3%83%88%E3%82%BD%E3%83%B3/dp/B0746FFX4L?SubscriptionId=AKIAIKL6VF3UZHSR5SCQ&tag=ithaca1202-22&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0746FFX4L "美女と野獣【特典映像付き】購入版 (吹替版)") 実は先日、『Beauty and the Beast』観てきました！ 今日はその感想です。 ネタバレも含みますのでご注意を！  
 
 ## 美女と野獣一番の功労賞はルミエールへ！
 

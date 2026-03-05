@@ -15,7 +15,7 @@ Unityを使ってインタラクティブなソフトウェアを開発してい
 
 ## Mac上での操作
 
-まずはUnityを起動して転送したい File > Build & Settings を開きます。 ![](http://amaino.me/blog/wp-content/uploads/2018/11/13a70f022abe35b8167b41ba16e2ca2e.png) Target Platform を「Linux」 ラズパイの場合はArchitectureを「x86」に設定します。
+まずはUnityを起動して転送したい File > Build & Settings を開きます。 !Target Platform を「Linux」 ラズパイの場合はArchitectureを「x86」に設定します。
 
 ## Raspberry Piに転送
 

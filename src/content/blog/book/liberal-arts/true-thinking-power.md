@@ -5,6 +5,7 @@ pubDate: "2018-01-02"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/liberal-arts/true-thinking-power/"
+heroImage: "/blog/wp-content/uploads/2018/01/da848a37dcc811ef47f5e3cde8d6963b.png"
 ---
 
 みなさんこんにちは。 金沢で学生をしています、あまねです。 最近よく聞く、「グローバル人材」という言葉。 「世界で活躍できる人」という意味です。 これからどんどんグローバル化が進行していくなかで、そういった人が求められています。 むしろ、そういう人にならないと世界から置いていかれてしまうかもしれないですね。 でも、じゃあどうすればグローバル人材になることができるのでしょうか？ そのためのヒントになるのが、ライフネット生命創業者の出口治明さんの『本物の思考力』です。 今の日本人に足りないのは、正解を求めず、自分の頭で考えて、それを発信、実行していく力ではないでしょうか？ そういった力を身につける上でどうしたらよいのか、出口さんから学んでみましょう。
@@ -57,4 +58,9 @@ originalUrl: "https://amaino.me/blog/book/liberal-arts/true-thinking-power/"
 
 ## まとめ
 
-これからの時代でグローバル規模で活躍する人になるために必要なのが「本物の思考力」でした。 そしてそのための大きなヒントは、やはり「データ」「ファクト」「ロジック」なんですね。 考える力をつける本としてはもう一冊、『自分のアタマで考えよう』もおすすめです。 http://amaino.me/blog/book/buisiness/think-by-myself/
+これからの時代でグローバル規模で活躍する人になるために必要なのが「本物の思考力」でした。 そしてそのための大きなヒントは、やはり「データ」「ファクト」「ロジック」なんですね。 考える力をつける本としてはもう一冊、『自分のアタマで考えよう』もおすすめです。 /blog/book/buisiness/think-by-myself
+
+<a href="https://www.amazon.co.jp/s?k=%E6%9C%AC%E7%89%A9%E3%81%AE%E6%80%9D%E8%80%83%E5%8A%9B" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『本物の思考力』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

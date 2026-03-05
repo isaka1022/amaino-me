@@ -13,15 +13,15 @@ originalUrl: "https://amaino.me/blog/life-style/black-company/"
 
 実は、ブラック企業について明確な定義はありません。 ですが、その特徴としては、
 
--   若者をどんどん使って、どんどん辞めさせる新興企業
--   労働者の心身を危険にさらす企業
+- 若者をどんどん使って、どんどん辞めさせる新興企業
+- 労働者の心身を危険にさらす企業
 
 などがあります。 例えば、採用だけ大量にして使えない人材を辞めさせてしまう**選別型**、あるいは低賃金で労働者を雇い、使えるだけ使って辞めさせてしまう**使い潰し型**などがあります。 このようなブラック企業は小売りやサービス業に多い傾向があります。 ブラック企業が人を辞めさせる手口としては以下のものがあります。
 
--   パワハラ
--   長時間労働の強要
--   精神攻撃にて退職に追い込む
--   残業をさせる
+- パワハラ
+- 長時間労働の強要
+- 精神攻撃にて退職に追い込む
+- 残業をさせる
 
 では、どうしてこのようなブラック企業が生まれてしまうのでしょうか？ ブラック企業の歴史から見ます。
 
@@ -37,11 +37,11 @@ originalUrl: "https://amaino.me/blog/life-style/black-company/"
 
 それでは最後に、ブラック企業の見分け方を紹介して終わります。 ブラック企業の見分け方としては、以下のものがあります。
 
--   新規学卒社員の3年以内離職率が3割以上であること(これは就職四季報などで調べましょう)
--   過労死や過労自殺の状況
--   短期間での「管理職昇進」があるかどうか
--   固定残業代
--   求人広告や説明会で見聞きしたもの
+- 新規学卒社員の3年以内離職率が3割以上であること(これは就職四季報などで調べましょう)
+- 過労死や過労自殺の状況
+- 短期間での「管理職昇進」があるかどうか
+- 固定残業代
+- 求人広告や説明会で見聞きしたもの
 
 などで判断すると良いでしょう。
 
@@ -49,16 +49,12 @@ originalUrl: "https://amaino.me/blog/life-style/black-company/"
 
 これが今回僕が講義で得てきたもののまとめです。 就職活動をして思うのは「会社選びはとても難しい」ということです。 得られる知識は全て得て、就活を進めて、ぜひ「幸せになれる」会社に入れると良いですね。  
 
-[![](https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/8874/9784166608874.jpg?_ex=64x64)](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12074447%2F)![](//i.moshimo.com/af/i/impression?a_id=1143239&p_id=56&pc_id=56&pl_id=637)
-
-[ブラック企業 日本を食いつぶす妖怪](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12074447%2F)![](//i.moshimo.com/af/i/impression?a_id=1143239&p_id=56&pc_id=56&pl_id=637)
-
-posted with [ヨメレバ](https://yomereba.com)
+**ブラック企業 日本を食いつぶす妖怪**
 
 今野 晴貴 文藝春秋 2012年11月19日
 
-[楽天ブックス](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12074447%2F)![](//i.moshimo.com/af/i/impression?a_id=1143239&p_id=56&pc_id=56&pl_id=637)
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4166608878)
-
-[Kindle](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%25E3%2583%2596%25E3%2583%25A9%25E3%2583%2583%25E3%2582%25AF%25E4%25BC%2581%25E6%25A5%25AD%2520%25E6%2597%25A5%25E6%259C%25AC%25E3%2582%2592%25E9%25A3%259F%25E3%2581%2584%25E3%2581%25A4%25E3%2581%25B6%25E3%2581%2599%25E5%25A6%2596%25E6%2580%25AA%26__mk_ja_JP%3D%2583J%2583%255E%2583J%2583i%26url%3Dnode%253D2275256051)
+<a href="https://www.amazon.co.jp/dp/4166608878" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-title">この本をチェック</span></span>
+<span class="book-card-cta">Amazon で見る</span>
+</a>

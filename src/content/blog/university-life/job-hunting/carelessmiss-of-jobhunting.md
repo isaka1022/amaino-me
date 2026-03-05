@@ -5,6 +5,7 @@ pubDate: "2018-05-30"
 category: "life-style"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/job-hunting/carelessmiss-of-jobhunting/"
+heroImage: "/blog/wp-content/uploads/2018/05/1062ce3b3b97b78cd7f06814107e90c0.png"
 ---
 
 ご覧いだたきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) みなさんは就活、順調でしょうか？ 僕も就活をしていたのですが、凡ミスをして焦ったり失敗してしまったことがあります。 その教訓から、ぜひ気をつけておいた方がいいということをお伝えします！ ※面接やGDの対策などではありません。

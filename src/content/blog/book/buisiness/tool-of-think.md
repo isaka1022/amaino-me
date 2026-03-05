@@ -5,6 +5,7 @@ pubDate: "2018-02-27"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/buisiness/tool-of-think/"
+heroImage: "/blog/wp-content/uploads/2018/02/6608eba8c3ee747d6d88a899e824c224.png"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！読書大好き、あまね([@isaka122](https://twitter.com/isaka122))です！ 「企画を考えなくてはいけないけど、アイデアが出てこない・・・」 アイデアが出ない時、本当に苦しいですよね。 でも、アイデアを出すにはコツや方法があるんです！ そのコツや方法を学ぶだけでアイデア出しはぐっと簡単になりますよ！ 今日はそんなアイデア出しのノウハウが載っている『考具』という本を紹介します。
@@ -23,11 +24,11 @@ originalUrl: "https://amaino.me/blog/book/buisiness/tool-of-think/"
 
 この本では、本の内容は、広告代理店で働く加藤さんが毎回たくさんのアイデアを出すために用いていたツールや考え方、企画書の書き方などが登場しています。
 
--   「アイデア」とは「企画」とは（第1章）
--   情報の集め方（第2章）
--   集めた情報を広げていく方法（第3章）
--   広げて企画に落とし込む方法（第4章）
--   行き詰ったときの対処やオリジナルの考える道具の一例（第5,6章）
+- 「アイデア」とは「企画」とは（第1章）
+- 情報の集め方（第2章）
+- 集めた情報を広げていく方法（第3章）
+- 広げて企画に落とし込む方法（第4章）
+- 行き詰ったときの対処やオリジナルの考える道具の一例（第5,6章）
 
 といった構成です！
 
@@ -55,16 +56,11 @@ originalUrl: "https://amaino.me/blog/book/buisiness/tool-of-think/"
 
 頭をつかうことは本当に楽しいです。 自分の考えたアイデアが現実に出来上がった瞬間は**とても感動する最高の瞬間**ではないでしょうか？ ぜひこの本を読んで、みなさんの頭の中に眠るアイデアをこの世界中に溢れさせてください！
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/41pojCP9XXL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4484032058)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[考具 ―考えるための道具、持っていますか?](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4484032058)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [ヨメレバ](https://yomereba.com)
+[考具 ―考えるための道具、持っていますか?](https://www.amazon.co.jp/dp/4484032058)
 
 加藤 昌治 CCCメディアハウス 2003-04-04
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4484032058)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[Kindle](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB06W9JGBCR%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[楽天ブックス](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F1542771%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+<a href="https://www.amazon.co.jp/dp/4484032058" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-title">この本をチェック</span></span>
+<span class="book-card-cta">Amazon で見る</span>
+</a>

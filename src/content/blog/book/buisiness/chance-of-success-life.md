@@ -5,6 +5,7 @@ pubDate: "2018-05-22"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/buisiness/chance-of-success-life/"
+heroImage: "/blog/wp-content/uploads/2018/05/392041e5625d54a5bcb5c54442e7eb2b.png"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) 今日は紹介するのはSHOWROOMというライブ配信サービスをしている会社の社長である前田裕二さんの『人生の勝算』という本です。 一度きりの人生、どうせなら成功したいですよね？ でも、そのためにはどうすれば良いのでしょう？ 何か特別なことをする必要はありません。 日々のちょっとした心がけで大丈夫です。 果たして、それは何なのでしょうか？ **それは、人から好かれることだったのです。** それでは本文です。
@@ -42,3 +43,8 @@ originalUrl: "https://amaino.me/blog/book/buisiness/chance-of-success-life/"
 ## まとめ
 
 このように、僕はこの本、前田さんの経験から「人に好かれること」の大切さを学びました。 成功したいと思っている人はぜひここからはじめてみてはいかがでしょうか？ **僕が考える、明日からできることは、「笑顔でお礼を言う」ということです。** 誰に対しても、感謝できることはあるはず。 それに気がついた瞬間に、思い切って笑顔で伝えてみましょう。 もちろん、人から好かれること以外にもたくさんの考えなどが載っていますので、気になった方はぜひ読んでみてください。
+
+<a href="https://www.amazon.co.jp/s?k=%E4%BA%BA%E7%94%9F%E3%81%AE%E5%8B%9D%E7%AE%97" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『人生の勝算』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

@@ -5,6 +5,7 @@ pubDate: "2017-12-30"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/liberal-arts/gogh-and-picasso/"
+heroImage: "/blog/wp-content/uploads/2018/01/418Ycc9063L.jpg"
 ---
 
 こんにちは！金沢で学生をしています、あまねです。 今日は「お金」に関する本を読んだので感想を書きたいと思います。 僕なりのまとめです！ 僕たちを一生悩ませることになるお金。その真実に迫ります。
@@ -44,3 +45,8 @@ originalUrl: "https://amaino.me/blog/book/liberal-arts/gogh-and-picasso/"
 ## まとめ
 
 まだまだこれだけではありませんが、この本は お金についてたくさんの軸から書かれた本 です。 僕たちの悩みの多くを占める「お金」。 その本質を捉えることは必要だと思います。 その時におすすめとなる一冊です。
+
+<a href="https://www.amazon.co.jp/s?k=%E3%81%AA%E3%81%9C%E3%82%B4%E3%83%83%E3%83%9B%E3%81%AF%E8%B2%A7%E4%B9%8F%E3%81%A7%E3%83%94%E3%82%AB%E3%82%BD%E3%81%AF%E9%87%91%E6%8C%81%E3%81%A1%E3%81%A0%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%8B" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『なぜゴッホは貧乏でピカソは金持ちだったのか』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

@@ -5,6 +5,7 @@ pubDate: "2020-05-21"
 category: "tech"
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/computer-science/bit/"
+draft: true
 ---
 
 コンピュータを勉強すると登場する「ビット」という言葉。 今回はこの言葉について説明したいと思います。

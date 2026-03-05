@@ -5,6 +5,7 @@ pubDate: "2018-09-14"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/liberal-arts/why-beautiful-sense/"
+heroImage: "/blog/wp-content/uploads/2018/09/2e27ef5a7ce921763d5ae3282ea2d4bf.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！読書家のあまね([@isaka122](https://twitter.com/isaka122))です！ 今日は、山口周さんの『世界のエリートはなぜ「美意識」を鍛えるのか？』を読んだ感想を書きたいと思います。 ビジネスなどにおいて、美意識って必要なのでしょうか？ 「全く関係ないじゃん！」 僕もそう思っていました。 でも、この本を読むと、なぜ美意識がビジネスに役立つのかわかってしまいます。 それでは本文です。
@@ -24,3 +25,8 @@ originalUrl: "https://amaino.me/blog/book/liberal-arts/why-beautiful-sense/"
 ## まとめ
 
 ビジネス書ってロジカルなものが多い中で、この本はロジカルに直感の話をしていました。 そして、そうやって説明されると美意識が重要に思えてきます。 面白かったです。
+
+<a href="https://www.amazon.co.jp/s?k=%E4%B8%96%E7%95%8C%E3%81%AE%E3%82%A8%E3%83%AA%E3%83%BC%E3%83%88%E3%81%AF%E3%81%AA%E3%81%9C%E3%80%8C%E7%BE%8E%E6%84%8F%E8%AD%98%E3%80%8D%E3%82%92%E9%8D%9B%E3%81%88%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%9F" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『世界のエリートはなぜ「美意識」を鍛えるのか？』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

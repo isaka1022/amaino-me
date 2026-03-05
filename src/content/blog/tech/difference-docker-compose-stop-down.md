@@ -6,6 +6,7 @@ category: "tech"
 tags: ["Docker"]
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/difference-docker-compose-stop-down/"
+heroImage: "/blog/wp-content/uploads/2022/09/技術ブログアイキャッチ-9.jpg"
 ---
 
 いつもわからなくなって、いつも調べて納得したような気持ちになるので、定着のためにまとめます。

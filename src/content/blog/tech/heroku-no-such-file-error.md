@@ -6,6 +6,8 @@ category: "tech"
 tags: ["Ruby on Rails"]
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/heroku-no-such-file-error/"
+draft: true
+heroImage: "/blog/wp-content/uploads/2019/10/1bb58f06ede295e79ccf04946e3a76be.jpg"
 ---
 
 ## 背景
@@ -24,8 +26,8 @@ $ heroku run rake db:migrate
 
 日付：2019/10/20
 
-Ruby ：2.5.1  
-Rails ：6.0.0  
+Ruby ：2.5.1 
+Rails ：6.0.0 
 Production Database: PostgreSQL
 
 ## エラー内容
@@ -42,7 +44,7 @@ PG::ConnectionBad: could not connect to server: No such file or directory 	Is th
 $ heroku addons:create heroku-postgresql
 ```
 
-にて解決しました。  
+にて解決しました。 
 アドオンを入れる必要があったみたいです。
 
 ## 参考サイト

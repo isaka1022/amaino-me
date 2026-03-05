@@ -5,6 +5,7 @@ pubDate: "2017-05-17"
 category: "travel"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/travel/kanazawa-to-nagoya/"
+heroImage: "/blog/wp-content/uploads/2017/05/02426058b1eca354d3d11ccc29ec1ec6.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！旅行が趣味のあまね([@isaka122](https://twitter.com/isaka122))です！ 先日、名古屋に行く用事がありました。 でも僕、実は金沢から名古屋へ行くのは初めての経験。 「いったいどうすれば名古屋まで行けるんだ？」 そんなことを調べてみたのでまとめます！ 金沢から名古屋への生き方を調べている方の参考になればと思います。
@@ -13,9 +14,9 @@ originalUrl: "https://amaino.me/blog/travel/kanazawa-to-nagoya/"
 
 大きく分けると、金沢から名古屋へは３つの行き方があります。
 
--   電車を使う
--   車を使う
--   バスを使う
+- 電車を使う
+- 車を使う
+- バスを使う
 
 です。 それぞれ時間やお金を比較してみます！
 
@@ -27,8 +28,8 @@ originalUrl: "https://amaino.me/blog/travel/kanazawa-to-nagoya/"
 
 次に自分の車で行く方法を紹介します。 高速道路の経路としては、
 
--   北陸道 > 名神 > 東名
--   北陸道 > 東海北陸道 > 名神 > 東名
+- 北陸道 > 名神 > 東名
+- 北陸道 > 東海北陸道 > 名神 > 東名
 
 この２つの道があります。 ![f:id:kanalog2016:20170517202701j:plain](https://cdn-ak.f.st-hatena.com/images/fotolife/k/kanalog2016/20170517/20170517202701.jpg "f:id:kanalog2016:20170517202701j:plain") 料金は **普通車 5,920円** **軽自動車4,770円** です。(2017.5.17現在) 所要時間は**3時間**です。
 

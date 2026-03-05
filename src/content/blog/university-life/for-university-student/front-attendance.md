@@ -5,6 +5,7 @@ pubDate: "2018-05-16"
 category: "life-style"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/for-university-student/front-attendance/"
+heroImage: "/blog/wp-content/uploads/2018/05/6730e11972ff598a3fc05b741cf71560.png"
 ---
 
 こんにちは！金沢で大学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です。 大学生のみなさんは授業をどのように受けていますか？ 実は、よく考えてみると今までに「授業の受け方」ってちゃんと教えてもらうことがないんですよね。 だから、どう授業を受けるか迷ったりします。 そんな人に僕が今日おすすめするのは、ズバリ「最前列で授業を受けること」です。 みなさんは講義室のどのあたりで授業を受けていますか？ もし後ろの方で受けている人、損しているかもしれませんよ！ それでは本文です。
@@ -31,4 +32,4 @@ originalUrl: "https://amaino.me/blog/university-life/for-university-student/fron
 
 以上、僕が講義を最前列で聞くことをおすすめする理由3つを紹介しました。 講義や講演会は前で聞いたほうが絶対にお得なので、ぜひ挑戦してみてください！ 「さすがに最前列はちょっと・・・」 という人もいるかもしれませんが、そんな人は「なるべく前に行こう」それぐらいでOKです。 ぜひ、講義も楽しんでみてくださいね。 そして、勉強を楽しんでみてくださいね。
 
-[そもそもなんで勉強するのかって話](http://amaino.me/blog/university-life/for-university-student/why-study/) [成績が上がるノートのとり方を紹介してます](http://amaino.me/blog/university-life/for-university-student/notebook-skill/)
+[そもそもなんで勉強するのかって話](/blog/university-life/for-university-student/why-study) [成績が上がるノートのとり方を紹介してます](/blog/university-life/for-university-student/notebook-skill)

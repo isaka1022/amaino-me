@@ -5,6 +5,7 @@ pubDate: "2018-04-28"
 category: "life-style"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/life-style/why-know-myself/"
+heroImage: "/blog/wp-content/uploads/2018/04/a7267e45b24e812b87248fb142baed3d.png"
 ---
 
 こんにちは。人生を楽しんでいる、あまねです。 この記事をご覧のみなさんはきっと「自分の人生を楽しみたい」、そんな風に思っている方が多いのではないでしょうか。 今日はそんなみなさんに、人生を楽しむために必要なことをお伝えしたいと思います。 人生を楽しむためにまず最初に必要なこと、ずばりそれは**「自分を知る」**ことです。 なぜ、自分を知ることがそれほど大事なのか。 今回はそれを説明していきたいと思います。
@@ -19,4 +20,4 @@ originalUrl: "https://amaino.me/blog/life-style/why-know-myself/"
 
 ## まとめ
 
-このように、「自分の人生を楽しもう！」と思ったら自分を知ることはまず大事なことです。 さて、じゃあ次に気になるのは「どうすれば自分をしればいいの？」ということですよね。 それはまた別の記事で書きたいと思います。 また、以前紹介した『ストレングス・ファインダー』というツールも一つおすすめです。 http://amaino.me/blog/university-life/for-university-student/how-to-use-myself/
+このように、「自分の人生を楽しもう！」と思ったら自分を知ることはまず大事なことです。 さて、じゃあ次に気になるのは「どうすれば自分をしればいいの？」ということですよね。 それはまた別の記事で書きたいと思います。 また、以前紹介した『ストレングス・ファインダー』というツールも一つおすすめです。 /blog/university-life/for-university-student/how-to-use-myself

@@ -5,6 +5,7 @@ pubDate: "2018-01-02"
 category: "life-style"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/drive-blog/chrome-to-safari/"
+heroImage: "/blog/wp-content/uploads/2018/01/20170411130024-1.png"
 ---
 
 こんにちは。Amaneです。 タイトルどおり、僕がMacで使っている標準のWebブラウザをChromeからSafariに移行したという話です。

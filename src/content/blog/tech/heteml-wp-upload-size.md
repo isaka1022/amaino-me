@@ -5,6 +5,7 @@ pubDate: "2021-04-30"
 category: "uncategorized"
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/uncategorized/heteml-wp-upload-size/"
+draft: true
 ---
 
 自作のWordPressテーマをzipでアップロードしようとして、「辿ったリンクは期限が切れています。」というエラーが出ました。

@@ -5,6 +5,7 @@ pubDate: "2018-11-13"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/buisiness/newspicksmagazine/"
+heroImage: "/blog/wp-content/uploads/2018/11/newspicksmagazine.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！NewsPicks学割会員の、あまね([@isaka122](https://twitter.com/isaka122))です！ みなさんはNewsPicksというサービスをご存知ですか？ オンラインの経済誌で、ネット上にある経済の情報を集めてくれています。 公式サイトは[こちら](https://newspicks.com/)です。 さて、もともとオンラインで始まったこのNewsPicksなのですが、今年に入ってからNewsPicks Magazineという雑誌を発売しています。 創刊号は「どうせ大したことないだろ・・・」とスルーしたのですが、第２刊がスルーできないくらい面白そうだったので買ってしまったのです。

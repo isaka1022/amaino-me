@@ -5,6 +5,8 @@ pubDate: "2019-01-03"
 category: "uncategorized"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/%e6%9c%aa%e5%88%86%e9%a1%9e/computer-memory/"
+draft: true
+heroImage: "/blog/wp-content/uploads/2019/01/c2e18df44f3811aa7b40c6f3e37ecb30.jpg"
 ---
 
 ご覧頂きありがとうございます！あまね([isaka122](http://twitter.com/isaka122))です！ みなさんはスマホやパソコンに写真や文書などありとあらゆるデータを保存しますよね？ でも、なんでデータが保存できるのでしょうか？ それはコンピュータがメモリという記憶装置を持っているからなんです。 今日はそんなメモリについて調べてみたことをまとめます。
@@ -17,9 +19,9 @@ originalUrl: "https://amaino.me/blog/%e6%9c%aa%e5%88%86%e9%a1%9e/computer-memory
 
 ROMとは、Read Only Memoryの略です。 工場で製造されたときに書き込まれたものがあとから変更できないメモリです。 一度書き込まれたものは消えることがないため、揮発性のメモリとも言われます。 さて、ROMには大きく２種類あります。 １つは、マスクROM。 本来の意味の、製造時に書き込まれたデータが絶対に書き換えることができないものです。 2つめは、PROM(Programmable ROM)です。 プログラミングできる、という名前の通りユーザーが書き換えることができます。 このPROMの種類として、
 
--   紫外線でデータを消して書き換えるEPROM(Erasable ROM)
--   電気的に削除して書き換えるEEPROM(Electrically EPROM)
--   ブロック単位で消去可能なEEPROM(フラッシュメモリ)
+- 紫外線でデータを消して書き換えるEPROM(Erasable ROM)
+- 電気的に削除して書き換えるEEPROM(Electrically EPROM)
+- ブロック単位で消去可能なEEPROM(フラッシュメモリ)
 
 に分類されます。
 

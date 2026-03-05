@@ -32,3 +32,8 @@ originalUrl: "https://amaino.me/blog/book/buisiness/fact-fullness/"
 ### パターン化が全てではない
 
 よく、パターン化して考えてしまいます。   日常への活かし方 人間のバイアスは絶対起こる 解除するためにはデータが必要 説いている問題が間違っているかも 行動の前の分析に力を入れよう そう思った一冊
+
+<a href="https://www.amazon.co.jp/s?k=%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%95%E3%83%AB%E3%83%8D%E3%82%B9" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『ファクトフルネス』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

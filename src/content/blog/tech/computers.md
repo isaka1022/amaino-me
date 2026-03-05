@@ -5,6 +5,7 @@ pubDate: "2020-05-21"
 category: "tech"
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/computer-science/computers/"
+draft: true
 ---
 
 みなさんがよく耳にする「コンピュータ」。 今回は、そもそもコンピュータにはどんな種類があるの？ ということについて書きたいと思います。
@@ -13,12 +14,12 @@ originalUrl: "https://techblog.amaino.me/computer-science/computers/"
 
 コンピュータの種類には、大きく4種類あります。
 
--   スーパーコンピューター
--   パーソナルコンピュータ
--   汎用コンピュータ
--   オフィスコンピュータ
--   マイクロコンピュータ
--   ワークステーション
+- スーパーコンピューター
+- パーソナルコンピュータ
+- 汎用コンピュータ
+- オフィスコンピュータ
+- マイクロコンピュータ
+- ワークステーション
 
 の４つです。 それぞれ見ていきましょう。
 

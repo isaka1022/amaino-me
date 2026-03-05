@@ -5,6 +5,7 @@ pubDate: "2018-11-20"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/meaning-of-reading-books/"
+heroImage: "/blog/wp-content/uploads/2018/11/881229560a0d2f2d730d2b37b8b204b1.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！読書が大好きなあまね([@isaka122](https://twitter.com/isaka122))です！ 「たくさん本がありますね！」 僕の家に来た人たちの多くが口にする言葉です。 僕の本好きは遺伝的なもので、祖父の代から続いています。 小さい頃から図書館に連れて行ってもらったり、家にはたくさんの本があったり、その影響でいつの間にか本が好きになっていました。 そして今ではこのブログで書評を発信したりしています。 今回はそんな僕が考える読書のメリットについて紹介します。 **「読書って本当に意味あるのかよ？」そんな風に思っている人はぜひ読んでみてください！**
@@ -19,13 +20,13 @@ originalUrl: "https://amaino.me/blog/book/meaning-of-reading-books/"
 
 読書することのメリットは、「内省」の時間になることだと思います。 本を読みながら、考えることです。 「これって自分の生活でもあったな」 とか、 「なるほど、こうすればあの問題を解決できるな！」 など、本からの学びを得ながら、それを自分の生活や人生と照らし合わせて考えることができるんです。 みなさんは「ストレングスファインダー」という自分の強みを発見できるツールをご存知ですか？ このツールを使ってみたところ、僕の１番の強みは「内省」だったんです。 そして読書は最高の内省ツールです。 読みながら、色々考えることができます！
 
-[ストレングスファインダーについての記事はこちら](http://amaino.me/blog/university-life/for-university-student/how-to-use-myself/)
+[ストレングスファインダーについての記事はこちら](/blog/university-life/for-university-student/how-to-use-myself)
 
 ### 知識が増える
 
 単純に知識が増えるというのも読書の魅力の１つです。 本にはたくさんの知識が詰まっています。 本を開けばそこには自分が知らなかったことが待っているのです。 新しい事を知るのは楽しいことだと思います。
 
-[新しいことを知るのは楽しいですよね](http://amaino.me/blog/university-life/for-university-student/add-way-of-look/)
+[新しいことを知るのは楽しいですよね](/blog/university-life/for-university-student/add-way-of-look)
 
  
 
@@ -33,7 +34,7 @@ originalUrl: "https://amaino.me/blog/book/meaning-of-reading-books/"
 
 知識が増えると、自然と話題も増えます。 新しい人と話す時に話題に困ったことはありませんか？ 読書をしていると、自分の中に引き出しを増やすことができるんです。 相手がもし自分と同じ本を読んだことがある人であればその本の話題で盛り上がることができるのはもちろんです。 でも、それ以外にも、例えばある人が京都出身の人であった場合、京都が舞台となる小説を読んでいれば、京都に行ったことがなくても京都の話をすることができますよね。 読書で得た知識というのは大きなコミュニケーションのツールとなるのです。 また、「海外の人と話すときは教養が大事である」とライフネット生命創業者の出口さんもおっしゃっています。
 
-[出口治明さんの本の紹介はこちら](http://amaino.me/blog/book/liberal-arts/true-thinking-power/)
+[出口治明さんの本の紹介はこちら](/blog/book/liberal-arts/true-thinking-power)
 
 ### リラックスタイムになる
 

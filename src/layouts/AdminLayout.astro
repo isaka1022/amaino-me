@@ -1,0 +1,35 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import { ClientRouter } from "astro:transitions";
+import { SITE_TITLE, TRANSITION_API } from "../config";
+
+const { title = `${SITE_TITLE} - 管理画面`, description = "ブログ管理" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="ja" data-theme="lofi">
+  <head>
+    <BaseHead
+      title={title}
+      description={description}
+      noindex={true}
+    />
+    {TRANSITION_API && <ClientRouter />}
+  </head>
+  <body>
+    <div class="min-h-screen bg-base-100">
+      <header class="navbar bg-base-200 shadow-sm">
+        <div class="navbar-start">
+          <a href="/admin/" class="btn btn-ghost normal-case text-xl">amaino.me 管理画面</a>
+        </div>
+        <div class="navbar-end">
+          <a href="/" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">サイトを見る</a>
+          <a href="/api/auth/logout" class="btn btn-ghost btn-sm">ログアウト</a>
+        </div>
+      </header>
+      <main class="p-6 max-w-6xl mx-auto">
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>

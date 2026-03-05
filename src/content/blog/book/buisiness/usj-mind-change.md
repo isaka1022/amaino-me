@@ -5,6 +5,7 @@ pubDate: "2018-11-19"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/buisiness/usj-mind-change/"
+heroImage: "/blog/wp-content/uploads/2018/11/fb477bfb4a26f787348684f1bad926a0.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です！ 「マーケティング」って言葉、みなさん１度は聞いたことがありますよね。 でも、それがどんな意味か説明することはできますか？ 意外と説明までは難しい「マーケティング」。 ですがこれ、全てのビジネスにおいて役に立つ知識だったんです！ 今日はそんなマーケティングについてわかりやすく解説してくれる１冊を紹介します！
@@ -49,10 +50,10 @@ originalUrl: "https://amaino.me/blog/book/buisiness/usj-mind-change/"
 
 マーケッターに向いている人の特徴が書かれていました。
 
--   リーダーシップがあり、自分が起点でものごとを変えられる。
--   考える力がある
--   EQが高く、色々察したり要領がよかったりする
--   メンタルが強い
+- リーダーシップがあり、自分が起点でものごとを変えられる。
+- 考える力がある
+- EQが高く、色々察したり要領がよかったりする
+- メンタルが強い
 
 このどれかに当てはまる人はマーケッターに向いているらしいです。 また、マーケッターになるためにはインターンなどで本気でマーケティングをやってみて、楽しいと思えるかどうかも大事だと書かれています。 一方、「マーケティング思考」は誰にでも役に立つスキルということなので、本気で打ち込んでみることをおすすめされています。
 
@@ -74,16 +75,11 @@ originalUrl: "https://amaino.me/blog/book/buisiness/usj-mind-change/"
 
 このように、とても学びが多い一冊となりました。 とても簡潔にわかりやすくまとまっているので学びやすいと思います。 あらゆる人の役に立つ１冊です！ ぜひ読んでみてください！
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/41zWnQerCoL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4478065772)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[小さな習慣](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4478065772)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [ヨメレバ](https://yomereba.com)
+[小さな習慣](https://www.amazon.co.jp/dp/4478065772)
 
 スティーヴン・ガイズ ダイヤモンド社 2017-04-27
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4478065772)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[Kindle](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB072B8S2YN%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[楽天ブックス](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F13404138%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+<a href="https://www.amazon.co.jp/dp/4478065772" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-title">この本をチェック</span></span>
+<span class="book-card-cta">Amazon で見る</span>
+</a>

@@ -14,13 +14,34 @@ const {
   includeSidebar = true,
   sideBarActiveItemID,
   ogType,
+  canonical,
+  noindex = false,
+  keywords,
+  jsonLd,
+  prevUrl,
+  nextUrl,
+  publishedTime,
+  modifiedTime,
 } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="ja" data-theme="lofi">
   <head>
-    <BaseHead title={title} description={description} image={image} , ogType={ogType} />
+    <BaseHead
+      title={title}
+      description={description}
+      image={image}
+      ogType={ogType}
+      canonical={canonical}
+      noindex={noindex}
+      keywords={keywords}
+      jsonLd={jsonLd}
+      prevUrl={prevUrl}
+      nextUrl={nextUrl}
+      publishedTime={publishedTime}
+      modifiedTime={modifiedTime}
+    />
     {TRANSITION_API && <ClientRouter />}
   </head>
   <body>

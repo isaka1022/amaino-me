@@ -1,34 +1,33 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
+import { SITE_URL } from "../config";
 ---
 
-<BaseLayout title="About" sideBarActiveItemID="about">
+<BaseLayout
+  title="プロフィール | 井上 周"
+  description="井上周（Amane Inoue）のプロフィールページ。AIエンジニアリング、精密栄養、アドベンチャーランニングの活動を紹介しています。"
+  canonical={`${SITE_URL}/about`}
+  keywords={["プロフィール", "井上周", "Amane Inoue", "AIエンジニア", "精密栄養"]}
+  sideBarActiveItemID="about"
+>
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">About me</div>
+    <div class="text-2xl w-full font-bold">About me</div>
   </div>
 
   <div class="mb-10 text-justify">
-    井上 周（いのうえ あまね）。AIエンジニア / 精密栄養カウンセラー / マラソンランナー。
+    井上 周（いのうえ あまね）。ソフトウェアエンジニア / 精密栄養カウンセラー / アドベンチャーランナー。
     テクノロジーと健康を軸に「つなげていく、つながっていく」をテーマに活動しています。
     2026年スペイン移住に向けて準備中。
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Mission</div>
-  </div>
-
-  <div class="mb-10 text-justify">
-    技術と知識を "つなげて"、一人ひとりが自分の可能性を最大化できる世界を作る。
-  </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experience</div>
+    <div class="text-xl w-full font-bold">Experience</div>
   </div>
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="AIエンジニア / テックリード"
+      title="ソフトウェアエンジニア / テックリード"
       subtitle="フリーランス・スタートアップ"
     >
       LLM/RAGを活用したプロダクト開発、AI導入コンサルティング。TypeScript, Python, Supabase, Cloudflare等のモダンスタックでの開発。
@@ -40,15 +39,15 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
       遺伝子検査・腸内フローラ解析に基づく個別最適化栄養指導。「カラダのことを自分で考えられる人」を増やす活動。
     </TimeLineElement>
     <TimeLineElement
-      title="マラソンランナー"
-      subtitle="サブ3達成"
+      title="アドベンチャーランナー"
+      subtitle="サハラマラソン2025完走"
     >
-      フルマラソン サブ3達成。身体能力の限界に挑戦し続ける中で得た知見を発信。
+      <a href="https://saharasabaka.com" target="_blank" class="link link-primary">サハラマラソン2025</a>完走。フルマラソン サブ3達成。身体能力の限界に挑戦し続ける中で得た知見を発信。
     </TimeLineElement>
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
+    <div class="text-xl w-full font-bold">Skills</div>
   </div>
 
   <ul class="list-disc md:columns-3 columns-2 mx-6">

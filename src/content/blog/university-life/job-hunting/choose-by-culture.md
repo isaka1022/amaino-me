@@ -1,17 +1,18 @@
 ---
 title: "社風による企業の選び方を聞いてきた。"
-description: "こんにちは！ 現在僕は就活をしながら、将来どう生きるのがいいのだろう、どういう会社を選べばいいのだろうと毎日考えているところです。 http://amaino.me/blog/university-life/job-hunting/after-university/ 企業の選び方はたくさんあると思うのですが、今日は先日セミナーを受けてきた企業できいた「社風」で企業を選ぶということについてまとめてみ"
+description: "こんにちは！ 現在僕は就活をしながら、将来どう生きるのがいいのだろう、どういう会社を選べばいいのだろうと毎日考えているところです。 niversity-life/job-hunting/after-university/ 企業の選び方はたくさんあると思うのですが、今日は先日セミナーを受けてきた企業できいた「社風」で企業を選ぶということについてまとめてみ"
 pubDate: "2018-03-22"
 category: "university-life"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/job-hunting/choose-by-culture/"
+heroImage: "/blog/wp-content/uploads/2018/03/317d6503fa484b650007882cf4bf117c.png"
 ---
 
-こんにちは！ 現在僕は就活をしながら、将来どう生きるのがいいのだろう、どういう会社を選べばいいのだろうと毎日考えているところです。 http://amaino.me/blog/university-life/job-hunting/after-university/ 企業の選び方はたくさんあると思うのですが、今日は先日セミナーを受けてきた企業できいた「社風」で企業を選ぶということについてまとめてみたいと思います。
+こんにちは！ 現在僕は就活をしながら、将来どう生きるのがいいのだろう、どういう会社を選べばいいのだろうと毎日考えているところです。 /blog/university-life/job-hunting/after-university 企業の選び方はたくさんあると思うのですが、今日は先日セミナーを受けてきた企業できいた「社風」で企業を選ぶということについてまとめてみたいと思います。
 
 ## 社風で企業を選ぶということ
 
-大抵の就活生はそれぞれ自分なりに軸をもって、会社 「僕は〇〇で会社を選ぶ！」と決めるのではないでしょうか。 ちなみにその時に行うのが自分をしる、自己分析ですよね。 僕も以前「ストレングスファインダー」というツールを使ったことがあります。 http://amaino.me/blog/university-life/for-university-student/how-to-use-myself/ そして自分の決め方を見つけてからマッチする企業を探すのだと思います。 今回はその会社の決め方について社風が関わってくるという話です。
+大抵の就活生はそれぞれ自分なりに軸をもって、会社 「僕は〇〇で会社を選ぶ！」と決めるのではないでしょうか。 ちなみにその時に行うのが自分をしる、自己分析ですよね。 僕も以前「ストレングスファインダー」というツールを使ったことがあります。 /blog/university-life/for-university-student/how-to-use-myself そして自分の決め方を見つけてからマッチする企業を探すのだと思います。 今回はその会社の決め方について社風が関わってくるという話です。
 
 ## 社風が与える影響
 

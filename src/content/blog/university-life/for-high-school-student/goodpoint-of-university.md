@@ -5,6 +5,7 @@ pubDate: "2018-03-15"
 category: "university-life"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/for-high-school-student/goodpoint-of-university/"
+heroImage: "/blog/wp-content/uploads/2018/03/fedafd76ae0fa902d56ce7e057c25a22.png"
 ---
 
 ご覧いだたきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) 僕は今年で大学３年生を終えて、もうすぐ大学４年生になります。 高校時代は「なんで大学に行くんだろう・・・？」なんて考えたりもしたのですが、今は胸を張って「**大学入ってよかった**」ということです。 今日は、「大学って本当に楽しいの？」 そんなふうに思っている人へむけて僕が思う大学の楽しさを紹介します！

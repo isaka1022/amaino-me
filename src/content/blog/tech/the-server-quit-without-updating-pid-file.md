@@ -5,6 +5,7 @@ pubDate: "2019-10-21"
 category: "tech"
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/the-server-quit-without-updating-pid-file/"
+draft: true
 ---
 
 ## 背景
@@ -23,7 +24,7 @@ $sudo mysql.server start
 
 日付：2019/10/19
 
-Ruby ：2.5.1  
+Ruby ：2.5.1 
 Rails ：6.0.0
 
 ## エラー内容

@@ -5,6 +5,7 @@ pubDate: "2022-07-11"
 category: "tech"
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/sed/"
+heroImage: "/blog/wp-content/uploads/2022/07/技術ブログアイキャッチ.jpg"
 ---
 
 開発中にsedコマンドを使うことがあったので、備忘録として残しておきます。

@@ -5,6 +5,7 @@ pubDate: "2018-01-10"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/liberal-arts/all-ok/"
+heroImage: "/blog/wp-content/uploads/2018/01/51O0bAvuKKL-2.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です(^^) どうしても**頑張りすぎて辛い**。 何かの**板挟み**になってしまっている。 そんなとき、**本当につらい**ですよね。 今日は、そんな方におすすめする一冊です。
@@ -28,3 +29,8 @@ originalUrl: "https://amaino.me/blog/book/liberal-arts/all-ok/"
 ## まぁいいかぁ。
 
 この言葉は、つい頑張りすぎてしまう人の辛さをラクにしてくれるとってもいい言葉だと思います。 ぜひ、今が辛い方、一度唱えてみてください！
+
+<a href="https://www.amazon.co.jp/s?k=%E3%81%BE%E3%81%81%E3%81%84%E3%81%84%E3%81%8B%E3%81%81%E3%80%82" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『まぁいいかぁ。』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

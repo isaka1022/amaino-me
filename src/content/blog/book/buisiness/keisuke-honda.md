@@ -5,6 +5,7 @@ pubDate: "2018-01-02"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/buisiness/keisuke-honda/"
+heroImage: "/blog/wp-content/uploads/2018/01/51rndDr-t1L-1.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) みなさんは、どのくらい努力していますか？ 今日紹介する本には僕が今までに見た誰よりも努力している人が描かれていました。 それはタイトルにもあるサッカー選手、本田圭佑です。 今回は木崎伸也著『直撃本田圭佑』を読んだ感想を書きたいと思います。 何よりも本田圭佑の熱い生き方を知ることができました。
@@ -24,3 +25,8 @@ originalUrl: "https://amaino.me/blog/book/buisiness/keisuke-honda/"
 ## 感想
 
 率直に本田圭佑は人生を本気で生きているんだと思いました。 生き方は人それぞれ自由でいいと思います。 でも、彼はひとつの生き方「本気で生きる」という道を示してくれました。 そしてこの本には具体的に彼がそのためにしていること、マインドセットが詳しく書かれています。 「どうせ本田だからできたんだろう」とか「自分には無理だ」と思った瞬間に終わりです。 彼も同じ人間なんです。 やるか、やらないか。本気か、本気でないか。その本気度を結果として示すか、示せないか。 示せないと辛いこともあると思うんです。でも、示せないからこそその次に示せたときの喜びは大きいし、ずっと示すことができちゃったら面白くないと思うんですね。 それが「やりがい」と言うのではないでしょうか。 これを読めば、きっと彼の熱い生き方に触発されて、 「明日からも頑張っていこう。」 そう思える一冊ではないでしょうか。     おすすめです。
+
+<a href="https://www.amazon.co.jp/s?k=%E7%9B%B4%E6%92%83%E6%9C%AC%E7%94%B0%E5%9C%AD%E4%BD%91" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『直撃本田圭佑』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

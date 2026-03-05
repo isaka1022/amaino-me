@@ -5,6 +5,7 @@ pubDate: "2017-11-02"
 category: "life-style"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/drive-blog/first-article/"
+draft: true
 ---
 
 初めまして。

@@ -5,6 +5,7 @@ pubDate: "2018-01-02"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/buisiness/ningenryoku/"
+heroImage: "/blog/wp-content/uploads/2018/01/f970cb73c24314285dfed502c3296e05.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) 実は先日、金沢市で行われた中村文昭さんというの「こけらおとし講演会」というものにいってまいりました。 友人から誘われて行ってきたのですが、ものすごくパワーを貰った講演会でした。 さて、その中村文昭さんですが実は本を出版されています！ それが今回紹介する『履歴書には書けへんけどじつは一番大事なのは人間力や！』です。
@@ -25,16 +26,11 @@ originalUrl: "https://amaino.me/blog/book/buisiness/ningenryoku/"
 
 すごく素敵な考え方の本だったと思います。 素直に何周もして考えを定着させたいです。 また、質問形式なので読みやすくもありますし、必ず自分の悩みと合うものもあると思います。 仕事のこと、人間関係、恋愛、なんでもいいので何か悩んでいる方におすすめする一冊です。
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/515A%2BTQfVvL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4759312560)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[履歴書には書けへんけどじつは一番大事なのは人間力や!](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4759312560)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [ヨメレバ](https://yomereba.com)
+[履歴書には書けへんけどじつは一番大事なのは人間力や!](https://www.amazon.co.jp/dp/4759312560)
 
 中村 文昭 海竜社 2012-07-01
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4759312560)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[Kindle](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%2597%259A%2597%25F0%258F%2591%2582%25C9%2582%25CD%258F%2591%2582%25AF%2582%25D6%2582%25F1%2582%25AF%2582%25C7%2582%25B6%2582%25C2%2582%25CD%2588%25EA%2594%25D4%2591%25E5%258E%2596%2582%25C8%2582%25CC%2582%25CD%2590l%258A%25D4%2597%25CD%2582%25E2%2521%26__mk_ja_JP%3D%2583J%2583%255E%2583J%2583i%26url%3Dnode%253D2275256051)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[楽天ブックス](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F11788529%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+<a href="https://www.amazon.co.jp/dp/4759312560" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-title">この本をチェック</span></span>
+<span class="book-card-cta">Amazon で見る</span>
+</a>

@@ -17,7 +17,7 @@ originalUrl: "https://amaino.me/blog/book/buisiness/mindset/"
 
 僕はこの『マインドセット』を知ったのは、こちらのWebサイトを見たからでした。 \[blogcard="http://studyhacker.net/columns/bill-gates-recommended-books"\] ビル・ゲイツおすすめの１冊として本書が紹介されていたのです。 以前紹介した『サピエンス全史』という本も紹介されていました。
 
-[サピエンス全史の感想はこちら](http://amaino.me/blog/book/liberal-arts/sapiens/)
+[サピエンス全史の感想はこちら](/blog/book/liberal-arts/sapiens)
 
 僕は読書家がおすすめする本は基本的に読むようにしています。 たくさんの本を読んでいる人がおすすめする本なら、良書である確率が高いです。
 
@@ -32,3 +32,8 @@ originalUrl: "https://amaino.me/blog/book/buisiness/mindset/"
 ## まとめ
 
 このように、『マインドセット』から２つの考え方をしり、ちょっと試してみるとそれまで怖いと思っていた注意も前向きに受け取ることができるようになるかもしれません。 ぜひ、読んでみてください！
+
+<a href="https://www.amazon.co.jp/s?k=%E3%83%9E%E3%82%A4%E3%83%B3%E3%83%89%E3%82%BB%E3%83%83%E3%83%88%E3%80%8C%E3%82%84%E3%82%8C%E3%81%B0%E3%81%A7%E3%81%8D%E3%82%8B%EF%BC%81%E3%80%8D%E3%81%AE%E7%A0%94%E7%A9%B6" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『マインドセット「やればできる！」の研究』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

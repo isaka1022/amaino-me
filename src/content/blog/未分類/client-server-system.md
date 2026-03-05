@@ -5,6 +5,8 @@ pubDate: "2019-01-04"
 category: "uncategorized"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/%e6%9c%aa%e5%88%86%e9%a1%9e/client-server-system/"
+draft: true
+heroImage: "/blog/wp-content/uploads/2019/01/5e7c88983cbe01606ae0153978d2a7ae.jpg"
 ---
 
 ご覧頂きありがとうございます！ 情報系学生の、あまね([isaka122](http://twitter.com/isaka122))です！ 先日、「クライアント・サーバーシステム」という言葉を目にしました。 今日はそんなクライアント・サーバーシステムについて調べてみたことを書いてみます。

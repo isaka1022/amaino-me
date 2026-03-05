@@ -5,6 +5,7 @@ pubDate: "2018-01-15"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/buisiness/think-by-myself/"
+heroImage: "/blog/wp-content/uploads/2018/01/6586e2907143830a3e6a2aabe4cd1f90.png"
 ---
 
 こんにちは。金沢で学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です。
@@ -42,3 +43,8 @@ originalUrl: "https://amaino.me/blog/book/buisiness/think-by-myself/"
 ## まとめ
 
 このように、まさしく考えることについての良い一冊でした。 タイトルどおり、自分のアタマを使って考えることが必要な方、一度読んで見ることをおすすめします。
+
+<a href="https://www.amazon.co.jp/s?k=%E8%87%AA%E5%88%86%E3%81%AE%E3%82%A2%E3%82%BF%E3%83%9E%E3%81%A7%E8%80%83%E3%81%88%E3%82%88%E3%81%86" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『自分のアタマで考えよう』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

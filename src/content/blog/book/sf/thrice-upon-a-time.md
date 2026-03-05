@@ -17,7 +17,7 @@ originalUrl: "https://amaino.me/blog/book/sf/thrice-upon-a-time/"
 
 どちらの作品もAmazon Primeで配信されています。
 
-[![](https://m.media-amazon.com/images/G/09/Digital_Video/channel/2018H1/Assoc/DV_JP_Design_1446_Channels_Assoc_728x90.jpg)](https://www.amazon.co.jp/gp/video/storefront?benefitId=default&tag=%20ithaca1202-22)
+[!](https://www.amazon.co.jp/gp/video/storefront?benefitId=default&tag=%20ithaca1202-22)
 
 ## 『未来からのホットライン』のあらすじ
 
@@ -31,7 +31,7 @@ originalUrl: "https://amaino.me/blog/book/sf/thrice-upon-a-time/"
 
 僕はSFは映画などで見るのは好きなのですが、実は小説で読んだことはありませんでした。
 
-今回が初めてのハードSFになります。  
+今回が初めてのハードSFになります。 
 登場人物に科学者や技術者など理系の人たちが多く、また、話題も原子や時間といった物理学を中心として進んでいくため、なかなかに理系心をくすぐられました。
 
 普段読むのはわりと純文学や恋愛小説が多いので、今回SFを読んでみると、なんだか新鮮な気持ちになりました。
@@ -40,7 +40,7 @@ originalUrl: "https://amaino.me/blog/book/sf/thrice-upon-a-time/"
 
 ## 『未来からのホットライン』とシュタインズゲートとのつながり
 
-実は「過去にメッセージを送れる」コンセプトの有名な作品として『シュタインズゲート』があります。  
+実は「過去にメッセージを送れる」コンセプトの有名な作品として『シュタインズゲート』があります。 
 これはぜひみなさんにもおすすめしたい作品です。
 
 そしてこの未来からのホットラインももとになっているのです。

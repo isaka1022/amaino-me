@@ -6,6 +6,7 @@ category: "tech"
 tags: ["Golang"]
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/go-delete-array/"
+heroImage: "/blog/wp-content/uploads/2022/07/技術ブログアイキャッチ-3.jpg"
 ---
 
 いつもはRubyを使って開発していると、例えば以下のようにある配列の要素を消したいときにはdeleteのようなメソッドを使って消去することができます。

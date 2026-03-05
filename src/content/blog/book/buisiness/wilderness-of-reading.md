@@ -5,6 +5,7 @@ pubDate: "2018-06-22"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/buisiness/wilderness-of-reading/"
+heroImage: "/blog/wp-content/uploads/2018/06/0375f80fa74d25f7b17a028000590318.png"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です(^^) 最近発売された、『読書という荒野』という本があります。 著者は幻冬舎の社長、見城徹さんです。 僕はこの本を読んで「今まで書評ブログや読書好き」と言っていたのがちょっと恥ずかしくなるくらいの熱いメッセージをもらいました。 今日はそんな『読書という荒野』のエッセンスを紹介したいと思います。
@@ -17,10 +18,10 @@ originalUrl: "https://amaino.me/blog/book/buisiness/wilderness-of-reading/"
 
 『読書という荒野』の中には
 
--   見城さんが歩んで来た道
--   そのなかで彼が読んできた本
--   読んで感じたこと
--   彼の人生観
+- 見城さんが歩んで来た道
+- そのなかで彼が読んできた本
+- 読んで感じたこと
+- 彼の人生観
 
 このようなことが書かれていました。 たくさんの本も紹介されていて、これから読む本選びには困らなさそうです。
 
@@ -43,3 +44,8 @@ originalUrl: "https://amaino.me/blog/book/buisiness/wilderness-of-reading/"
 > 困難を突破する答えは、スマートフォンで検索すると出てくるように錯覚しがちだ。しかしそうして出てきた答えが、自分の人生を前に進めることはない。 p192
 
 僕の経験から言って、これは大いに共感します。 何かに困った時、つい「〇〇の仕方」などと言ってGoogle検索をしてしまいます。 でも、そこには答えがあることはごくまれです。 あっても、表面上のテクニックだったりします。 その点、本からは何かを得られることが多いです。 きっと、読書をしながら「自分の内側」を探しているのではないかと思います。 さて、ここまで『読書の荒野』を紹介してみました。 読書が好き、あるいは本を読みたいとは思っている方、ぜひ、読んでみてはいかがでしょうか？ 本好きな方にはおすすめできるビジネス本です。
+
+<a href="https://www.amazon.co.jp/s?k=%E8%AA%AD%E6%9B%B8%E3%81%A8%E3%81%84%E3%81%86%E8%8D%92%E9%87%8E" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『読書という荒野』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

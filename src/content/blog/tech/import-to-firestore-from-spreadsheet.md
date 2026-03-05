@@ -15,44 +15,44 @@ Firestoreにデータを流し込みます。
 
 ## 今回書いたコード
 
-Githubにも公開してあります  
+Githubにも公開してあります 
 https://github.com/isaka1022/import-to-firestore-from-spreadsheet-gas
 
 ```
 function setDataToFireStore() {
-  var sheet = SpreadsheetApp.openById('<your-spread-sheet-id>').getSheetByName('<your-sheet-name>');
+ var sheet = SpreadsheetApp.openById('<your-spread-sheet-id>').getSheetByName('<your-sheet-name>');
 
-  var certification = fireStoreCertification();
-  var firestore = FirestoreApp.getFirestore(certification.email, certification.key, certification.projectId);
+ var certification = fireStoreCertification();
+ var firestore = FirestoreApp.getFirestore(certification.email, certification.key, certification.projectId);
 
-  try {
-    // スプレッドシートに応じてここは変更してください
-    for ( var i = 2; i < 55; i++ ) {
-      var titleValue = sheet.getRange(i,1).getValue();
-   
-      
-      var newData = {
-        title: titleValue
-      }
+ try {
+ // スプレッドシートに応じてここは変更してください
+ for ( var i = 2; i < 55; i++ ) {
+ var titleValue = sheet.getRange(i,1).getValue();
+ 
+ 
+ var newData = {
+ title: titleValue
+ }
 
-      firestore.createDocument("<your-firebase-collection-name>", newData);
+ firestore.createDocument("<your-firebase-collection-name>", newData);
 
-    }
-    
-  } catch(e) {
-    Logger.log(e)
-  }
+ }
+ 
+ } catch(e) {
+ Logger.log(e)
+ }
 }
 
 
 function fireStoreCertification() {
-  var certification = {
-    "email": "<your-service-account>",
-    "key": "-----BEGIN PRIVATE KEY-----\ ... \----END PRIVATE KEY-----",
-    "projectId": "<your-project-id>"
-  }
+ var certification = {
+ "email": "<your-service-account>",
+ "key": "-----BEGIN PRIVATE KEY-----\ ... \----END PRIVATE KEY-----",
+ "projectId": "<your-project-id>"
+ }
 
-  return certification;
+ return certification;
 ```
 
 ## Firestore事前準備
@@ -61,19 +61,13 @@ function fireStoreCertification() {
 
 ここでは詳細は解説しませんが、以下の公式を読み進めました。[https://firebase.google.com/docs/firestore/quickstart?hl=ja](https://firebase.google.com/docs/firestore/quickstart?hl=ja)
 
-またプロジェクトの設定の「サービスアカウト」から、「新しい秘密鍵の設定をしておきます。[](https://qiita.com/masa-321/items/86e356b02dcf5b840595#firestore%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%82%92%E8%BF%BD%E5%8A%A0)
-
-![](http://techblog.amaino.me/wp-content/uploads/2021/09/スクリーンショット_2021-09-19_9_44_10-1024x465.png)
-
-## GASにFirestoreのライブラリを追加
+またプロジェクトの設定の「サービスアカウト」から、「新しい秘密鍵の設定をしておきます。!## GASにFirestoreのライブラリを追加
 
 続いて、GASを使います
 
 ご自身のGoogleドライブの新規追加ボタンからGoogle Apps Scriptsを追加します。
 
-![](http://techblog.amaino.me/wp-content/uploads/2021/09/スクリーンショット-2021-09-19-9.47.08.png)
-
-追加後に、ツールからスクリプトエディタを起動し、  
+!追加後に、ツールからスクリプトエディタを起動し、 
 リソース＞ライブラリ＞ライブラリを追加から、
 
 ```
@@ -89,11 +83,11 @@ function fireStoreCertification() {
 
 ```
 function fireStoreCertification() {
-  var certification = {
-    "email": "<your-service-account>",
-    "key": "-----BEGIN PRIVATE KEY-----\ ... \----END PRIVATE KEY-----",
-    "projectId": "<your-project-id>"
-  }
+ var certification = {
+ "email": "<your-service-account>",
+ "key": "-----BEGIN PRIVATE KEY-----\ ... \----END PRIVATE KEY-----",
+ "projectId": "<your-project-id>"
+ }
 ```
 
 ## スプレッドシートを開く
@@ -104,20 +98,20 @@ var sheet = SpreadsheetApp.openById('<your-spread-sheet-id>').getSheetByName('<y
 
 では開くスプレッドシートを指定します。
 
--   getActiveSpreadsheet()
--   openById(id)
--   openByUrl(url)
+- getActiveSpreadsheet()
+- openById(id)
+- openByUrl(url)
 
 などいくつか開く方法がありますが、僕は上記の方法でやりました。
 
 ## データを入力
 
 ```
- for ( var i = 2; i < 55; i++ ) {    
-var titleValue = sheet.getRange(i,1).getValue();                  var newData = {         title: titleValue       }       firestore.createDocument("<your-firebase-collection-name>", newData);     }
+ for ( var i = 2; i < 55; i++ ) { 
+var titleValue = sheet.getRange(i,1).getValue(); var newData = { title: titleValue } firestore.createDocument("<your-firebase-collection-name>", newData); }
 ```
 
-に関しては、僕は2行目から54行目のデータを取りたかったのでその数文のループを回しています。  
+に関しては、僕は2行目から54行目のデータを取りたかったのでその数文のループを回しています。 
 これでnewDataオブジェクトを作成し、createDocumentに渡して上げればあとはFirestoreにデータが追加されました。
 
 ## 参考記事

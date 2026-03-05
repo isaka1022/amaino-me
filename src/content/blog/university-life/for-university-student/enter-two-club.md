@@ -5,11 +5,12 @@ pubDate: "2018-03-16"
 category: "university-life"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/for-university-student/enter-two-club/"
+heroImage: "/blog/wp-content/uploads/2018/03/612f43071a2a0f44423b8bcb86c93e1a-1.png"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) 受験が終わり、晴れて大学に入学する新入生にはたくさんの部活やサークルからの勧誘が待ち受けています。 部活にするか、サークルにするか、悩みますよね。 でも、「どうしても１つに決められない・・・」そんな人もいるかと思います。 そんな人に思い浮かぶのは、「**兼部・兼サー**」という言葉。 「果たして、２つ以上のクラブ活動って大丈夫なのか？」 僕もそんなことを考えながら、ラグビー部とアカペラサークルの２つを掛け持ちしていました。 結果、ラグビー部の方は辞めてしまったのですが、掛け持ちをして良かったと思っています！ だから、迷っている人へ**僕からのアドバイスは、とりあえずやってみることです！**
 
-[大学生のうちに絶対読書はしておくべき！新入生におすすめする7冊を紹介します](http://amaino.me/blog/book/university-first-7/) [後悔しない大学生活を送るために僕がやってよかったと思うことを紹介します](https://amaino.me/blog/university-life/for-university-student/how-to-enjoy-university//)
+大学生のうちに絶対読書はしておくべき！新入生におすすめする7冊を紹介します [後悔しない大学生活を送るために僕がやってよかったと思うことを紹介します](/blog/university-life/for-university-student/how-to-enjoy-university)
 
 ## 兼部・兼サーしたら大学生活はどんな感じになるのか？
 
@@ -19,7 +20,7 @@ originalUrl: "https://amaino.me/blog/university-life/for-university-student/ente
 
 さて、大学生になりキラキラの学生生活スタートです。 僕は「大学生になったらこれをしたい！」というものがなかったので、たくさんの新歓に顔を出しました。 ４月中は毎日どこかの新歓に顔を出していたと思います。 その中で、候補は最終的にラグビー部かアカペラサークルの２つに絞れました。 入学式の日の夜に初めての新歓に行ったラグビー部か、その翌日のライブで感動してしまったアカペラサークルか、です。 僕は高校時代もラグビーに入っていて大学ではするつもりはなかったのですが、大学の部活を見学して感じた高校との雰囲気の違いを魅力に感じてしまいました。 そして、一方のアカペラサークルですが、単純にライブがすごかったのと、それまでやったことがないことをやってみたいと感じていました。 そして、「どっちも決められない、、、」状態になってしまいました。 ラグビー部は週に４回の練習。 アカペラサークルはグループごとに週に１回の練習。 僕が出した答えは、 **「高校時代は週に６回部活をしてた。だから、週に４回ラグビーをして週に１回アカペラをしても高校よりは少ない！これはいける！！**」 というものでした。 同時の僕は「なんでもやってやる！」という意気込みだけはすごかったので、「両方する」という決心をしたんです。
 
-[僕がそこまで意気込んでいた理由](http://amaino.me/blog/thought/study-or-enroll/)
+[僕がそこまで意気込んでいた理由](/blog/university-life/for-high-school-student/study-or-enroll)
 
 ### １年生前期
 
@@ -41,10 +42,10 @@ originalUrl: "https://amaino.me/blog/university-life/for-university-student/ente
 
 掛け持ちをすると、得られるもの。 それは、
 
--   普通の人の２倍の経験
--   たくさんの友人
--   複数の視点が持てる！
--   自己管理ができるようになる！
+- 普通の人の２倍の経験
+- たくさんの友人
+- 複数の視点が持てる！
+- 自己管理ができるようになる！
 
 このあたりです。 僕はこれらのものを得ることができたし、掛け持ちしなければできなかった経験をたくさんさせてもらったので、掛け持ちをしてよかったなと思っています！
 
@@ -52,4 +53,4 @@ originalUrl: "https://amaino.me/blog/university-life/for-university-student/ente
 
 このような理由から、僕は兼部・兼サーをやってみるのが良いんじゃないかなと思います！ ただ、忘れないでほしいのは辞めるのも全然ありということです。 楽しいはずの部活やサークルでしんどい思いをする必要は全然ないですからね！ それを念頭に置きながら、ぜひ掛け持ちにチャレンジしてみてはいかがですか？ 楽しい大学生活が遅れることを祈っています。
 
-[サークルと部活はどう違うのか？](https://amaino.me/blog/university-life/for-university-student/club-or-circle/) [しんどくなったときに読むおすすめの本](https://amaino.me/blog/book/liberal-arts/all-ok/)
+[サークルと部活はどう違うのか？](/blog/university-life/for-university-student/club-or-circle) [しんどくなったときに読むおすすめの本](/blog/book/liberal-arts/all-ok)

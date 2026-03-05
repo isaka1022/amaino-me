@@ -5,6 +5,7 @@ pubDate: "2018-09-01"
 category: "life-style"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/for-high-school-student/my-trouble/"
+heroImage: "/blog/wp-content/uploads/2018/09/d165797268268fe8d0bb3e8d8b54ffe2.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) 今日は少し重めの記事を書きます。 実は僕、高校時代にものすごく悩んだことがありました。 テーマはずばり、「自分はなんで生きているんだろう？」ということです。 答えが出るまでに3ヶ月ほどかかりましたが、僕の出した答えが誰かの役に立てばいいな〜と思い書いていきますね。

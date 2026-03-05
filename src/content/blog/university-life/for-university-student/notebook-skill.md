@@ -5,6 +5,7 @@ pubDate: "2018-11-08"
 category: "life-style"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/for-university-student/notebook-skill/"
+heroImage: "/blog/wp-content/uploads/2018/11/c38ca73cfe6d7075394f358185c45abf.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) みなさんは、大学の講義をどうやって聞いていますか？ ノートを取る？パソコンに記録？録音する？いろいろなスタイルがあると思います。 高校とは違って大学に入ると、先生の授業のスタイルも黒板でなくスライドになったり、配布資料で進められたりいろいろ戸惑いますよね。 では、どうやってノートを取るのが良いのでしょうか？ 今日は僕が実際に使っていたおすすめのノート術を紹介します！
@@ -13,57 +14,41 @@ originalUrl: "https://amaino.me/blog/university-life/for-university-student/note
 
 まずは用意するものです。 リングで止めることができるバインダーノート。A4がおすすめです。
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/3122XQMF4cL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB01BG9VLU6%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[マルマン ファイルノート セプトクルール A4 ライトブルー F582B-52](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB01BG9VLU6%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [カエレバ](https://kaereba.com)
+[マルマン ファイルノート セプトクルール A4 ライトブルー F582B-52](https://www.amazon.co.jp/dp/B01BG9VLU6/ref=nosim)
 
 マルマン(maruman)
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%25E3%2583%259E%25E3%2583%25AB%25E3%2583%259E%25E3%2583%25B3%2520%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2583%258E%25E3%2583%25BC%25E3%2583%2588%2520%25E3%2582%25BB%25E3%2583%2597%25E3%2583%2588%25E3%2582%25AF%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%26__mk_ja_JP%3D%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+[Amazon](https://www.amazon.co.jp/gp/search?keywords=%E3%83%9E%E3%83%AB%E3%83%9E%E3%83%B3%20%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%83%8E%E3%83%BC%E3%83%88%20%E3%82%BB%E3%83%97%E3%83%88%E3%82%AF%E3%83%AB%E3%83%BC%E3%83%AB&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A)
 
 [価格.com](http://kakaku.com/search_results/%83%7D%83%8B%83%7D%83%93%20%83t%83%40%83C%83%8B%83m%81%5B%83g%20%83Z%83v%83g%83N%83%8B%81%5B%83%8B/)
 
 そのなかに入れるクリアリーフを用意します。
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/51ro9CWpEuL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB000IGZ5X8%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[マルマン クリアポケットリーフ A4 30穴 50枚 L460F](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB000IGZ5X8%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [カエレバ](https://kaereba.com)
+[マルマン クリアポケットリーフ A4 30穴 50枚 L460F](https://www.amazon.co.jp/dp/B000IGZ5X8/ref=nosim)
 
 マルマン(maruman)
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%25E3%2582%25AF%25E3%2583%25AA%25E3%2582%25A2%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%2595%26__mk_ja_JP%3D%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+[Amazon](https://www.amazon.co.jp/gp/search?keywords=%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%95&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A)
 
 [価格.com](http://kakaku.com/search_results/%83N%83%8A%83A%83%8A%81%5B%83t/)
 
 ルーズリーフ。僕の愛用していたのはこれ。
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/51uxXlVDeJL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB009A4TROM%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[コクヨ キャンパス ルーズリーフ さらさら書ける ドット入り罫線 A4 B罫 50枚 ノ-816BT](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB009A4TROM%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [カエレバ](https://kaereba.com)
+[コクヨ キャンパス ルーズリーフ さらさら書ける ドット入り罫線 A4 B罫 50枚 ノ-816BT](https://www.amazon.co.jp/dp/B009A4TROM/ref=nosim)
 
 コクヨ(KOKUYO)
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%25E3%2583%25AB%25E3%2583%25BC%25E3%2582%25BA%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%2595%2520a4%26__mk_ja_JP%3D%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+[Amazon](https://www.amazon.co.jp/gp/search?keywords=%E3%83%AB%E3%83%BC%E3%82%BA%E3%83%AA%E3%83%BC%E3%83%95%20a4&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A)
 
 [価格.com](http://kakaku.com/search_results/%83%8B%81%5B%83Y%83%8A%81%5B%83t%20a4/)
 
 最後にインデックスシール。
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/51k1rXXYLbL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB000IH00R8%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[ニチバン マイタック ラミネートカラーインデックス ML-235 中](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB000IH00R8%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [カエレバ](https://kaereba.com)
+[ニチバン マイタック ラミネートカラーインデックス ML-235 中](https://www.amazon.co.jp/dp/B000IH00R8/ref=nosim)
 
 ニチバン
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%25E3%2582%25A4%25E3%2583%25B3%25E3%2583%2587%25E3%2583%2583%25E3%2582%25AF%25E3%2582%25B9%26__mk_ja_JP%3D%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+[Amazon](https://www.amazon.co.jp/gp/search?keywords=%E3%82%A4%E3%83%B3%E3%83%87%E3%83%83%E3%82%AF%E3%82%B9&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A)
 
 [価格.com](http://kakaku.com/search_results/%83C%83%93%83f%83b%83N%83X/)
 

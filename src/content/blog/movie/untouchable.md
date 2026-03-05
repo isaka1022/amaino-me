@@ -5,6 +5,7 @@ pubDate: "2018-05-14"
 category: "movie"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/movie/untouchable/"
+heroImage: "/blog/wp-content/uploads/2018/05/28363ec2c6317ff1d31cbe47cc295299.png"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です！ みなさんは、『最強のふたり』という映画をご存知ですか？ 洋画なのですが、とても感動する物語でした！ もし、**感動する映画を探している方がいるのでしたらおすすめです！** 今日は僕が感動したポイントを紹介します！ ぜひ、１度観てみてほしいと思います！！ それでは本文です！
@@ -37,22 +38,14 @@ originalUrl: "https://amaino.me/blog/movie/untouchable/"
 
 『最強のふたり』はコメディでさくっと観れる作品です。 でも「友情」という人生の深いテーマがあるとてもいい作品だなと感じました！ 本当に感動しました！おすすめです！ 是非、まだ観たことがない人は観てみてください！
 
-[![](https://thumbnail.image.rakuten.co.jp/ran/img/1001/0004/527/427/654/433/10010004527427654433_1.jpg?_ex=64x64)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=54&pc_id=54&pl_id=616&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fa58e190dd3d799983ca62e16f595c892%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=54&pc_id=54&pl_id=616)
+[最強のふたり　DVDコレクターズ・エディション/ＤＶＤ/ASBY-5443](https://product.rakuten.co.jp/product/-/a58e190dd3d799983ca62e16f595c892/)
 
-[最強のふたり　DVDコレクターズ・エディション/ＤＶＤ/ASBY-5443](//af.moshimo.com/af/c/click?a_id=1143241&p_id=54&pc_id=54&pl_id=616&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fa58e190dd3d799983ca62e16f595c892%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=54&pc_id=54&pl_id=616)
+[楽天市場](https://search.rakuten.co.jp/search/mall/%E6%9C%80%E5%BC%B7%E3%81%AE%E3%81%B5%E3%81%9F%E3%82%8A/-/f.1-p.1-s.1-sf.0-st.A-v.2?x=0)
 
-posted with [カエレバ](https://kaereba.com)
+[Amazon](https://www.amazon.co.jp/gp/search?keywords=%E6%9C%80%E5%BC%B7%E3%81%AE%E3%81%B5%E3%81%9F%E3%82%8A&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A)
 
-[楽天市場](//af.moshimo.com/af/c/click?a_id=1143241&p_id=54&pc_id=54&pl_id=616&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E6%259C%2580%25E5%25BC%25B7%25E3%2581%25AE%25E3%2581%25B5%25E3%2581%259F%25E3%2582%258A%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=54&pc_id=54&pl_id=616)
+[最強のふたり　Blu-rayコレクターズ・エディション/Ｂｌｕ－ｒａｙ　Ｄｉｓｃ/ASBD-1059](https://product.rakuten.co.jp/product/-/95e974ff9891376b72fd60978af78354/)
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%25E6%259C%2580%25E5%25BC%25B7%25E3%2581%25AE%25E3%2581%25B5%25E3%2581%259F%25E3%2582%258A%26__mk_ja_JP%3D%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+[楽天市場](https://search.rakuten.co.jp/search/mall/%E6%9C%80%E5%BC%B7%E3%81%AE%E3%81%B5%E3%81%9F%E3%82%8A/-/f.1-p.1-s.1-sf.0-st.A-v.2?x=0)
 
-[![](https://thumbnail.image.rakuten.co.jp/ran/img/1001/0004/527/427/810/594/10010004527427810594_1.jpg?_ex=64x64)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=54&pc_id=54&pl_id=616&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F95e974ff9891376b72fd60978af78354%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=54&pc_id=54&pl_id=616)
-
-[最強のふたり　Blu-rayコレクターズ・エディション/Ｂｌｕ－ｒａｙ　Ｄｉｓｃ/ASBD-1059](//af.moshimo.com/af/c/click?a_id=1143241&p_id=54&pc_id=54&pl_id=616&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F95e974ff9891376b72fd60978af78354%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=54&pc_id=54&pl_id=616)
-
-posted with [カエレバ](https://kaereba.com)
-
-[楽天市場](//af.moshimo.com/af/c/click?a_id=1143241&p_id=54&pc_id=54&pl_id=616&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%25E6%259C%2580%25E5%25BC%25B7%25E3%2581%25AE%25E3%2581%25B5%25E3%2581%259F%25E3%2582%258A%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=54&pc_id=54&pl_id=616)
-
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%25E6%259C%2580%25E5%25BC%25B7%25E3%2581%25AE%25E3%2581%25B5%25E3%2581%259F%25E3%2582%258A%26__mk_ja_JP%3D%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+[Amazon](https://www.amazon.co.jp/gp/search?keywords=%E6%9C%80%E5%BC%B7%E3%81%AE%E3%81%B5%E3%81%9F%E3%82%8A&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A)

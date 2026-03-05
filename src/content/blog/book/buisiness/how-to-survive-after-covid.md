@@ -17,7 +17,7 @@ originalUrl: "https://amaino.me/blog/book/buisiness/how-to-survive-after-covid/"
 
 この本ではアフターコロナのビジネストレンド、またコロナ以外の日本のリスクといった全体の話がまずは書かれています。
 
-そしてその中で個人としてどう生きていくか。  
+そしてその中で個人としてどう生きていくか。 
 働き方の変化や情報社会の中での情報のとり方や遊びやお金の話が続いています。
 
 ## 『アフターコロナの生存戦略』から得た学び
@@ -26,7 +26,7 @@ originalUrl: "https://amaino.me/blog/book/buisiness/how-to-survive-after-covid/"
 
 僕は普段全然テレビを見ないのですが、成毛さんはテレビ番組の中にも面白いものがあるという紹介をされていたので気になりました。制作費がかかっているのだからYoutubeに負けないコンテンツがたくさんある、と。
 
-例えば以下の番組なんかが紹介されています。  
+例えば以下の番組なんかが紹介されています。 
 『[町山智浩のアメリカの今を知るTV』](https://www.bs-asahi.co.jp/machiyama-now_cnn/)
 
 確かにそう言われればバラエティーやワイドショーなどのあまり役に立たないものもありますが、面白そうなコンテンツもありそうです。
@@ -45,7 +45,7 @@ originalUrl: "https://amaino.me/blog/book/buisiness/how-to-survive-after-covid/"
 
 成毛さんいわく、「日本人はスペインとかイタリア系の本場ラテンのノリを持ち合わせているのではないか」とのことです。ちょっと僕はまだこれらの国の人と交流がないので、わからないですが、いつかどこかで確認に生きたいと思います。
 
-また、おすすめの国としてはニュージーランドやオーストラリアのパースを挙げられていました。  
+また、おすすめの国としてはニュージーランドやオーストラリアのパースを挙げられていました。 
 理由は人種偏見が少ないからとのこと。
 
 海外移住は気候、文化、政治情勢、人間の気質など考えることがたくさんありそうです。
@@ -68,7 +68,7 @@ originalUrl: "https://amaino.me/blog/book/buisiness/how-to-survive-after-covid/"
 
 情報が溢れている今の時代において、人という情報ソースを持っていることは大事というお話をされました。
 
-雑誌やネット記事を読んで、面白い人がいるならば会いに行くということをされているそうです。  
+雑誌やネット記事を読んで、面白い人がいるならば会いに行くということをされているそうです。 
 そのためにFacebookを名刺やポートフォリオ代わりに使って、でまともな発信をすることで信頼を得たり、気になったらまずは会いに行ってみることをされているそうです。
 
 これには立場や年齢は関係がないとのことなので、僕もやってみようと素直に思いました。
@@ -79,50 +79,33 @@ originalUrl: "https://amaino.me/blog/book/buisiness/how-to-survive-after-covid/"
 
 幼年期の終わり
 
-![](https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/3415/9784150103415.jpg?_ex=64x64)
-
 幼年期の終り
-
-posted with [ヨメレバ](https://yomereba.com)
 
 アーサー・チャールズ・クラーク/福島正実 早川書房 1979年04月
 
 折りたたみ北京
 
-![](https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/0366/9784153350366.jpg?_ex=64x64)
-
 折りたたみ北京　現代中国SFアンソロジー
-
-posted with [ヨメレバ](https://yomereba.com)
 
 ケン・リュウ/中原　尚哉 早川書房 2018年02月20日頃
 
 日本沈没
 
-![](https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/3415/9784150103415.jpg?_ex=64x64)
-
 幼年期の終り
-
-posted with [ヨメレバ](https://yomereba.com)
 
 アーサー・チャールズ・クラーク/福島正実 早川書房 1979年04月
 
 ハーモニー
 
-[![](https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/1667/9784150311667.jpg?_ex=64x64)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12879252%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=56&pc_id=56&pl_id=637)
-
-[ハーモニー新版](//af.moshimo.com/af/c/click?a_id=1143241&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12879252%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=56&pc_id=56&pl_id=637)
-
-posted with [ヨメレバ](https://yomereba.com)
+**ハーモニー新版**
 
 伊藤計劃 早川書房 2014年08月
 
-[楽天ブックス](//af.moshimo.com/af/c/click?a_id=1143241&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F12879252%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=56&pc_id=56&pl_id=637)
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4150311668)
-
-[Kindle](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%25E3%2583%258F%25E3%2583%25BC%25E3%2583%25A2%25E3%2583%258B%25E3%2583%25BC%25E6%2596%25B0%25E7%2589%2588%26__mk_ja_JP%3D%2583J%2583%255E%2583J%2583i%26url%3Dnode%253D2275256051)
-
+<a href="https://www.amazon.co.jp/dp/4150311668" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-title">この本をチェック</span></span>
+<span class="book-card-cta">Amazon で見る</span>
+</a>
 われはロボット
 
 また、チョット別の文脈ですがこちらの冒険歌手という本も。

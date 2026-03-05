@@ -1,0 +1,80 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="検索 | amaino.me" description="サイト内検索" sideBarActiveItemID="search">
+  <div class="max-w-[750px] mx-auto">
+    <h1 class="text-2xl font-bold mb-6">記事を検索</h1>
+    <div id="search-container">
+      <div id="search-input-wrapper" class="mb-6">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="キーワードを入力..."
+          class="input input-bordered w-full"
+          autofocus
+        />
+      </div>
+      <div id="search-results" class="space-y-4"></div>
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  async function initPagefind() {
+    try {
+      const pagefind = await import('/pagefind/pagefind.js');
+      await pagefind.init();
+
+      const input = document.getElementById('search-input');
+      const resultsContainer = document.getElementById('search-results');
+      if (!input || !resultsContainer) return;
+
+      let debounceTimer;
+      input.addEventListener('input', (e) => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => performSearch(pagefind, e.target.value, resultsContainer), 200);
+      });
+
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('q');
+      if (q) {
+        input.value = q;
+        performSearch(pagefind, q, resultsContainer);
+      }
+    } catch {
+      const container = document.getElementById('search-results');
+      if (container) {
+        container.innerHTML = '<p class="text-base-content/50">検索インデックスを読み込めませんでした。</p>';
+      }
+    }
+  }
+
+  async function performSearch(pagefind, query, container) {
+    if (!query || query.length < 2) {
+      container.innerHTML = '';
+      return;
+    }
+
+    const search = await pagefind.search(query);
+    if (search.results.length === 0) {
+      container.innerHTML = '<p class="text-base-content/50">「' + query + '」に一致する記事は見つかりませんでした。</p>';
+      return;
+    }
+
+    const results = await Promise.all(search.results.slice(0, 20).map((r) => r.data()));
+    container.innerHTML = results
+      .map(
+        (r) => `
+        <a href="${r.url}" class="block p-4 rounded-lg border border-base-300 hover:border-primary transition-colors group">
+          <h2 class="font-medium group-hover:text-primary transition-colors">${r.meta?.title || r.url}</h2>
+          <p class="text-sm text-base-content/60 mt-1 line-clamp-2">${r.excerpt}</p>
+        </a>
+      `
+      )
+      .join('');
+  }
+
+  document.addEventListener('DOMContentLoaded', initPagefind);
+  document.addEventListener('astro:page-load', initPagefind);
+</script>

@@ -5,6 +5,7 @@ pubDate: "2019-01-11"
 category: "tech"
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/computer-science/manchester-coding/"
+heroImage: "/blog/wp-content/uploads/2019/01/688b9cd4d604616c7e070fe3b7f47753.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！情報系の学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です！ 実は、先日「マンチェスター符号」という言葉を見かけました。 僕は初めて聞く言葉だったので戸惑ってしまったのですが、一体どのような意味なのでしょうか？ 調べてみたことをまとめています。
@@ -17,11 +18,11 @@ originalUrl: "https://techblog.amaino.me/computer-science/manchester-coding/"
 
 マンチェスター符号は大きく以下のつです。
 
--   伝送路符号である
--   自己クロック信号である
--   周波数が大きい
--   クロック回復に役立つ
--   イーサネットで使用されている
+- 伝送路符号である
+- 自己クロック信号である
+- 周波数が大きい
+- クロック回復に役立つ
+- イーサネットで使用されている
 
 ### 伝送路符号の１つである
 

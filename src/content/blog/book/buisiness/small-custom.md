@@ -5,6 +5,7 @@ pubDate: "2018-05-26"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/buisiness/small-custom/"
+heroImage: "/blog/wp-content/uploads/2018/05/aaa0c000a082d74796aec805a0982928.png"
 ---
 
 ご覧いだたきありがとうございます！ こんにちは！！飽き性の、あまね([@isaka122](https://twitter.com/isaka122))です！ みなさんは、何かを続けるのは得意ですか？ 僕は、苦手でした。 「ダイエットしよう！」とか、「ブログを書こう！」って思ってもなかなか続かない。 「なんとか続ける方法はないものか？」 そう思って色々調べてみたところ、僕はある本にたどりつきました。 それが今回紹介する『小さな習慣』という本です。 この本を読んで、ものを続けるコツを理解し、続けることができるようになったのです！ 今日はそんな『小さな習慣』の紹介です。
@@ -21,22 +22,17 @@ originalUrl: "https://amaino.me/blog/book/buisiness/small-custom/"
 
 僕はそれから何か続けたいことを決めるときに、ものすごく簡単なものにしました。 例えば、「ブログを毎日書こう！」と思ったのですが、その際に「毎日更新する」ではなくて、「毎日管理画面を開く」のようにしました。 あるいは、「毎日運動しよう」ではなく、「毎日着替える」に設定したのです。 すると、このものすごく簡単な目標のおかげで、飽き性だった僕でも、なんとかここまで続けることができています！ また、ジム通いも成功させることができました。
 
-[続けることができました！](http://amaino.me/blog/life/gym-2months/)
+続けることができました！
 
 ## まとめ
 
 『小さな習慣』を読み、実践するだけで飽き性だった僕でも何かを続けることができるようになりました。 何かを続けたい！と思っている人はぜひ読んでみることをおすすめします！
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/41zWnQerCoL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4478065772)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[小さな習慣](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4478065772)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [ヨメレバ](https://yomereba.com)
+[小さな習慣](https://www.amazon.co.jp/dp/4478065772)
 
 スティーヴン・ガイズ ダイヤモンド社 2017-04-27
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4478065772)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[Kindle](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB072B8S2YN%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[楽天ブックス](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F13404138%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+<a href="https://www.amazon.co.jp/dp/4478065772" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-title">この本をチェック</span></span>
+<span class="book-card-cta">Amazon で見る</span>
+</a>

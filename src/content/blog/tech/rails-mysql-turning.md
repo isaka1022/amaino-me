@@ -6,6 +6,7 @@ category: "tech"
 tags: ["MySQL", "Ruby on Rails"]
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/rails-mysql-turning/"
+heroImage: "/blog/wp-content/uploads/2022/07/技術ブログアイキャッチ-4.jpg"
 ---
 
 僕がよくつかうWEBアプリケーションの構成はRuby on Rails + MySQLの組み合わせです。
@@ -27,9 +28,9 @@ Railsのコンソールやログからも、実際に発行されて実行され
 
 ```
 [2] pry(main)> Product.find(1).to_sql
-  Product Load (5.6ms)  SELECT `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1
+ Product Load (5.6ms) SELECT `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1
 NoMethodError: undefined method `to_sql' for #<Product id: 1>
-Did you mean?  to_s
+Did you mean? to_s
 from /usr/local/bundle/gems/activemodel-6.1.4.4/lib/active_model/attribute_methods.rb:469:in `method_missing'
 ```
 
@@ -43,9 +44,9 @@ from /usr/local/bundle/gems/activemodel-6.1.4.4/lib/active_model/attribute_metho
 [2] pry(main)> Product.where(id: 1).explain
 => EXPLAIN for: SELECT `products`.* FROM `products` WHERE `products`.`id` = 1
 +----+-------------+----------+------------+-------+---------------+---------+---------+-------+------+----------+-------+
-| id | select_type | table    | partitions | type  | possible_keys | key     | key_len | ref   | rows | filtered | Extra |
+| id | select_type | table | partitions | type | possible_keys | key | key_len | ref | rows | filtered | Extra |
 +----+-------------+----------+------------+-------+---------------+---------+---------+-------+------+----------+-------+
-|  1 | SIMPLE      | products | NULL       | const | PRIMARY       | PRIMARY | 8       | const |    1 |    100.0 | NULL  |
+| 1 | SIMPLE | products | NULL | const | PRIMARY | PRIMARY | 8 | const | 1 | 100.0 | NULL |
 +----+-------------+----------+------------+-------+---------------+---------+---------+-------+------+----------+-------+
 1 row in set (0.01 sec)
 ```

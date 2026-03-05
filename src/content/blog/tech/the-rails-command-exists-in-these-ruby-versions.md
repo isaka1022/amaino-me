@@ -6,6 +6,8 @@ category: "tech"
 tags: ["Ruby on Rails"]
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/the-rails-command-exists-in-these-ruby-versions/"
+draft: true
+heroImage: "/blog/wp-content/uploads/2019/10/1bb58f06ede295e79ccf04946e3a76be.jpg"
 ---
 
 ## 背景
@@ -24,7 +26,7 @@ $ rails --version
 
 日付：2019/10/19
 
-Ruby ：2.5.1  
+Ruby ：2.5.1 
 Rails ：6.0.0
 
 ## エラー内容
@@ -43,7 +45,7 @@ $ gem install rails
 
 にて解決しました。
 
-原因は、rbenvを使ってRubyの新しいバージョンを入れて切り替えていたことだったみたいです。  
+原因は、rbenvを使ってRubyの新しいバージョンを入れて切り替えていたことだったみたいです。 
 rbenvのバージョン管理とその他のgem管理など、理解があいまいなのでもうちょっと正確に理解したいです。
 
 ## 参考サイト

@@ -5,6 +5,7 @@ pubDate: "2018-07-01"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/fantasy/momo/"
+heroImage: "/blog/wp-content/uploads/2018/07/eda1b947105ac36882c47fc63ee76964-1.jpg"
 ---
 
 **「時間がない」** みなさんはこの言葉を使いますか？ ちょっと考えてみてください。 子供のころは「時間がない」なんて言わなかったと思います。 「あ、確かに！」そう思ったあなたに今日はおすすめの1冊があるんです。 それが今回紹介する『モモ』という児童文学です。 「児童文学」なんてきくと、「え、そんなの面白いの？」と思う人もいるかもしれません。 でも、侮るなかれ。ものすごく深い物語なんです。
@@ -25,23 +26,18 @@ originalUrl: "https://amaino.me/blog/book/fantasy/momo/"
 
 さて、ここまで『モモ』を紹介しました。
 
--   最近時間がない
--   毎日時間に追われている気がする
+- 最近時間がない
+- 毎日時間に追われている気がする
 
 そんな人は、ぜひ読んでみてください。 モモがどのようにして時間どろぼうを撃退したのか。 その中に、今の生活を変えるヒントがあるかもしれません。
 
-[『アルケミスト』という本も強いパワーを持ったファンタジーです。](http://amaino.me/blog/book/fantasy/alquimista/) [『ゲド戦記』もおすすめです](http://amaino.me/blog/book/fantasy/earthsea-1/)
+[『アルケミスト』という本も強いパワーを持ったファンタジーです。](/blog/book/fantasy/alquimista) [『ゲド戦記』もおすすめです](/blog/book/fantasy/earthsea-1)
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/51i9O340DcL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4001141272)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[モモ (岩波少年文庫(127))](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4001141272)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [ヨメレバ](https://yomereba.com)
+[モモ (岩波少年文庫(127))](https://www.amazon.co.jp/dp/4001141272)
 
 ミヒャエル・エンデ 岩波書店 2005-06-16
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4001141272)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[Kindle](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB073PPWX7L%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[楽天ブックス](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F3583804%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+<a href="https://www.amazon.co.jp/dp/4001141272" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-title">この本をチェック</span></span>
+<span class="book-card-cta">Amazon で見る</span>
+</a>

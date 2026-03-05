@@ -5,6 +5,8 @@ pubDate: "2017-12-26"
 category: "uncategorized"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/%e6%9c%aa%e5%88%86%e9%a1%9e/post-78/"
+draft: true
+heroImage: "/blog/wp-content/uploads/2017/12/rails.png"
 ---
 
 こんにちは。Amaneです。

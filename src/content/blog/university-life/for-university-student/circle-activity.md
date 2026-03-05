@@ -5,11 +5,12 @@ pubDate: "2018-05-11"
 category: "life-style"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/for-university-student/circle-activity/"
+heroImage: "/blog/wp-content/uploads/2018/05/8292159a7855efbfa0c602e7fbb23c33.png"
 ---
 
 みなさんは大学でサークルに入っていますか？ たぶん大学では多くの人がサークルに所属するのではないでしょうか？ 今日はそんなサークルに入るメリット・デメリットを紹介したいと思います。 僕は大学に入ってラグビー部とアカペラサークルの両方を経験してきました。 どっちも経験した僕が考えることを書いていきますね。
 
-[僕の兼部・兼サー体験エピソード](http://amaino.me/blog/university-life/for-university-student/enter-two-club/)
+[僕の兼部・兼サー体験エピソード](/blog/university-life/for-university-student/enter-two-club)
 
 ## サークルのメリット
 
@@ -41,4 +42,4 @@ originalUrl: "https://amaino.me/blog/university-life/for-university-student/circ
 
 僕は、大学でサークルに入って、たくさんの出会いやイベントを経験しました。 そしてそのおかげで大学生活を楽しく過ごせたなと思います。 そして、サークルならばやめるのも簡単ですので、もし「大学がつまらないなー」と思っている人は興味のあるサークルに顔を出してみてはいかがでしょうか？ 楽しい大学生活が過ごせることを祈っています！
 
-[サークルか部活か悩んでいる人へ](http://amaino.me/blog/university-life/for-university-student/club-or-circle/)
+[サークルか部活か悩んでいる人へ](/blog/university-life/for-university-student/club-or-circle)

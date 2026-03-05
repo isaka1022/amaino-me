@@ -5,6 +5,7 @@ pubDate: "2018-05-30"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/buisiness/multi-power/"
+heroImage: "/blog/wp-content/uploads/2018/05/89b4f92a5bb46388769167dbc3a32346.png"
 ---
 
 ご覧いだたきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) ホリエモンこと堀江貴文さん、みなさんご存知ですよね？ 一時は刑務所暮らしもされていた堀江さんですが、最近再びまた活躍されています。 そして、彼が出した本の中でも強烈なのが今回紹介する『多動力』という本です。 今回はその『多動力』を読んだ感想を書いていきたいと思います。
@@ -36,3 +37,8 @@ originalUrl: "https://amaino.me/blog/book/buisiness/multi-power/"
 ## まとめ
 
 このように、『多動力』にはたくさんのプロジェクトを同時にこなすための方法や考え方がたくさん載っていました。 飽き性だったり、「あれもこれもしたい」そんな人におすすめの１冊です。
+
+<a href="https://www.amazon.co.jp/s?k=%E5%A4%9A%E5%8B%95%E5%8A%9B" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『多動力』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

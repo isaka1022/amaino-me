@@ -1,13 +1,14 @@
 ---
 title: "【書評】『蜜蜂と遠雷』（恩田陸）を読んだ感想。言語化された音楽の世界で感動してみませんか。"
-description: "ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です(^^) 以前、こちらの記事で『読書という荒野』を紹介しました。 http://amaino.me/blog/book/buisiness/wilderness-of-reading/ この本の中で著者の見城さんがおすすめしていた"
+description: "ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です(^^) 以前、こちらの記事で『読書という荒野』を紹介しました。 ook/buisiness/wilderness-of-reading/ この本の中で著者の見城さんがおすすめしていた"
 pubDate: "2018-06-30"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/novel/bees-and-lightning/"
+heroImage: "/blog/wp-content/uploads/2018/06/754d4810b8dd055042511a58ca58e7fe.jpg"
 ---
 
-ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です(^^) 以前、こちらの記事で『読書という荒野』を紹介しました。 http://amaino.me/blog/book/buisiness/wilderness-of-reading/ この本の中で著者の見城さんがおすすめしていたのが今回紹介する『蜜蜂と遠雷』だったのです。 僕は『読書という荒野』を読み終わるとさっそく『蜜蜂と遠雷』を読み始めたのです。 結果、ものすごくきれいで、感動して、いい話でした！ 以下、感想です。
+ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です(^^) 以前、こちらの記事で『読書という荒野』を紹介しました。 /blog/book/buisiness/wilderness-of-reading この本の中で著者の見城さんがおすすめしていたのが今回紹介する『蜜蜂と遠雷』だったのです。 僕は『読書という荒野』を読み終わるとさっそく『蜜蜂と遠雷』を読み始めたのです。 結果、ものすごくきれいで、感動して、いい話でした！ 以下、感想です。
 
 ## 『蜜蜂と遠雷』の内容
 
@@ -37,16 +38,21 @@ originalUrl: "https://amaino.me/blog/book/novel/bees-and-lightning/"
 
 ### 『蜜蜂と遠雷』をおすすめする人
 
--   音楽に触れている人
--   「自分らしさ」という言葉にピンと来る人
--   文学が好きな人
+- 音楽に触れている人
+- 「自分らしさ」という言葉にピンと来る人
+- 文学が好きな人
 
 こんな人たちにはおすすめしたいです。
 
 ### 『蜜蜂と遠雷』をおすすめしない人
 
--   あまり長い文章が得意でない人
--   音楽に全く興味がない人
--   激しいストーリー展開を求めている人
+- あまり長い文章が得意でない人
+- 音楽に全く興味がない人
+- 激しいストーリー展開を求めている人
 
 こういう人は、すこし退屈に感じてしまうかも知れません。 さて、ここまで『蜜蜂と遠雷』を紹介しました。 ぜひ、興味がある方は読んでみてください。
+
+<a href="https://www.amazon.co.jp/s?k=%E8%9C%9C%E8%9C%82%E3%81%A8%E9%81%A0%E9%9B%B7" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『蜜蜂と遠雷』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

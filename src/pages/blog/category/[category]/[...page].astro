@@ -1,0 +1,111 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import HorizontalCard from "@components/HorizontalCard.astro";
+import { getCollection } from "astro:content";
+import { SITE_URL } from "../../../../config";
+
+const CATEGORY_LABELS: Record<string, string> = {
+  book: "書籍",
+  travel: "旅行",
+  drama: "ドラマ",
+  movie: "映画",
+  "university-life": "大学生活",
+  "life-style": "ライフスタイル",
+  tech: "テック",
+  photo: "写真",
+  "how-to-study": "勉強法",
+  event: "イベント",
+  uncategorized: "その他",
+  "drive-blog": "ブログ運営",
+  programming: "プログラミング",
+  development: "開発",
+};
+
+export async function getStaticPaths({ paginate }) {
+  const allPosts = await getCollection("blog", ({ data }) => !data.draft);
+  allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+  const categories = [...new Set(allPosts.map((p) => p.data.category).filter(Boolean))];
+
+  return categories.flatMap((category) => {
+    const filtered = allPosts.filter((p) => p.data.category === category);
+    return paginate(filtered, {
+      params: { category },
+      pageSize: 10,
+    });
+  });
+}
+
+const { page } = Astro.props;
+const { category } = Astro.params;
+const label = CATEGORY_LABELS[category] ?? category;
+const currentPage = page.currentPage ?? 1;
+const currentPath = page.url.current ? String(page.url.current) : `/blog/category/${category}`;
+---
+
+<BaseLayout
+  title={`カテゴリ: ${label} の記事一覧`}
+  description={`カテゴリ「${label}」の記事一覧です。`}
+  canonical={`${SITE_URL}${currentPath}`}
+  noindex={currentPage > 1}
+  prevUrl={page.url.prev}
+  nextUrl={page.url.next}
+  sideBarActiveItemID="blog"
+>
+  <div class="mb-5">
+    <div class="text-2xl w-full font-bold">{label}</div>
+    <p class="text-base-content/60 mt-1">{page.total}件の記事</p>
+  </div>
+
+  {
+    page.data.length === 0 ? (
+      <div class="bg-base-200 border-l-4 border-secondary w-full p-4 min-w-full">
+        <p class="font-bold">記事がありません</p>
+      </div>
+    ) : (
+      <ul>
+        {page.data.map((post) => (
+          <>
+            <HorizontalCard
+              title={post.data.title}
+              img={post.data.heroImage}
+              desc={post.data.description}
+              url={"/blog/" + post.id}
+              target="_self"
+              badge={post.data.badge}
+              tags={post.data.tags}
+            />
+            <div class="divider my-0" />
+          </>
+        ))}
+      </ul>
+    )
+  }
+
+  <div class="flex justify-between">
+    {
+      page.url.prev ? (
+        <a href={page.url.prev} class="btn btn-ghost my-10 mx-5">
+          <svg class="h-6 w-6 fill-current md:h-8 md:w-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+          </svg>
+          新しい記事
+        </a>
+      ) : (
+        <div />
+      )
+    }
+    {
+      page.url.next ? (
+        <a href={page.url.next} class="btn btn-ghost my-10 mx-5">
+          古い記事
+          <svg class="h-6 w-6 fill-current md:h-8 md:w-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+          </svg>
+        </a>
+      ) : (
+        <div />
+      )
+    }
+  </div>
+</BaseLayout>

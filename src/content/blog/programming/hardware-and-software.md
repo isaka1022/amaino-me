@@ -5,6 +5,7 @@ pubDate: "2020-05-21"
 category: "tech"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/programming/hardware-and-software/"
+draft: true
 ---
 
 今回は、コンピュータを構成する「ハードウェア」「ソフトウェア」について書きたいと思います。
@@ -13,14 +14,14 @@ originalUrl: "https://amaino.me/blog/programming/hardware-and-software/"
 
 ハードウェアは、人間から実行された命令を実際に実行する物理的な「機械」のことです。 一般的なパソコンの内部には、
 
--   ディスプレイ
--   マウス
--   キーボード
--   マザーボード
--   CPU
--   メモリ
--   内蔵ハードディスク
--   CD/DVDドライブ
+- ディスプレイ
+- マウス
+- キーボード
+- マザーボード
+- CPU
+- メモリ
+- 内蔵ハードディスク
+- CD/DVDドライブ
 
 などの装置が組み込まれています。 これらの装置のことをハードウェアと言うのです。
 

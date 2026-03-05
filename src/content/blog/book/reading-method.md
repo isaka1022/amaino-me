@@ -5,6 +5,7 @@ pubDate: "2018-05-27"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/reading-method/"
+heroImage: "/blog/wp-content/uploads/2018/05/eb50698bfde81d02629bbd02850abecc.png"
 ---
 
 ご覧いだたきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) みなさんは、読書は好きですか？ 「読書したいけど、なかなか時間が取れなくて・・・」 そんな悩みを抱えている方もいらっしゃるのではないでしょうか？ 僕は今現在、１日１冊ほどのペースで本を読んでいます。 「読むのが早いんですね！」 と言われることもあるんですが、実はある方法を使っているんです。 今日はその方法をお伝えします！

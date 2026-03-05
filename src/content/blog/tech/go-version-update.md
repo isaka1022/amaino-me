@@ -6,6 +6,7 @@ category: "tech"
 tags: ["Golang"]
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/go-version-update/"
+heroImage: "/blog/wp-content/uploads/2022/07/技術ブログアイキャッチ-6.jpg"
 ---
 
 職場で使われていたGoのバージョンが1.13と古かったので、1.18にアップデートした際の手順をまとめました。

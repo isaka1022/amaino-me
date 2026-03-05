@@ -5,6 +5,7 @@ pubDate: "2018-06-30"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/novel/kibou-no-kuni-no-exodus/"
+heroImage: "/blog/wp-content/uploads/2018/06/abcb2a0f7af2380b418f5f9e33219354.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！読書が大好き、あまねです(^^) 今回紹介するのは村上龍『希望の国のエクソダス』です。 みなさんは今の日本についてどう感じていますか？ また、日本人の特性ってどんなことがあるんでしょうか？ それぞれ色々な特性が思い浮かぶかと思いますが、なかなか言葉にするのが難しいですよね。 ところが、この『希望の国のエクソダス』では日本人の特性、社会の特性がまじまじと表されているんです。 それでは本文です。
@@ -57,30 +58,25 @@ originalUrl: "https://amaino.me/blog/book/novel/kibou-no-kuni-no-exodus/"
 
 ### 『希望の国のエクソダス』をおすすめする人
 
--   若い人
--   小学校中学校高校の教育に少し違和感を感じた人
--   今の日本にどことなく生きづらさを感じている人
+- 若い人
+- 小学校中学校高校の教育に少し違和感を感じた人
+- 今の日本にどことなく生きづらさを感じている人
 
 ### 『希望の国のエクソダス』をおすすめしない人
 
--   馴れ合い文化が好きな人
--   みんなと同じ生き方をしたいと思っている人
--   波風を立てるのが嫌いな人
+- 馴れ合い文化が好きな人
+- みんなと同じ生き方をしたいと思っている人
+- 波風を立てるのが嫌いな人
 
 以上、『希望の国のエクソダス』を読んだ感想でした。 興味がある方、ぜひ、読んでみてください。
 
-[起業についての１冊](http://amaino.me/blog/book/buisiness/zero-to-one/) [実は僕も起業したりしてます](http://amaino.me/blog/university-life/for-university-student/startup/)
+起業についての１冊 [実は僕も起業したりしてます](/blog/university-life/for-university-student/startup)
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/519AHB2J51L._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4163193804)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[希望の国のエクソダス](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4163193804)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [ヨメレバ](https://yomereba.com)
+[希望の国のエクソダス](https://www.amazon.co.jp/dp/4163193804)
 
 村上 龍 文藝春秋 2000-07
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4163193804)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[Kindle](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%258A%25F3%2596%255D%2582%25CC%258D%2591%2582%25CC%2583G%2583N%2583%255C%2583_%2583X%26__mk_ja_JP%3D%2583J%2583%255E%2583J%2583i%26url%3Dnode%253D2275256051)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[楽天ブックス](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F1173046%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+<a href="https://www.amazon.co.jp/dp/4163193804" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-title">この本をチェック</span></span>
+<span class="book-card-cta">Amazon で見る</span>
+</a>

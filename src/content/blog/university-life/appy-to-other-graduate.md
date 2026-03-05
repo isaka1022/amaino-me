@@ -41,9 +41,9 @@ originalUrl: "https://amaino.me/blog/university-life/appy-to-other-graduate/"
 
 数学は、マセマ式で攻略しました。
 
--   [微分積分](https://amzn.to/3c3PxNQ)
--   [線形代数](https://amzn.to/2ylqBD3)
--   [微分方程式](https://amzn.to/2YB4Ppu)
+- [微分積分](https://amzn.to/3c3PxNQ)
+- [線形代数](https://amzn.to/2ylqBD3)
+- [微分方程式](https://amzn.to/2YB4Ppu)
 
 これらの基礎固めをしました。
 

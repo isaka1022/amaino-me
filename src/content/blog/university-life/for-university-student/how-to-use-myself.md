@@ -5,6 +5,7 @@ pubDate: "2018-01-06"
 category: "university-life"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/university-life/for-university-student/how-to-use-myself/"
+heroImage: "/blog/wp-content/uploads/2018/01/509ba29ff5747bafd5db12c424811b9b.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です！ 就活を始めると、まず行うのが「自己分析」なのではないでしょうか？ 僕も就職活動中は自己分析を盛んにしていました。 でも、自己分析って最初はどうすればいいのかわからないですよね？ 今日はそんな人におすすめの非常に有益なツール**ストレングス・ファインダー**を紹介します！
@@ -39,10 +40,10 @@ originalUrl: "https://amaino.me/blog/university-life/for-university-student/how-
 
 結果が出たら、書籍にある文章にまずは目を通します。 でも、書籍の説明はわかりにくいところがあるので、Google先生に問い合わせてみるのがいいと思います。 「内省　ストレングスファインダー」 こんな感じでオーケーです。 そしてインターネット上の記事を見ていくと、だいたいそれがどんな特徴なのかわかってきます。 内省の場合、自分の**頭を使うことが好き**だということがわかります。 今までの人生で頭を使うのが楽しかった思い出を振り返ってみると
 
--   小さいころLEGOで色々物作るのが好きだった
--   一人遊びで空想を良くしていた
--   パズルを解くのが好きだった
--   小説を書いたりもした
+- 小さいころLEGOで色々物作るのが好きだった
+- 一人遊びで空想を良くしていた
+- パズルを解くのが好きだった
+- 小説を書いたりもした
 
 と、こんな感じでいくつか出てくると思います。
 
@@ -54,16 +55,11 @@ originalUrl: "https://amaino.me/blog/university-life/for-university-student/how-
 
 と、こんな感じで自分の強みを知ることができました！ 自分の強みは就活だけでなく、色々なところで活かすことができるので、ぜひ一度受験してみるのをおすすめします！  
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/51fBJn4TCcL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4532321433)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[さあ、才能(じぶん)に目覚めよう 新版 ストレングス・ファインダー2.0](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4532321433)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [ヨメレバ](https://yomereba.com)
+[さあ、才能(じぶん)に目覚めよう 新版 ストレングス・ファインダー2.0](https://www.amazon.co.jp/dp/4532321433)
 
 トム・ラス 日本経済新聞出版社 2017-04-13
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2F4532321433)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[Kindle](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%2582%25B3%2582%25A0%2581A%258D%25CB%2594%255C%2528%2582%25B6%2582%25D4%2582%25F1%2529%2582%25C9%2596%25DA%258Ao%2582%25DF%2582%25E6%2582%25A4%2520%2590V%2594%25C5%2520%2583X%2583g%2583%258C%2583%2593%2583O%2583X%2581E%2583t%2583%2540%2583C%2583%2593%2583_%2581%255B2.0%26__mk_ja_JP%3D%2583J%2583%255E%2583J%2583i%26url%3Dnode%253D2275256051)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[楽天ブックス](//af.moshimo.com/af/c/click?a_id=1143239&p_id=56&pc_id=56&pl_id=637&s_v=b5Rz2P0601xu&url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F14755398%2F)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+<a href="https://www.amazon.co.jp/dp/4532321433" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-title">この本をチェック</span></span>
+<span class="book-card-cta">Amazon で見る</span>
+</a>

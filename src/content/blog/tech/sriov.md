@@ -5,6 +5,7 @@ pubDate: "2019-01-17"
 category: "tech"
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/computer-science/sriov/"
+heroImage: "/blog/wp-content/uploads/2019/01/SRIOV.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまね([@isaka122](https://twitter.com/isaka122))です！ SRIOVについて
@@ -13,8 +14,8 @@ originalUrl: "https://techblog.amaino.me/computer-science/sriov/"
 
 SRIOVとは、Single Root I/O Virtualizationの略称です。 これを直訳すると、「単一ルートの入出力仮想化」という意味になりますね。 具体的には、汎用サーバーの中でネットワーク機器を仮想アプライアンス化することです。 はて、はたまた難しい言葉たちのオンパレードです。 １つずつ見ていきましょう。
 
--   汎用サーバー
--   仮想アプライアンス化
+- 汎用サーバー
+- 仮想アプライアンス化
 
 この２つの用語の意味がわかれば理解できそうです。
 

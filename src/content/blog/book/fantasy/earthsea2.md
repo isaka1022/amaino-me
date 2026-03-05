@@ -5,9 +5,10 @@ pubDate: "2018-03-06"
 category: "book"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/book/fantasy/earthsea2/"
+heroImage: "/blog/wp-content/uploads/2018/03/c2b2f9cda2d0d4df38e3cb7670a940d0.png"
 ---
 
-ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) 前回に引き続いて今回も『ゲド戦記』を読んだ感想です。 まだ前回の記事をご覧になっていなければそちらからご覧ください。 \[blogcard url="http://amaino.me/blog/book/earthsea-1/"\] さて、今回は第２巻目ということで、『こわれた腕輪』を読んだ感想を書きたいと思います。 **ネタバレを含みますのでご注意願います。**
+ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) 前回に引き続いて今回も『ゲド戦記』を読んだ感想です。 まだ前回の記事をご覧になっていなければそちらからご覧ください。 \[blogcard url="/blog/book/fantasy/earthsea-1"\] さて、今回は第２巻目ということで、『こわれた腕輪』を読んだ感想を書きたいと思います。 **ネタバレを含みますのでご注意願います。**
 
 ## ストーリー
 
@@ -34,3 +35,8 @@ originalUrl: "https://amaino.me/blog/book/fantasy/earthsea2/"
 ## まとめ
 
 さて、第２巻も「自由」という深いテーマの物語でした。 ゲド戦記、考えさせられるいい作品です。
+
+<a href="https://www.amazon.co.jp/s?k=%E3%82%B2%E3%83%89%E6%88%A6%E8%A8%98" target="_blank" rel="noopener" class="book-card">
+<span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『ゲド戦記』</span></span>
+<span class="book-card-cta">Amazon で探す</span>
+</a>

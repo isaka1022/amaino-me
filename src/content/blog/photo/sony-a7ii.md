@@ -5,6 +5,7 @@ pubDate: "2018-11-25"
 category: "photo"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/photo/sony-a7ii/"
+heroImage: "/blog/wp-content/uploads/2018/11/sonya7ii.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！大学でカメラをはじめました、あまね([@isaka122](https://twitter.com/isaka122))です！ 実はこの度、SONYのa7 IIというカメラを購入しました！ 購入して半年ほど立つのですが、購入してみての感想やなぜ僕がこのカメラを購入したのかなどを書きたいと思います！ 買ってよかったと思っているので迷っている人はぜひ買ってみてください！
@@ -13,17 +14,17 @@ originalUrl: "https://amaino.me/blog/photo/sony-a7ii/"
 
 まずは、僕が買ったSONY a7 IIがどんなカメラなのか紹介したいと思います。 大きな特徴としては、
 
--   フルサイズセンサーのミラーレスカメラ
--   5軸手ブレ補正搭載
--   チルト可動式の液晶
--   Wifiでスマホに転送可能
--   光学ビューファインダー
+- フルサイズセンサーのミラーレスカメラ
+- 5軸手ブレ補正搭載
+- チルト可動式の液晶
+- Wifiでスマホに転送可能
+- 光学ビューファインダー
 
 このようなものがあります！
 
 ## SONY a7 IIを購入した理由
 
-僕がSONY a7 II を購入した一番の理由は、オールドレンズを利用してみたかったからです。 オールドレンズって何？という人は[こちら](http://amaino.me/blog/photo/a7ii-helios/)をご覧ください。 僕はそれまで同じくSONYのa5100というミラーレスカメラを使っていました。 こちらも同じくミラーレスカメラでして、とてもコンパクトながら申し分ない性能を誇ります。 ところが、a5100はセンサーサイズが小さいんです。 センサーサイズって何？って人は[こちらのサイト](http://digitalcameraclip.com/a-sensorsize.html)が詳しくまとまっていましたので確認してみてください。 センサーサイズが小さいため、オールドレンズを買ってもその真価を発揮できませんでした。 一方で普通のレンズは高い。 せっかくカメラを買ったのでレンズを交換して色々な写真を撮りたい！と思い、今回a7iiを購入しました。 ちなみに、a7IIの前のモデルでa7というものもあるのですが、こちらには**手振れ補正が付いていません。** 僕は三脚を使わず手持ちが良いなという思いと、オールドレンズには手ぶれ補正機能がついていないので、ブレブレの写真になってしまいそうなので見送りました。
+僕がSONY a7 II を購入した一番の理由は、オールドレンズを利用してみたかったからです。 オールドレンズって何？という人は[こちら](/blog/photo/a7ii-helios)をご覧ください。 僕はそれまで同じくSONYのa5100というミラーレスカメラを使っていました。 こちらも同じくミラーレスカメラでして、とてもコンパクトながら申し分ない性能を誇ります。 ところが、a5100はセンサーサイズが小さいんです。 センサーサイズって何？って人は[こちらのサイト](http://digitalcameraclip.com/a-sensorsize.html)が詳しくまとまっていましたので確認してみてください。 センサーサイズが小さいため、オールドレンズを買ってもその真価を発揮できませんでした。 一方で普通のレンズは高い。 せっかくカメラを買ったのでレンズを交換して色々な写真を撮りたい！と思い、今回a7iiを購入しました。 ちなみに、a7IIの前のモデルでa7というものもあるのですが、こちらには**手振れ補正が付いていません。** 僕は三脚を使わず手持ちが良いなという思いと、オールドレンズには手ぶれ補正機能がついていないので、ブレブレの写真になってしまいそうなので見送りました。
 
 ## 用途
 
@@ -39,7 +40,7 @@ originalUrl: "https://amaino.me/blog/photo/sony-a7ii/"
 
 ### フルサイズ機のパワーが半端ない
 
-正直、a7IIを買うまでは、 「a5100でも十分にミラーレズで画質も良いし、十分なのでは？」とか、 「カメラで１０万超えか・・・。俺の使ってるPCより高ぇ。」 とかちょっと迷っていました。 でも、実際に使ってみると、**フルサイズカメラのパワーがすさまじすぎます。** この大きさでこれだけの画質の写真が撮れるなんて、すごすぎです。 例えば ![](http://amaino.me/blog/wp-content/uploads/2018/09/IMG_4003-1024x768.jpg) 北海道へ行った時のこのあたりとかでしょうか。 カメラの性能が良すぎて軽い気持ちで撮った写真でもそこそこの写真になってしまいます。
+正直、a7IIを買うまでは、 「a5100でも十分にミラーレズで画質も良いし、十分なのでは？」とか、 「カメラで１０万超えか・・・。俺の使ってるPCより高ぇ。」 とかちょっと迷っていました。 でも、実際に使ってみると、**フルサイズカメラのパワーがすさまじすぎます。** この大きさでこれだけの画質の写真が撮れるなんて、すごすぎです。 例えば !北海道へ行った時のこのあたりとかでしょうか。 カメラの性能が良すぎて軽い気持ちで撮った写真でもそこそこの写真になってしまいます。
 
 ### MFアシスト機能でオールドレンズも安心
 
@@ -49,9 +50,9 @@ originalUrl: "https://amaino.me/blog/photo/sony-a7ii/"
 
 僕は色々悩んだ結果、SONYの公式ストアから購入しました。 その大きな理由は以下の２つです。
 
--   キャッシュバックキャンペーン
--   保証
--   クーポン
+- キャッシュバックキャンペーン
+- 保証
+- クーポン
 
 ### キャッシュバックキャンペーン
 
@@ -81,32 +82,24 @@ SONYの公式ストアから購入すると、保証がついてきます。 し
 
 ここまで僕がa7II購入の時のことについて書いてきました。 結果、買って全く損はしていませんし、とても良いカメラだと思っています。 迷っている方はぜひ買って良いと思います！
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/41mJNi2ihZL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00I8BICB2%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[ソニー SONY ミラーレス一眼 α6000 パワーズームレンズキット E PZ 16-50mm F3.5-5.6 OSS ブラック ILCE-6000L B](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00I8BICB2%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [カエレバ](https://kaereba.com)
+[ソニー SONY ミラーレス一眼 α6000 パワーズームレンズキット E PZ 16-50mm F3.5-5.6 OSS ブラック ILCE-6000L B](https://www.amazon.co.jp/dp/B00I8BICB2/ref=nosim)
 
 ソニー(SONY)
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3Da7%26__mk_ja_JP%3D%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+[Amazon](https://www.amazon.co.jp/gp/search?keywords=a7&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A)
 
-[楽天市場](//af.moshimo.com/af/c/click?a_id=1143241&p_id=54&pc_id=54&pl_id=616&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fa7%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=54&pc_id=54&pl_id=616)
+[楽天市場](https://search.rakuten.co.jp/search/mall/a7/-/f.1-p.1-s.1-sf.0-st.A-v.2?x=0)
 
 [価格.com](http://kakaku.com/search_results/a7/)
 
  
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/51miZRBwrpL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB0144AK71I%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[ソニー SONY フルサイズミラーレス一眼 α7RM2 ボディ ILCE-7RM2](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB0144AK71I%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [カエレバ](https://kaereba.com)
+[ソニー SONY フルサイズミラーレス一眼 α7RM2 ボディ ILCE-7RM2](https://www.amazon.co.jp/dp/B0144AK71I/ref=nosim)
 
 ソニー 2015-06-26
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3Da7%26__mk_ja_JP%3D%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+[Amazon](https://www.amazon.co.jp/gp/search?keywords=a7&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A)
 
-[楽天市場](//af.moshimo.com/af/c/click?a_id=1143241&p_id=54&pc_id=54&pl_id=616&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2Fa7%2F-%2Ff.1-p.1-s.1-sf.0-st.A-v.2%3Fx%3D0)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=54&pc_id=54&pl_id=616)
+[楽天市場](https://search.rakuten.co.jp/search/mall/a7/-/f.1-p.1-s.1-sf.0-st.A-v.2?x=0)
 
 [価格.com](http://kakaku.com/search_results/a7/)

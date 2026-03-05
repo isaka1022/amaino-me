@@ -5,6 +5,7 @@ pubDate: "2018-11-07"
 category: "movie"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/movie/last-samurai/"
+heroImage: "/blog/wp-content/uploads/2018/11/cd3befdeb6ddbb284a2ee70044b6ecb1.jpg"
 ---
 
 ご覧いただきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^) 『ミッションインポッシブル』シリーズで有名なトム・クルーズ主演の『ラストサムライ』という映画をご存知ですか？ 今回僕はそれを観て、日本人であるこということを考えてみたので書きたいと思います。
@@ -29,16 +30,12 @@ originalUrl: "https://amaino.me/blog/movie/last-samurai/"
 
 『ラストサムライ』は、外国人から観た日本の姿が感じられる作品でした。 ぜひ、興味がある方はご覧ください。
 
-[東洋思想をサクッと学べる本はこちら](https://amaino.me/blog/book/liberal-arts/the-super-guide-to-estern-philosophy/) [金沢にある禅の修行寺はこちら](https://amaino.me/blog/kanazawa/daijouji/)
+[東洋思想をサクッと学べる本はこちら](/blog/book/liberal-arts/the-super-guide-to-estern-philosophy) 金沢にある禅の修行寺はこちら
 
-[![](https://images-fe.ssl-images-amazon.com/images/I/51yd7owImTL._SL160_.jpg)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00FIWYHJK%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-[ラスト サムライ (字幕版)](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fexec%2Fobidos%2FASIN%2FB00FIWYHJK%2Fref%3Dnosim)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
-
-posted with [カエレバ](https://kaereba.com)
+[ラスト サムライ (字幕版)](https://www.amazon.co.jp/dp/B00FIWYHJK/ref=nosim)
 
 トム・クルーズ Warner Bros. Entertainment Inc. 2013-11-26
 
-[Amazon](//af.moshimo.com/af/c/click?a_id=1143241&p_id=170&pc_id=185&pl_id=4062&s_v=b5Rz2P0601xu&url=https%3A%2F%2Fwww.amazon.co.jp%2Fgp%2Fsearch%3Fkeywords%3D%25E3%2583%25A9%25E3%2582%25B9%25E3%2583%2588%25E3%2582%25B5%25E3%2583%25A0%25E3%2583%25A9%25E3%2582%25A4%26__mk_ja_JP%3D%25E3%2582%25AB%25E3%2582%25BF%25E3%2582%25AB%25E3%2583%258A)![](//i.moshimo.com/af/i/impression?a_id=1143241&p_id=170&pc_id=185&pl_id=4062)
+[Amazon](https://www.amazon.co.jp/gp/search?keywords=%E3%83%A9%E3%82%B9%E3%83%88%E3%82%B5%E3%83%A0%E3%83%A9%E3%82%A4&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A)
 
 [価格.com](http://kakaku.com/search_results/%83%89%83X%83g%83T%83%80%83%89%83C/)

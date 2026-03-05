@@ -5,6 +5,7 @@ pubDate: "2018-01-07"
 category: "life-style"
 source: "wordpress"
 originalUrl: "https://amaino.me/blog/drive-blog/how-to-write-profile/"
+heroImage: "/blog/wp-content/uploads/2018/01/81d3bf144ed6b0ec0487355507639e08.png"
 ---
 
 ご覧いだたきありがとうございます！ こんにちは！！金沢で学生をしています、あまねです(^^)人 みなさんはtwitterやinstagramなどのSNS、使っていますよね？ そんな時に必ず設定しなければ行けないのが「プロフィール欄」。 「そんなに書くことないし、かといって無記入だとなんかカッコ悪い。」と困っている方も多いのではないでしょうか？ 僕もそうでした。 しかし、「セルフブランディング」を少し取り入れると、プロフィールはぐっと上手に書くことができるんです！
@@ -71,8 +72,8 @@ originalUrl: "https://amaino.me/blog/drive-blog/how-to-write-profile/"
 
 さて、次に僕らしさを出して行きます。 その結果思いついたのが
 
--   理系学生
--   読書
+- 理系学生
+- 読書
 
 でした。 それらを追加します。
 
