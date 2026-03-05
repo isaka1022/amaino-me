@@ -6,7 +6,7 @@
     {
       "source": "/:path(.*)",
       "has": [{ "type": "host", "value": "techblog.amaino.me" }],
-      "destination": "https://amaino.me/blog/tech/",
+      "destination": "https://amaino.me/blog/category/tech/",
       "permanent": true
     },
     {
