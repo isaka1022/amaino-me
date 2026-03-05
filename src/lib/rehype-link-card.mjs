@@ -74,16 +74,14 @@ function buildCardHtml(url, ogp) {
     : "";
 
   return `<a href="${url}" class="link-card" target="_blank" rel="noopener noreferrer">
-  <div class="link-card-content">
-    <div class="link-card-text">
-      <p class="link-card-title">${title.replace(/</g, "&lt;")}</p>
-      ${descHtml}
-      <div class="link-card-meta">
-        <img class="link-card-favicon" src="${favicon}" alt="" width="16" height="16" loading="lazy" />
-        <span class="link-card-site">${siteName.replace(/</g, "&lt;")}</span>
-      </div>
+  ${imageHtml}
+  <div class="link-card-text">
+    <p class="link-card-title">${title.replace(/</g, "&lt;")}</p>
+    ${descHtml}
+    <div class="link-card-meta">
+      <img class="link-card-favicon" src="${favicon}" alt="" width="14" height="14" loading="lazy" />
+      <span class="link-card-site">${siteName.replace(/</g, "&lt;")}</span>
     </div>
-    ${imageHtml}
   </div>
 </a>`;
 }
