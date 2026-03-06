@@ -11,96 +11,123 @@ import EmailSubscribeForm from "../../components/EmailSubscribeForm.astro";
 >
   <div class="max-w-2xl mx-auto py-16 px-4">
 
-    <!-- Hero -->
-    <div class="text-center mb-16">
-      <p class="text-sm font-mono text-primary mb-4 tracking-widest">CONSULTATION</p>
-      <h1 class="text-3xl font-bold leading-tight mb-6">
+    <!-- ① ファーストビュー -->
+    <div class="text-center mb-6">
+      <p class="text-sm font-mono text-primary mb-4 tracking-widest uppercase">Consultation</p>
+      <h1 class="text-3xl font-bold leading-tight mb-5">
         理系の進路、<br />誰かに相談できていますか？
       </h1>
-      <p class="text-base-content/70 text-lg leading-relaxed">
+      <p class="text-base-content/70 text-base leading-relaxed mb-8">
         他大院試・研究室選び・浪人か進学か。<br />
-        ネットで調べても、リアルな経験談が少なすぎる。
+        ネットで調べても、リアルな体験談が少なすぎる。
       </p>
+      <!-- ② ファーストビュー内CTA -->
+      <div class="max-w-sm mx-auto">
+        <EmailSubscribeForm title="先行相談枠に登録する（無料）" source="lp/study-consult" />
+      </div>
     </div>
 
-    <!-- 課題提示 -->
-    <div class="bg-base-200 rounded-2xl p-8 mb-12">
-      <h2 class="font-bold text-lg mb-4">こんな状況ではないですか？</h2>
-      <ul class="space-y-3 text-base-content/80">
-        <li class="flex gap-3">
-          <span class="text-error mt-0.5">✕</span>
-          <span>他大の院試を受けたいが、情報が少なすぎて何から始めればいいかわからない</span>
-        </li>
-        <li class="flex gap-3">
-          <span class="text-error mt-0.5">✕</span>
-          <span>第1志望に落ちた。浪人すべきか、今の大学に進学すべきか決めかねている</span>
-        </li>
-        <li class="flex gap-3">
-          <span class="text-error mt-0.5">✕</span>
-          <span>研究室を選ぶ基準がわからない。後悔したくない</span>
-        </li>
-        <li class="flex gap-3">
-          <span class="text-error mt-0.5">✕</span>
-          <span>周りに同じ状況の人がいなくて、相談相手がいない</span>
-        </li>
-      </ul>
+    <!-- 権威付け -->
+    <div class="text-center text-xs text-base-content/40 mb-14">
+      <p>東京大学学際情報学府（先端表現情報学コース）受験経験あり</p>
+      <p>理系大学院・現役Webエンジニア・進路記事が月間100+読まれているブログ運営</p>
     </div>
 
-    <!-- 何ができるか -->
-    <div class="mb-12">
-      <h2 class="font-bold text-xl mb-6 text-center">こんなことを一緒に考えます</h2>
+    <!-- ③ ベネフィット -->
+    <div class="mb-14">
+      <h2 class="text-xl font-bold text-center mb-8">こんなことを一緒に考えます</h2>
       <div class="grid gap-6">
-        <div class="border border-base-300 rounded-xl p-6">
-          <div class="text-2xl mb-2">🎓</div>
-          <h3 class="font-bold mb-2">他大院試の戦略相談</h3>
-          <p class="text-base-content/70 text-sm">
-            東京大学学際情報学府への受験経験をもとに、他大院試の情報収集・対策・スケジュールをアドバイスします。
-          </p>
+        <div class="flex gap-4 items-start">
+          <span class="text-2xl">🎓</span>
+          <div>
+            <h3 class="font-bold mb-1">他大院試の戦略相談</h3>
+            <p class="text-base-content/70 text-sm">
+              東大学際情報学府への受験経験をもとに、情報収集・対策・スケジュール・志望理由書の考え方をアドバイスします。
+            </p>
+          </div>
         </div>
-        <div class="border border-base-300 rounded-xl p-6">
-          <div class="text-2xl mb-2">🔀</div>
-          <h3 class="font-bold mb-2">進路の選択肢整理</h3>
-          <p class="text-base-content/70 text-sm">
-            「浪人か進学か」「院に行くか就職か」など、選択肢が多すぎて動けないときに、経験者の視点で整理するお手伝いをします。
-          </p>
+        <div class="flex gap-4 items-start">
+          <span class="text-2xl">🔀</span>
+          <div>
+            <h3 class="font-bold mb-1">進路の選択肢整理</h3>
+            <p class="text-base-content/70 text-sm">
+              「浪人か進学か」「院に行くか就職か」——選択肢が多くて動けないときに、経験者として整理をお手伝いします。
+            </p>
+          </div>
         </div>
-        <div class="border border-base-300 rounded-xl p-6">
-          <div class="text-2xl mb-2">💬</div>
-          <h3 class="font-bold mb-2">1対1のオンライン相談（検討中）</h3>
-          <p class="text-base-content/70 text-sm">
-            ZoomやGoogle Meetで30〜60分の個別相談。現役エンジニア・院試経験者として、リアルな話ができます。
-          </p>
+        <div class="flex gap-4 items-start">
+          <span class="text-2xl">💬</span>
+          <div>
+            <h3 class="font-bold mb-1">1対1のオンライン相談（30〜60分）</h3>
+            <p class="text-base-content/70 text-sm">
+              ZoomやGoogle Meetで個別相談。表に出にくい「リアルな話」ができることが強みです。
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- 自己紹介 -->
-    <div class="bg-base-200 rounded-2xl p-8 mb-12">
-      <h2 class="font-bold text-lg mb-3">相談に乗る人について</h2>
-      <p class="text-base-content/80 text-sm leading-relaxed">
-        井上周（Amane Inoue）。理系大学出身、東京大学学際情報学府（先端表現情報学コース）への受験経験あり。
-        現在は現役Webエンジニアとして働きながら、読書・技術・進路について発信しています。
-        「第1志望ではない大学でも人生は充実する」という経験を書いた記事が、多くの人に読まれています。
-      </p>
+    <!-- ④ 相談の流れ -->
+    <div class="bg-base-200 rounded-2xl p-8 mb-14">
+      <h2 class="text-xl font-bold text-center mb-6">相談の流れ（予定）</h2>
+      <ol class="space-y-4">
+        <li class="flex gap-4">
+          <span class="text-primary font-bold text-sm shrink-0 mt-0.5">STEP 1</span>
+          <div>
+            <p class="font-bold text-sm">先行登録する</p>
+            <p class="text-base-content/60 text-xs mt-0.5">メールアドレスだけでOK。30秒で完了</p>
+          </div>
+        </li>
+        <li class="flex gap-4">
+          <span class="text-primary font-bold text-sm shrink-0 mt-0.5">STEP 2</span>
+          <div>
+            <p class="font-bold text-sm">相談枠が開いたらメールで案内が届く</p>
+            <p class="text-base-content/60 text-xs mt-0.5">先行登録者から優先的に案内します</p>
+          </div>
+        </li>
+        <li class="flex gap-4">
+          <span class="text-primary font-bold text-sm shrink-0 mt-0.5">STEP 3</span>
+          <div>
+            <p class="font-bold text-sm">日程調整→オンラインで相談</p>
+            <p class="text-base-content/60 text-xs mt-0.5">Zoom / Google Meet。30〜60分を予定</p>
+          </div>
+        </li>
+      </ol>
     </div>
 
-    <!-- フォーム -->
+    <!-- ⑤ FAQ -->
+    <div class="mb-14">
+      <h2 class="text-xl font-bold text-center mb-6">よくある質問</h2>
+      <div class="space-y-4">
+        <div class="border border-base-300 rounded-xl p-5">
+          <p class="font-bold text-sm mb-2">Q. 相談枠はいつ開きますか？</p>
+          <p class="text-base-content/70 text-sm">準備中です。登録者が集まり次第、先行登録者からご案内します。院試シーズン（5〜8月）に合わせて開始予定です。</p>
+        </div>
+        <div class="border border-base-300 rounded-xl p-5">
+          <p class="font-bold text-sm mb-2">Q. 料金はかかりますか？</p>
+          <p class="text-base-content/70 text-sm">先行登録者への最初の相談は無料で提供する予定です。詳細はご案内メールでお知らせします。</p>
+        </div>
+        <div class="border border-base-300 rounded-xl p-5">
+          <p class="font-bold text-sm mb-2">Q. どんな悩みでも相談できますか？</p>
+          <p class="text-base-content/70 text-sm">理系大学生の進路・院試・研究室・大学生活に関する悩みであれば広く対応します。具体的な大学名・専攻についても可能な限りお答えします。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ⑥ CTA（フォーム） -->
     <div class="bg-base-200 rounded-2xl p-8 text-center">
       <h2 class="font-bold text-xl mb-2">先行相談枠に登録する</h2>
       <p class="text-base-content/60 text-sm mb-6">
-        まだ正式なサービスとして始めていません。興味があればメールアドレスを登録してください。<br />
-        相談枠が開いたときに優先してご案内します。
+        相談枠が開いたときに優先案内が届きます。<br />
+        いつでも解除できます。費用は一切かかりません。
       </p>
       <div class="max-w-sm mx-auto">
-        <EmailSubscribeForm
-          title=""
-          source="lp/study-consult"
-        />
+        <EmailSubscribeForm title="" source="lp/study-consult" />
       </div>
     </div>
 
     <p class="text-center text-xs text-base-content/40 mt-8">
-      このページは Wells Inoue（<a href="/" class="underline">amaino.me</a>）がサービスのコンセプト検証のために作成しました。
+      <a href="/" class="underline">Amane Inoue</a> がコンセプト検証のために作成したページです。
     </p>
   </div>
 </BaseLayout>

@@ -4,87 +4,131 @@ import EmailSubscribeForm from "../../components/EmailSubscribeForm.astro";
 ---
 
 <BaseLayout
-  title="知的生産に役立つ本・記事を週1で届けます | Amane Inoue"
-  description="理系・技術系の思考力を鍛える厳選コンテンツを毎週配信。読書家・学習者向けニュースレター、先行登録受付中。"
+  title="知識系ニュースレター、始めます | Amane Inoue"
+  description="理系・知識系の思考力を鍛える厳選コンテンツを週1で配信。先行登録受付中。"
   noindex={true}
   includeSidebar={false}
 >
   <div class="max-w-2xl mx-auto py-16 px-4">
 
-    <!-- Hero -->
-    <div class="text-center mb-16">
-      <p class="text-sm font-mono text-primary mb-4 tracking-widest">NEWSLETTER</p>
-      <h1 class="text-3xl font-bold leading-tight mb-6">
-        毎週1本、<br />「読んでよかった」を<br />
-        <span class="text-primary">あなたの受信箱へ。</span>
+    <!-- ① ファーストビュー -->
+    <div class="text-center mb-6">
+      <p class="text-sm font-mono text-primary mb-4 tracking-widest uppercase">Newsletter</p>
+      <h1 class="text-3xl font-bold leading-tight mb-5">
+        情報は多すぎる。<br />でも「本当に読む価値があるもの」は<br />
+        <span class="text-primary">週に1本だけ届けます。</span>
       </h1>
-      <p class="text-base-content/70 text-lg leading-relaxed">
-        情報は多すぎる。でも「本当に読む価値があるもの」は少ない。<br />
-        厳選した1冊・1記事を、毎週届けます。
+      <p class="text-base-content/70 text-base leading-relaxed mb-8">
+        理系的思考・知的生産・本・科学。<br />
+        厳選した1冊・1記事を毎週あなたの受信箱へ。
       </p>
+      <!-- ② ファーストビュー内CTA -->
+      <div class="max-w-sm mx-auto">
+        <EmailSubscribeForm title="無料で登録する" source="lp/newsletter" />
+      </div>
     </div>
 
-    <!-- どんな内容？ -->
-    <div class="mb-12">
-      <h2 class="font-bold text-xl mb-6 text-center">こんな内容を届けます</h2>
-      <div class="grid gap-4">
+    <!-- 権威付け -->
+    <div class="text-center text-xs text-base-content/40 mb-14">
+      <p>読書ブログ5年・100冊以上レビュー済みのエンジニアが書きます</p>
+      <p>「理科系の作文技術」「バカの壁」「ゲド戦記」など書評多数</p>
+    </div>
+
+    <!-- ③ ベネフィット -->
+    <div class="mb-14">
+      <h2 class="text-xl font-bold text-center mb-8">届く内容</h2>
+      <div class="grid gap-6">
         <div class="flex gap-4 items-start">
-          <span class="text-xl mt-0.5">📚</span>
+          <span class="text-2xl">📚</span>
           <div>
             <h3 class="font-bold mb-1">知的生産・思考法の本</h3>
             <p class="text-base-content/70 text-sm">
-              『理科系の作文技術』のような、考える力・書く力を鍛える本を中心に紹介。なぜ読む価値があるかを明確に伝えます。
+              『理科系の作文技術』のような、考える力・書く力・伝える力を鍛える本を中心に。なぜ今読む価値があるかを明確に伝えます。
             </p>
           </div>
         </div>
         <div class="flex gap-4 items-start">
-          <span class="text-xl mt-0.5">🔬</span>
+          <span class="text-2xl">🔬</span>
           <div>
             <h3 class="font-bold mb-1">科学・哲学・文化の読み物</h3>
             <p class="text-base-content/70 text-sm">
-              専門書でも一般書でも、「世界の見方が変わる」コンテンツを選びます。難しいものはわかりやすく解説します。
+              難しい本でも、「世界の見方が変わる」コンテンツをわかりやすく解説。ビジネス書に偏らない知識の幅を広げます。
             </p>
           </div>
         </div>
         <div class="flex gap-4 items-start">
-          <span class="text-xl mt-0.5">✍️</span>
+          <span class="text-2xl">✍️</span>
           <div>
-            <h3 class="font-bold mb-1">読んだ上での正直な感想</h3>
+            <h3 class="font-bold mb-1">正直な感想と実用的な視点</h3>
             <p class="text-base-content/70 text-sm">
-              書評ブログを5年以上続けてきた経験から、良い点も気になる点も率直に書きます。
+              良い点も気になる点も率直に書きます。「読む価値があるか」「誰に向いているか」を明確に。
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- 送り主について -->
-    <div class="bg-base-200 rounded-2xl p-8 mb-12">
-      <h2 class="font-bold text-lg mb-3">誰が書くのか</h2>
-      <p class="text-base-content/80 text-sm leading-relaxed">
-        理系大学院卒・現役Webエンジニアの井上周（Amane Inoue）が書きます。
-        読書・映画・旅をテーマに5年以上ブログを書いており、「わかりやすい要約と正直な感想」を届けることを大切にしています。
-        このニュースレターは、ブログでは書ききれない「一冊との対話」を届ける場所にしたいと思っています。
-      </p>
+    <!-- ④ 配信の流れ -->
+    <div class="bg-base-200 rounded-2xl p-8 mb-14">
+      <h2 class="text-xl font-bold text-center mb-6">配信の流れ</h2>
+      <ol class="space-y-4">
+        <li class="flex gap-4">
+          <span class="text-primary font-bold text-sm shrink-0 mt-0.5">STEP 1</span>
+          <div>
+            <p class="font-bold text-sm">メールアドレスを登録</p>
+            <p class="text-base-content/60 text-xs mt-0.5">30秒で完了。費用は一切かかりません</p>
+          </div>
+        </li>
+        <li class="flex gap-4">
+          <span class="text-primary font-bold text-sm shrink-0 mt-0.5">STEP 2</span>
+          <div>
+            <p class="font-bold text-sm">配信開始時にお知らせが届く</p>
+            <p class="text-base-content/60 text-xs mt-0.5">現在準備中。開始次第、登録者から配信します</p>
+          </div>
+        </li>
+        <li class="flex gap-4">
+          <span class="text-primary font-bold text-sm shrink-0 mt-0.5">STEP 3</span>
+          <div>
+            <p class="font-bold text-sm">週1回、厳選コンテンツが届く</p>
+            <p class="text-base-content/60 text-xs mt-0.5">読むのに5〜10分。量より質を徹底します</p>
+          </div>
+        </li>
+      </ol>
     </div>
 
-    <!-- フォーム -->
+    <!-- ⑤ FAQ -->
+    <div class="mb-14">
+      <h2 class="text-xl font-bold text-center mb-6">よくある質問</h2>
+      <div class="space-y-4">
+        <div class="border border-base-300 rounded-xl p-5">
+          <p class="font-bold text-sm mb-2">Q. いつから配信が始まりますか？</p>
+          <p class="text-base-content/70 text-sm">準備中です。登録者が集まり次第スタートします。配信開始時にメールでお知らせします。</p>
+        </div>
+        <div class="border border-base-300 rounded-xl p-5">
+          <p class="font-bold text-sm mb-2">Q. 料金はかかりますか？</p>
+          <p class="text-base-content/70 text-sm">無料で配信します。有料プランを作る場合も、先行登録者は無料または優待価格で継続できる予定です。</p>
+        </div>
+        <div class="border border-base-300 rounded-xl p-5">
+          <p class="font-bold text-sm mb-2">Q. 解除できますか？</p>
+          <p class="text-base-content/70 text-sm">いつでもメール1本で解除できます。面倒な手続きは一切ありません。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ⑥ CTA（フォーム） -->
     <div class="bg-base-200 rounded-2xl p-8 text-center">
-      <h2 class="font-bold text-xl mb-2">無料で受け取る</h2>
+      <h2 class="font-bold text-xl mb-2">無料で登録する</h2>
       <p class="text-base-content/60 text-sm mb-6">
-        まだ準備中のニュースレターです。興味があれば登録しておいてください。<br />
-        配信開始時にお知らせします。いつでも解除できます。
+        配信開始時に優先案内が届きます。<br />
+        いつでも解除できます。費用は一切かかりません。
       </p>
       <div class="max-w-sm mx-auto">
-        <EmailSubscribeForm
-          title=""
-          source="lp/newsletter"
-        />
+        <EmailSubscribeForm title="" source="lp/newsletter" />
       </div>
     </div>
 
     <p class="text-center text-xs text-base-content/40 mt-8">
-      このページは Wells Inoue（<a href="/" class="underline">amaino.me</a>）がサービスのコンセプト検証のために作成しました。
+      <a href="/" class="underline">Amane Inoue</a> がコンセプト検証のために作成したページです。
     </p>
   </div>
 </BaseLayout>
