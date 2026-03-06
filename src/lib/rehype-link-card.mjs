@@ -10,6 +10,48 @@ import { visit } from "unist-util-visit";
 
 const TIMEOUT_MS = 5000;
 
+/** Google Maps URL かどうか判定 */
+function isGoogleMapsUrl(url) {
+  try {
+    const { hostname } = new URL(url);
+    return hostname === "maps.app.goo.gl" || hostname.includes("google.com/maps");
+  } catch {
+    return false;
+  }
+}
+
+/** Google Maps 埋め込みカード HTML を生成 */
+function buildGoogleMapsCardHtml(url) {
+  const encodedUrl = encodeURIComponent(url);
+  const embedSrc = `https://maps.google.com/maps?q=${encodedUrl}&output=embed`;
+  return `<div class="google-maps-card">
+  <iframe src="${embedSrc}" width="100%" height="300" style="border:0;border-radius:8px;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="google-maps-card-meta">
+    <img src="https://www.google.com/s2/favicons?domain=maps.google.com&sz=32" alt="" width="14" height="14" loading="lazy" />
+    <a href="${url}" target="_blank" rel="noopener noreferrer" class="google-maps-card-link">Google マップで開く ↗</a>
+  </div>
+</div>`;
+}
+
+/** レスポンスの charset を検出して文字列にデコード */
+async function decodeResponse(res) {
+  const contentType = res.headers.get("content-type") ?? "";
+  const ctCharset = contentType.match(/charset=([^\s;]+)/i)?.[1];
+  const buf = await res.arrayBuffer();
+  const bytes = new Uint8Array(buf);
+  // まず latin1 で仮デコードして meta charset を探す
+  const latin1 = new TextDecoder("latin1").decode(bytes);
+  const metaCharset =
+    latin1.match(/<meta[^>]+charset=["']?([^"'\s;>]+)/i)?.[1] ??
+    latin1.match(/charset=([^"'\s;>]+)/i)?.[1];
+  const charset = ctCharset ?? metaCharset ?? "utf-8";
+  try {
+    return new TextDecoder(charset).decode(bytes);
+  } catch {
+    return new TextDecoder("utf-8").decode(bytes);
+  }
+}
+
 /** OGP・メタ情報を URL からフェッチして返す */
 async function fetchOgp(url) {
   try {
@@ -22,7 +64,7 @@ async function fetchOgp(url) {
     clearTimeout(timer);
     if (!res.ok) return null;
 
-    const html = await res.text();
+    const html = await decodeResponse(res);
     const get = (pattern) => {
       const m = html.match(pattern);
       return m ? m[1].replace(/&amp;/g, "&").replace(/&quot;/g, '"').trim() : null;
@@ -121,8 +163,9 @@ export function rehypeLinkCard() {
     // OGP を並列フェッチ
     await Promise.all(
       targets.map(async ({ node, index, parent, url }) => {
-        const ogp = await fetchOgp(url);
-        const html = buildCardHtml(url, ogp);
+        const html = isGoogleMapsUrl(url)
+          ? buildGoogleMapsCardHtml(url)
+          : buildCardHtml(url, await fetchOgp(url));
 
         // <p> ノードをカード HTML ノードに置き換える
         parent.children.splice(index, 1, {
