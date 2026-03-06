@@ -5,6 +5,14 @@ const GITHUB_CLIENT_ID = import.meta.env.GITHUB_CLIENT_ID ?? process.env.GITHUB_
 const GITHUB_CLIENT_SECRET = import.meta.env.GITHUB_CLIENT_SECRET ?? process.env.GITHUB_CLIENT_SECRET;
 const ALLOWED_USER = 'isaka1022';
 
+function getSiteUrl(requestUrl: URL): string {
+  const envUrl = import.meta.env.PUBLIC_SITE_URL ?? process.env.PUBLIC_SITE_URL;
+  if (envUrl) return envUrl;
+  const vercelUrl = process.env.VERCEL_URL;
+  if (vercelUrl) return `https://${vercelUrl}`;
+  return requestUrl.origin;
+}
+
 export const prerender = false;
 
 export const GET: APIRoute = async ({ url, cookies, redirect }) => {
@@ -27,7 +35,7 @@ export const GET: APIRoute = async ({ url, cookies, redirect }) => {
       client_id: GITHUB_CLIENT_ID,
       client_secret: GITHUB_CLIENT_SECRET,
       code,
-      redirect_uri: `${url.origin}/api/auth/callback`,
+      redirect_uri: `${getSiteUrl(url)}/api/auth/callback`,
     }),
   });
 
