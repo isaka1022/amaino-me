@@ -3,6 +3,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import SideBar from "../components/SideBar.astro";
+import EmailSubscribeForm from "../components/EmailSubscribeForm.astro";
 import { ClientRouter } from "astro:transitions";
 
 import { SITE_TITLE, SITE_DESCRIPTION, TRANSITION_API } from "../config";
@@ -58,5 +59,17 @@ const {
       </div>
       {includeSidebar && <SideBar sideBarActiveItemID={sideBarActiveItemID} />}
     </div>
+
+    <!-- メール登録モーダル（フォローボタンから開く） -->
+    <dialog id="follow-modal" class="modal">
+      <div class="modal-box max-w-sm">
+        <h3 class="font-bold text-lg mb-1">更新をフォローする</h3>
+        <p class="text-sm text-base-content/60 mb-5">新しい記事をメールでお届けします。</p>
+        <EmailSubscribeForm />
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
   </body>
 </html>

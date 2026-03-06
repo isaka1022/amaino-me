@@ -12,6 +12,21 @@
     <div class="navbar-center">
       <a class="btn btn-ghost normal-case text-xl" href="/">amaino.me</a>
     </div>
-    <div class="navbar-end"></div>
+    <div class="navbar-end pr-2">
+      <button id="follow-btn" class="btn btn-primary btn-sm">フォロー</button>
+    </div>
   </div>
 </div>
+
+<script>
+  function initFollowBtn() {
+    const btn = document.getElementById("follow-btn");
+    if (!btn) return;
+    btn.addEventListener("click", () => {
+      const modal = document.getElementById("follow-modal") as HTMLDialogElement | null;
+      modal?.showModal();
+    });
+  }
+  initFollowBtn();
+  document.addEventListener("astro:page-load", initFollowBtn);
+</script>

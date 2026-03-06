@@ -4,11 +4,7 @@ export const prerender = false;
 
 const AIRTABLE_TOKEN = import.meta.env.AIRTABLE_PERSONAL_ACCESS_TOKEN;
 const AIRTABLE_BASE_ID = import.meta.env.AIRTABLE_BASE_ID_AMAINO;
-const AIRTABLE_TABLE_NAME = import.meta.env.AIRTABLE_TABLE_NAME || "メールリスト";
-
-function isValidEmail(s: string): boolean {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(s);
-}
+const AIRTABLE_TABLE_NAME = "記事フィードバック";
 
 export const POST: APIRoute = async ({ request }) => {
   if (!AIRTABLE_TOKEN || !AIRTABLE_BASE_ID) {
@@ -18,7 +14,7 @@ export const POST: APIRoute = async ({ request }) => {
     );
   }
 
-  let body: { email?: string; name?: string };
+  let body: { articlePath?: string; articleTitle?: string; rating?: number; reason?: string; reasonOther?: string };
   try {
     body = await request.json();
   } catch {
@@ -28,21 +24,24 @@ export const POST: APIRoute = async ({ request }) => {
     );
   }
 
-  const email = typeof body.email === "string" ? body.email.trim() : "";
-  if (!email || !isValidEmail(email)) {
+  const { articlePath, articleTitle, rating, reason, reasonOther } = body;
+
+  if (!articlePath || typeof rating !== "number" || rating < 1 || rating > 5 || !reason) {
     return new Response(
-      JSON.stringify({ ok: false, error: "Valid email is required" }),
+      JSON.stringify({ ok: false, error: "Invalid input" }),
       { status: 400, headers: { "Content-Type": "application/json" } }
     );
   }
 
-  const fields: Record<string, string> = {
-    Email: email,
-    Source: "amaino.me",
-    RegisteredAt: new Date().toISOString(),
+  const fields: Record<string, string | number> = {
+    ArticlePath: articlePath,
+    ArticleTitle: articleTitle ?? "",
+    Rating: rating,
+    Reason: reason,
+    SubmittedAt: new Date().toISOString(),
   };
-  if (typeof body.name === "string" && body.name.trim()) {
-    fields.Name = body.name.trim();
+  if (reasonOther) {
+    fields.ReasonOther = reasonOther;
   }
 
   const url = `https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${encodeURIComponent(AIRTABLE_TABLE_NAME)}`;
@@ -57,9 +56,9 @@ export const POST: APIRoute = async ({ request }) => {
 
   if (!res.ok) {
     const err = await res.text();
-    console.error("[subscribe] Airtable error:", res.status, err);
+    console.error("[survey] Airtable error:", res.status, err);
     return new Response(
-      JSON.stringify({ ok: false, error: "Registration failed" }),
+      JSON.stringify({ ok: false, error: "Save failed" }),
       { status: 502, headers: { "Content-Type": "application/json" } }
     );
   }

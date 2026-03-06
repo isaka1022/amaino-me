@@ -1,0 +1,185 @@
+---
+interface Props {
+  articleTitle: string;
+  articlePath: string;
+}
+const { articleTitle, articlePath } = Astro.props;
+
+const REASONS = [
+  { value: "search", label: "検索で見つけた" },
+  { value: "sns", label: "SNSで見た" },
+  { value: "browsing", label: "サイトを巡回中" },
+  { value: "newsletter", label: "メルマガ経由" },
+  { value: "other", label: "その他" },
+] as const;
+---
+
+<dialog id="read-survey-modal" class="modal">
+  <div class="modal-box max-w-sm">
+    <h3 class="font-bold text-lg mb-1">読了ありがとうございます！</h3>
+    <p class="text-sm text-base-content/60 mb-5">よければ感想を教えてください（30秒）</p>
+
+    <!-- 満足度 -->
+    <div class="mb-5">
+      <p class="text-sm font-medium mb-2">この記事の満足度は？</p>
+      <div class="rating rating-lg gap-1" id="survey-rating">
+        {[1, 2, 3, 4, 5].map((n) => (
+          <input
+            type="radio"
+            name="survey-rating"
+            class="mask mask-star-2 bg-warning"
+            value={String(n)}
+            aria-label={`${n}点`}
+          />
+        ))}
+      </div>
+    </div>
+
+    <!-- 読んだ理由 -->
+    <div class="mb-5">
+      <p class="text-sm font-medium mb-2">この記事を読んだ理由・きっかけは？</p>
+      <div class="flex flex-col gap-2" id="survey-reasons">
+        {REASONS.map(({ value, label }) => (
+          <label class="flex items-center gap-2 cursor-pointer">
+            <input type="radio" name="survey-reason" value={value} class="radio radio-sm" />
+            <span class="text-sm">{label}</span>
+          </label>
+        ))}
+      </div>
+      <textarea
+        id="survey-reason-other"
+        class="textarea textarea-bordered w-full mt-2 text-sm hidden"
+        placeholder="具体的に教えてください"
+        rows={2}
+      ></textarea>
+    </div>
+
+    <!-- アクション -->
+    <div id="survey-actions" class="flex gap-2 justify-end">
+      <button id="survey-skip" class="btn btn-ghost btn-sm">スキップ</button>
+      <button id="survey-submit" class="btn btn-primary btn-sm" disabled>送信する</button>
+    </div>
+
+    <!-- 送信後メッセージ -->
+    <div id="survey-done" class="hidden text-center py-2">
+      <p class="text-sm font-medium">ありがとうございました！🎉</p>
+      <button id="survey-close" class="btn btn-ghost btn-sm mt-2">閉じる</button>
+    </div>
+  </div>
+  <form method="dialog" class="modal-backdrop">
+    <button>close</button>
+  </form>
+</dialog>
+
+<script define:vars={{ articleTitle, articlePath }}>
+  (function () {
+    const STORAGE_KEY = "survey_shown_" + articlePath;
+
+    function isAlreadyShown() {
+      try {
+        return !!sessionStorage.getItem(STORAGE_KEY);
+      } catch (_) {
+        return false;
+      }
+    }
+
+    function markShown() {
+      try {
+        sessionStorage.setItem(STORAGE_KEY, "1");
+      } catch (_) {}
+    }
+
+    function sendGa(eventName) {
+      if (typeof gtag === "function") {
+        gtag("event", eventName, {
+          page_path: articlePath,
+          page_title: articleTitle,
+        });
+      }
+    }
+
+    const modal = /** @type {HTMLDialogElement} */ (
+      document.getElementById("read-survey-modal")
+    );
+    const submitBtn = document.getElementById("survey-submit");
+    const skipBtn = document.getElementById("survey-skip");
+    const closeBtn = document.getElementById("survey-close");
+    const actions = document.getElementById("survey-actions");
+    const doneMsg = document.getElementById("survey-done");
+    const reasonOtherEl = /** @type {HTMLTextAreaElement} */ (
+      document.getElementById("survey-reason-other")
+    );
+
+    // 「その他」選択で自由入力欄を表示
+    document.querySelectorAll('input[name="survey-reason"]').forEach((el) => {
+      el.addEventListener("change", () => {
+        const isOther = /** @type {HTMLInputElement} */ (el).value === "other";
+        reasonOtherEl.classList.toggle("hidden", !isOther);
+        updateSubmitState();
+      });
+    });
+
+    document.querySelectorAll('input[name="survey-rating"]').forEach((el) => {
+      el.addEventListener("change", updateSubmitState);
+    });
+
+    function updateSubmitState() {
+      const hasRating = !!document.querySelector('input[name="survey-rating"]:checked');
+      const hasReason = !!document.querySelector('input[name="survey-reason"]:checked');
+      submitBtn.disabled = !(hasRating && hasReason);
+    }
+
+    submitBtn.addEventListener("click", async () => {
+      const ratingEl = /** @type {HTMLInputElement|null} */ (
+        document.querySelector('input[name="survey-rating"]:checked')
+      );
+      const reasonEl = /** @type {HTMLInputElement|null} */ (
+        document.querySelector('input[name="survey-reason"]:checked')
+      );
+      if (!ratingEl || !reasonEl) return;
+
+      const rating = parseInt(ratingEl.value, 10);
+      const reason = reasonEl.value;
+      const reasonOther = reason === "other" ? reasonOtherEl.value.trim() : undefined;
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = "送信中...";
+
+      try {
+        await fetch("/api/survey", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ articlePath, articleTitle, rating, reason, reasonOther }),
+        });
+      } catch (_) {
+        // 送信失敗してもUIは完了にする（ユーザー体験を損なわない）
+      }
+
+      sendGa("survey_submitted");
+      actions.classList.add("hidden");
+      doneMsg.classList.remove("hidden");
+    });
+
+    skipBtn.addEventListener("click", () => {
+      modal.close();
+      markShown();
+    });
+
+    closeBtn.addEventListener("click", () => {
+      modal.close();
+    });
+
+    // backdrop クリックで閉じた場合も記録
+    modal.addEventListener("close", () => {
+      markShown();
+    });
+
+    // PostLayout のスクロール検知から呼ばれる
+    window.__openReadSurvey = function () {
+      if (isAlreadyShown()) return;
+      markShown();
+      sendGa("survey_shown");
+      modal.showModal();
+    };
+  })();
+</script>

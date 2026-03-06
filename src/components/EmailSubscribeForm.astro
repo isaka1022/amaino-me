@@ -1,24 +1,82 @@
 ---
 export interface Props {
-  /** フォームの見出し */
   title?: string;
-  /** サイドバー用のコンパクト表示（高さを抑える） */
   compact?: boolean;
 }
 const { title = "メールで更新を受け取る", compact = false } = Astro.props;
-const AIRTABLE_EMBED_URL = "https://airtable.com/embed/appKHUFuKv9cu4OTk/shrwlnWcGKm7c1RAQ";
-const embedHeight = compact ? 320 : 533;
 ---
 
-<div class="email-subscribe-form not-prose">
+<div class={`email-subscribe-form not-prose${compact ? " compact" : ""}`}>
   <p class="text-sm text-base-content/60 mb-3">{title}</p>
-  <iframe
-    class="airtable-embed rounded-lg"
-    src={AIRTABLE_EMBED_URL}
-    frameborder="0"
-    width="100%"
-    height={embedHeight}
-    style="background: transparent; border: 1px solid hsl(var(--b3));"
-    title="メール登録フォーム"
-  />
+  <form class="subscribe-form flex flex-col gap-2">
+    {!compact && (
+      <input
+        type="text"
+        name="name"
+        placeholder="お名前"
+        class="input input-bordered input-sm w-full"
+        autocomplete="name"
+      />
+    )}
+    <input
+      type="email"
+      name="email"
+      placeholder="メールアドレス"
+      required
+      class="input input-bordered input-sm w-full"
+      autocomplete="email"
+    />
+    <button type="submit" class="btn btn-primary btn-sm w-full">
+      登録する
+    </button>
+    <p class="subscribe-msg text-xs text-center hidden"></p>
+  </form>
 </div>
+
+<script>
+  function initSubscribeForms() {
+    document.querySelectorAll<HTMLFormElement>(".subscribe-form").forEach((form) => {
+      if (form.dataset.initialized) return;
+      form.dataset.initialized = "true";
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const btn = form.querySelector<HTMLButtonElement>("button[type=submit]")!;
+        const msg = form.querySelector<HTMLParagraphElement>(".subscribe-msg")!;
+        const email = (form.querySelector<HTMLInputElement>('input[name="email"]')?.value ?? "").trim();
+        const nameEl = form.querySelector<HTMLInputElement>('input[name="name"]');
+        const name = nameEl ? nameEl.value.trim() : undefined;
+
+        btn.disabled = true;
+        btn.textContent = "送信中...";
+        msg.classList.add("hidden");
+
+        try {
+          const res = await fetch("/api/subscribe", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email, ...(name ? { name } : {}) }),
+          });
+          const data = await res.json();
+          if (data.ok) {
+            form.reset();
+            msg.textContent = "登録しました！ありがとうございます。";
+            msg.classList.remove("hidden", "text-error");
+            msg.classList.add("text-success");
+          } else {
+            throw new Error(data.error);
+          }
+        } catch {
+          msg.textContent = "エラーが発生しました。もう一度お試しください。";
+          msg.classList.remove("hidden", "text-success");
+          msg.classList.add("text-error");
+          btn.disabled = false;
+          btn.textContent = "登録する";
+        }
+      });
+    });
+  }
+
+  initSubscribeForms();
+  document.addEventListener("astro:page-load", initSubscribeForms);
+</script>

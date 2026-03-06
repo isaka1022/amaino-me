@@ -6,6 +6,7 @@ import dayjs from "dayjs";
 import localizedFormat from "dayjs/plugin/localizedFormat";
 import { SITE_AUTHOR_NAME, SITE_URL, SITE_SAME_AS } from "../config";
 import EmailSubscribeForm from "../components/EmailSubscribeForm.astro";
+import ReadSurveyModal from "../components/ReadSurveyModal.astro";
 
 interface PostNav {
   title: string;
@@ -212,6 +213,8 @@ const categoryLabel = category ? (CATEGORY_LABELS[category] ?? category) : null;
     </article>
   </main>
 
+  <ReadSurveyModal articleTitle={title} articlePath={pagePath} />
+
   {/* GA4 スクロール深度計測（25%, 50%, 75%, 90%） */}
   <script define:vars={{ pagePath }}>
     (function () {
@@ -232,6 +235,9 @@ const categoryLabel = category ? (CATEGORY_LABELS[category] ?? category) : null;
             page_path: pagePath,
             page_title: document.title,
           });
+        }
+        if (depth === 90 && typeof window.__openReadSurvey === 'function') {
+          window.__openReadSurvey();
         }
       }
 
