@@ -2,13 +2,14 @@
 export interface Props {
   title?: string;
   compact?: boolean;
+  source?: string;
 }
-const { title = "メールで更新を受け取る", compact = false } = Astro.props;
+const { title = "メールで更新を受け取る", compact = false, source = "amaino.me" } = Astro.props;
 ---
 
 <div class={`email-subscribe-form not-prose${compact ? " compact" : ""}`}>
   <p class="text-sm text-base-content/60 mb-3">{title}</p>
-  <form class="subscribe-form flex flex-col gap-2">
+  <form class="subscribe-form flex flex-col gap-2" data-source={source}>
     {!compact && (
       <input
         type="text"
@@ -46,6 +47,7 @@ const { title = "メールで更新を受け取る", compact = false } = Astro.p
         const email = (form.querySelector<HTMLInputElement>('input[name="email"]')?.value ?? "").trim();
         const nameEl = form.querySelector<HTMLInputElement>('input[name="name"]');
         const name = nameEl ? nameEl.value.trim() : undefined;
+        const source = form.dataset.source || "amaino.me";
 
         btn.disabled = true;
         btn.textContent = "送信中...";
@@ -55,7 +57,7 @@ const { title = "メールで更新を受け取る", compact = false } = Astro.p
           const res = await fetch("/api/subscribe", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email, ...(name ? { name } : {}) }),
+            body: JSON.stringify({ email, source, ...(name ? { name } : {}) }),
           });
           const data = await res.json();
           if (data.ok) {

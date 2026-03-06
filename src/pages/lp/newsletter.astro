@@ -1,0 +1,90 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EmailSubscribeForm from "../../components/EmailSubscribeForm.astro";
+---
+
+<BaseLayout
+  title="知的生産に役立つ本・記事を週1で届けます | Amane Inoue"
+  description="理系・技術系の思考力を鍛える厳選コンテンツを毎週配信。読書家・学習者向けニュースレター、先行登録受付中。"
+  noindex={true}
+  includeSidebar={false}
+>
+  <div class="max-w-2xl mx-auto py-16 px-4">
+
+    <!-- Hero -->
+    <div class="text-center mb-16">
+      <p class="text-sm font-mono text-primary mb-4 tracking-widest">NEWSLETTER</p>
+      <h1 class="text-3xl font-bold leading-tight mb-6">
+        毎週1本、<br />「読んでよかった」を<br />
+        <span class="text-primary">あなたの受信箱へ。</span>
+      </h1>
+      <p class="text-base-content/70 text-lg leading-relaxed">
+        情報は多すぎる。でも「本当に読む価値があるもの」は少ない。<br />
+        厳選した1冊・1記事を、毎週届けます。
+      </p>
+    </div>
+
+    <!-- どんな内容？ -->
+    <div class="mb-12">
+      <h2 class="font-bold text-xl mb-6 text-center">こんな内容を届けます</h2>
+      <div class="grid gap-4">
+        <div class="flex gap-4 items-start">
+          <span class="text-xl mt-0.5">📚</span>
+          <div>
+            <h3 class="font-bold mb-1">知的生産・思考法の本</h3>
+            <p class="text-base-content/70 text-sm">
+              『理科系の作文技術』のような、考える力・書く力を鍛える本を中心に紹介。なぜ読む価値があるかを明確に伝えます。
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-start">
+          <span class="text-xl mt-0.5">🔬</span>
+          <div>
+            <h3 class="font-bold mb-1">科学・哲学・文化の読み物</h3>
+            <p class="text-base-content/70 text-sm">
+              専門書でも一般書でも、「世界の見方が変わる」コンテンツを選びます。難しいものはわかりやすく解説します。
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-start">
+          <span class="text-xl mt-0.5">✍️</span>
+          <div>
+            <h3 class="font-bold mb-1">読んだ上での正直な感想</h3>
+            <p class="text-base-content/70 text-sm">
+              書評ブログを5年以上続けてきた経験から、良い点も気になる点も率直に書きます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 送り主について -->
+    <div class="bg-base-200 rounded-2xl p-8 mb-12">
+      <h2 class="font-bold text-lg mb-3">誰が書くのか</h2>
+      <p class="text-base-content/80 text-sm leading-relaxed">
+        理系大学院卒・現役Webエンジニアの井上周（Amane Inoue）が書きます。
+        読書・映画・旅をテーマに5年以上ブログを書いており、「わかりやすい要約と正直な感想」を届けることを大切にしています。
+        このニュースレターは、ブログでは書ききれない「一冊との対話」を届ける場所にしたいと思っています。
+      </p>
+    </div>
+
+    <!-- フォーム -->
+    <div class="bg-base-200 rounded-2xl p-8 text-center">
+      <h2 class="font-bold text-xl mb-2">無料で受け取る</h2>
+      <p class="text-base-content/60 text-sm mb-6">
+        まだ準備中のニュースレターです。興味があれば登録しておいてください。<br />
+        配信開始時にお知らせします。いつでも解除できます。
+      </p>
+      <div class="max-w-sm mx-auto">
+        <EmailSubscribeForm
+          title=""
+          source="lp/newsletter"
+        />
+      </div>
+    </div>
+
+    <p class="text-center text-xs text-base-content/40 mt-8">
+      このページは Wells Inoue（<a href="/" class="underline">amaino.me</a>）がサービスのコンセプト検証のために作成しました。
+    </p>
+  </div>
+</BaseLayout>

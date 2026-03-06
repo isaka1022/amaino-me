@@ -18,7 +18,7 @@ export const POST: APIRoute = async ({ request }) => {
     );
   }
 
-  let body: { email?: string; name?: string };
+  let body: { email?: string; name?: string; source?: string };
   try {
     body = await request.json();
   } catch {
@@ -36,9 +36,10 @@ export const POST: APIRoute = async ({ request }) => {
     );
   }
 
+  const source = typeof body.source === "string" && body.source.trim() ? body.source.trim() : "amaino.me";
   const fields: Record<string, string> = {
     Email: email,
-    Source: "amaino.me",
+    Source: source,
     RegisteredAt: new Date().toISOString(),
   };
   if (typeof body.name === "string" && body.name.trim()) {

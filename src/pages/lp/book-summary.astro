@@ -1,0 +1,98 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EmailSubscribeForm from "../../components/EmailSubscribeForm.astro";
+---
+
+<BaseLayout
+  title="読んだ本が記憶に残るサービス、作ります | Amane Inoue"
+  description="本を読んでもすぐ忘れる人へ。AIが要点を抽出・整理し、あとから検索できる読書メモサービス。先行登録受付中。"
+  noindex={true}
+  includeSidebar={false}
+>
+  <div class="max-w-2xl mx-auto py-16 px-4">
+
+    <!-- Hero -->
+    <div class="text-center mb-16">
+      <p class="text-sm font-mono text-primary mb-4 tracking-widest">CONCEPT</p>
+      <h1 class="text-3xl font-bold leading-tight mb-6">
+        読んだ本が<br />記憶に残らない。<br />
+        <span class="text-primary">そろそろ、解決しませんか。</span>
+      </h1>
+      <p class="text-base-content/70 text-lg leading-relaxed">
+        年間20冊読んでも、3ヶ月後には内容を覚えていない。<br />
+        そんな経験、ありませんか？
+      </p>
+    </div>
+
+    <!-- 課題提示 -->
+    <div class="bg-base-200 rounded-2xl p-8 mb-12">
+      <h2 class="font-bold text-lg mb-4">こんな悩みはありませんか？</h2>
+      <ul class="space-y-3 text-base-content/80">
+        <li class="flex gap-3">
+          <span class="text-error mt-0.5">✕</span>
+          <span>読んだあと、要点をメモする気力がない</span>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-error mt-0.5">✕</span>
+          <span>Notionに読書ログを作ったが、続かなかった</span>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-error mt-0.5">✕</span>
+          <span>「あの本に書いてあったこと」を思い出せない</span>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-error mt-0.5">✕</span>
+          <span>同じような本を何度も買ってしまう</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ソリューション -->
+    <div class="mb-12">
+      <h2 class="font-bold text-xl mb-6 text-center">考えているサービス</h2>
+      <div class="grid gap-6">
+        <div class="border border-base-300 rounded-xl p-6">
+          <div class="text-2xl mb-2">📖</div>
+          <h3 class="font-bold mb-2">AIが要点を自動抽出</h3>
+          <p class="text-base-content/70 text-sm">
+            本のタイトルを入力するだけで、重要なポイントを構造化して整理。手間なく「本の地図」が手に入ります。
+          </p>
+        </div>
+        <div class="border border-base-300 rounded-xl p-6">
+          <div class="text-2xl mb-2">🔍</div>
+          <h3 class="font-bold mb-2">あとから検索できる</h3>
+          <p class="text-base-content/70 text-sm">
+            「あの本に書いてあった〇〇の話」をキーワードで即検索。読書体験がずっと活きるようになります。
+          </p>
+        </div>
+        <div class="border border-base-300 rounded-xl p-6">
+          <div class="text-2xl mb-2">🧠</div>
+          <h3 class="font-bold mb-2">自分の読書履歴が資産になる</h3>
+          <p class="text-base-content/70 text-sm">
+            読んだ本が積み重なると、自分だけの知識ベースができあがる。本を読む意味が変わります。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- フォーム -->
+    <div class="bg-base-200 rounded-2xl p-8 text-center">
+      <h2 class="font-bold text-xl mb-2">先行登録する</h2>
+      <p class="text-base-content/60 text-sm mb-6">
+        まだ開発中のコンセプトです。興味があればメールアドレスを登録してください。<br />
+        リリース・進捗をお知らせします。登録解除はいつでも可能です。
+      </p>
+      <div class="max-w-sm mx-auto">
+        <EmailSubscribeForm
+          title=""
+          source="lp/book-summary"
+        />
+      </div>
+    </div>
+
+    <!-- フッター補足 -->
+    <p class="text-center text-xs text-base-content/40 mt-8">
+      このページは Wells Inoue（<a href="/" class="underline">amaino.me</a>）がサービスのコンセプト検証のために作成しました。
+    </p>
+  </div>
+</BaseLayout>
