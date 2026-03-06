@@ -54,3 +54,13 @@ heroImage: "/blog/wp-content/uploads/2018/04/a11b4bb3ba448d1fa402ac3dc62cc91f.pn
 <span class="book-card-body"><span class="book-card-label">この記事で紹介した本</span><span class="book-card-title">『ゲド戦記III さいはての島へ』</span></span>
 <span class="book-card-cta">Amazon で探す</span>
 </a>
+
+
+---
+
+**この記事が参考になった方へ：**
+
+本の要点を忘れずに残せるサービスと、厳選した本・記事を週1で届けるニュースレターを準備中です。興味があれば先行登録してみてください。
+
+- [読んだ本を記憶に残すサービス（先行登録）](/lp/book-summary/)
+- [知識系ニュースレター（先行登録）](/lp/newsletter/)
