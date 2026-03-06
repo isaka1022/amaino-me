@@ -39,11 +39,17 @@ export const GET: APIRoute = async ({ url, cookies, redirect }) => {
     }),
   });
 
-  const tokenData = await tokenRes.json();
+  const tokenText = await tokenRes.text();
+  let tokenData: Record<string, string>;
+  try {
+    tokenData = JSON.parse(tokenText);
+  } catch {
+    return new Response(`token parse error: ${tokenText}`, { status: 500 });
+  }
   const accessToken = tokenData.access_token;
 
   if (!accessToken) {
-    return redirect(`/?error=${encodeURIComponent(tokenData.error || 'token_failed')}`, 302);
+    return new Response(`token error: ${JSON.stringify(tokenData)}`, { status: 500 });
   }
 
   const userRes = await fetch('https://api.github.com/user', {
