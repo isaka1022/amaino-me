@@ -63,6 +63,8 @@ const relatedPosts = allPosts
   prevPost={prevPost ? { title: prevPost.data.title, url: `/blog/${prevPost.id}` } : null}
   nextPost={nextPost ? { title: nextPost.data.title, url: `/blog/${nextPost.id}` } : null}
   relatedPosts={relatedPosts.map((p) => ({ title: p.data.title, url: `/blog/${p.id}`, pubDate: p.data.pubDate }))}
+  source={post.source}
+  originalUrl={post.originalUrl}
 >
   <Content />
 </PostLayout>

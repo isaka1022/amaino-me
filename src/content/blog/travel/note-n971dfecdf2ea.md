@@ -1,13 +1,14 @@
 ---
 title: "ヨーロッパに2週間旅をした。感じたのは、欧州の力、旅の良さ、そして自分を出すこと"
-description: "この記事では、僕が2023年の夏にヨーロッパへ旅行した時の記録をまとめています。   旅の様子については、こちらの記事をもとに加筆・修正したものを以下でKindle出版もしていますので、もしよければこちらもご覧ください。（Kindle Unlimited会員は無料で読めます） https://www.amazon.co.jp/dp/B0CS7472M4 また、今回の旅行に持っていったおすすめグッズ"
+description: "2023年夏にヨーロッパを2週間一人旅した全記録。スペイン・イタリア・フランス・ドイツ・オランダを巡った旅程、持ち物リスト、各都市の体験記へのリンクをまとめたハブ記事です。"
 pubDate: "2024-01-06"
+updatedDate: "2026-03-08"
 category: "travel"
-tags: []
+tags: ["ヨーロッパ", "旅行記", "一人旅", "スペイン", "イタリア", "バックパッカー"]
 source: "note"
 originalUrl: "https://note.com/amaino/n/n971dfecdf2ea"
 heroImage: "/blog/note/n971dfecdf2ea_7d7a07ce8a72eb0cc0fb45a5e7158971.jpeg"
-draft: true
+draft: false
 ---
 
 ![](/blog/note/n971dfecdf2ea_7d7a07ce8a72eb0cc0fb45a5e7158971.jpeg)
@@ -57,11 +58,11 @@ draft: true
 
 ### 8/25~26 日本→上海→ローマ
 
-[https://note.com/amaino/n/nc49433871493](https://note.com/amaino/n/nc49433871493)
+[中国上海浦東国際空港のトランジットの準備を忘れていてのトラブルに見舞われた](/blog/travel/note-nc49433871493/)
 
 ### 8/27 ローマ→ヴェネチア
 
-[https://note.com/amaino/n/n81e1b5b07adc](https://note.com/amaino/n/n81e1b5b07adc)
+[サン・ピエトロ大聖堂で西洋世界におけるキリスト教の偉大さを感じる。そしてローマの街の観光](/blog/travel/note-n81e1b5b07adc/)
 
 ### 8/28 ヴェネチア（深夜ボローニャ→バレンシアへ移動）
 
@@ -81,7 +82,7 @@ draft: true
 
 ### 9/3〜5 バルセロナ→イビザ→バルセロナ
 
-[https://note.com/amaino/n/n8d3be40d320d](https://note.com/amaino/n/n8d3be40d320d)
+[イビザ島に行ったらやっぱりDJのパーティが楽しかった](/blog/travel/note-n8d3be40d320d/)
 
 ### 9/6 バルセロナ
 

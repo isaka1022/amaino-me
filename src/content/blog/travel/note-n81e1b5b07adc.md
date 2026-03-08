@@ -1,13 +1,14 @@
 ---
 title: "サン・ピエトロ大聖堂で西洋世界におけるキリスト教の偉大さを感じる。そしてローマの街の観光"
-description: "今回の日程では、ローマでの滞在時間は短いものになりました。 旅の全貌はこちらです。 https://note.com/amaino/n/n971dfecdf2ea 滞在期間が1日しかなく、しかもその日の夜にはヴェネツィアまで移動する手はずだったので、ローマの観光に使える時間は、実質半日程度。 どのように観光するか計画を立てながらインターネットを漁ってたどり着いた下記のブログ記事で、ローマのバチカン"
+description: "ヨーロッパ旅でローマに半日滞在。バチカン市国のサン・ピエトロ大聖堂の圧倒的スケール、コロッセオ、トレビの泉を観光した旅行記。ローマのバス乗り方から宿のトラブルまでリアルな体験をまとめています。"
 pubDate: "2023-10-05"
+updatedDate: "2026-03-08"
 category: "travel"
-tags: []
+tags: ["ローマ", "バチカン", "イタリア", "ヨーロッパ旅行", "一人旅"]
 source: "note"
 originalUrl: "https://note.com/amaino/n/n81e1b5b07adc"
 heroImage: "/blog/note/n81e1b5b07adc_72e5ac8137669e92942a2d098d9f5648.jpeg"
-draft: true
+draft: false
 ---
 
 ![](/blog/note/n81e1b5b07adc_72e5ac8137669e92942a2d098d9f5648.jpeg)
@@ -16,7 +17,7 @@ draft: true
 
 旅の全貌はこちらです。
 
-[https://note.com/amaino/n/n971dfecdf2ea](https://note.com/amaino/n/n971dfecdf2ea)
+[ヨーロッパに2週間旅をした。感じたのは、欧州の力、旅の良さ、そして自分を出すこと](/blog/travel/note-n971dfecdf2ea/)
 
 滞在期間が1日しかなく、しかもその日の夜にはヴェネツィアまで移動する手はずだったので、ローマの観光に使える時間は、実質半日程度。
 

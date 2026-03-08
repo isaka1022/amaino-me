@@ -1,20 +1,21 @@
 ---
 title: "イビザ島に行ったらやっぱりDJのパーティが楽しかった"
-description: "旅の全貌はこちらにまとめています。今回はイビザ島の話です。 https://note.com/amaino/n/n971dfecdf2ea 旅行の最中にスペインのイビザ島を訪れました。   海やパーティがとても楽しく、時間を忘れる2日間を過ごせたのでその感想を書きたいと思います。 なぜイビザ島へ行ったのか イビザ島は、世界でもクラブや有名DJによるパーティが有名な場所です。夜な夜な音楽のパーティが"
+description: "スペイン・イビザ島でDJパーティに参加した2日間の旅行記。世界的クラブシーンの聖地で体験した夜、ビーチ、移動方法、サンセットバーまで現地のリアルな体験をまとめています。"
 pubDate: "2023-12-03"
+updatedDate: "2026-03-08"
 category: "travel"
-tags: []
+tags: ["イビザ島", "スペイン", "DJ", "ヨーロッパ旅行", "ナイトライフ", "一人旅"]
 source: "note"
 originalUrl: "https://note.com/amaino/n/n8d3be40d320d"
 heroImage: "/blog/note/n8d3be40d320d_49d929aeaffad702dcde50acb2452244.jpeg"
-draft: true
+draft: false
 ---
 
 ![](/blog/note/n8d3be40d320d_49d929aeaffad702dcde50acb2452244.jpeg)
 
 旅の全貌はこちらにまとめています。今回はイビザ島の話です。
 
-[https://note.com/amaino/n/n971dfecdf2ea](https://note.com/amaino/n/n971dfecdf2ea)
+[ヨーロッパに2週間旅をした。感じたのは、欧州の力、旅の良さ、そして自分を出すこと](/blog/travel/note-n971dfecdf2ea/)
 
 旅行の最中にスペインのイビザ島を訪れました。  
 海やパーティがとても楽しく、時間を忘れる2日間を過ごせたのでその感想を書きたいと思います。

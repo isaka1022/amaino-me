@@ -7,6 +7,7 @@ import localizedFormat from "dayjs/plugin/localizedFormat";
 import { SITE_AUTHOR_NAME, SITE_URL, SITE_SAME_AS } from "../config";
 import EmailSubscribeForm from "../components/EmailSubscribeForm.astro";
 import ReadSurveyModal from "../components/ReadSurveyModal.astro";
+import LikeButton from "../components/LikeButton.astro";
 
 interface PostNav {
   title: string;
@@ -64,6 +65,8 @@ const {
   prevPost,
   nextPost,
   relatedPosts = [],
+  source,
+  originalUrl,
 } = Astro.props;
 
 dayjs.extend(localizedFormat);
@@ -170,7 +173,20 @@ const categoryLabel = category ? (CATEGORY_LABELS[category] ?? category) : null;
       }
       <div class="divider my-2"></div>
       <TableOfContents headings={headings} />
+      {source === "note" && originalUrl && (
+        <div class="not-prose mb-6 flex items-start gap-3 rounded-lg border border-info/30 bg-info/10 px-4 py-3 text-sm">
+          <svg class="mt-0.5 size-4 shrink-0 text-info" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <span class="text-base-content/70">
+            この記事はnoteに掲載した記事を加筆修正したものです。
+            <a href={originalUrl} target="_blank" rel="noopener noreferrer" class="text-info underline underline-offset-2 hover:text-info/80 transition-colors ml-1">
+              元記事をnoteで読む ↗
+            </a>
+          </span>
+        </div>
+      )}
       <slot />
+
+      <LikeButton articlePath={pagePath} articleTitle={title} />
 
       {/* Previous / Next navigation */}
       {(prevPost || nextPost) && (
