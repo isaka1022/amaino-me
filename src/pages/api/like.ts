@@ -1,11 +1,10 @@
 import type { APIRoute } from "astro";
-import { verifyTurnstile } from "../../lib/turnstile";
 
 export const prerender = false;
 
 const AIRTABLE_TOKEN = import.meta.env.AIRTABLE_PERSONAL_ACCESS_TOKEN;
 const AIRTABLE_BASE_ID = import.meta.env.AIRTABLE_BASE_ID_AMAINO;
-const AIRTABLE_TABLE_NAME = "記事フィードバック";
+const AIRTABLE_TABLE_NAME = "記事いいね";
 
 export const POST: APIRoute = async ({ request }) => {
   if (!AIRTABLE_TOKEN || !AIRTABLE_BASE_ID) {
@@ -15,14 +14,7 @@ export const POST: APIRoute = async ({ request }) => {
     );
   }
 
-  let body: {
-    articlePath?: string;
-    articleTitle?: string;
-    rating?: number;
-    improvement?: string;
-    website?: string;
-    turnstileToken?: string;
-  };
+  let body: { articlePath?: string; articleTitle?: string };
   try {
     body = await request.json();
   } catch {
@@ -32,39 +24,19 @@ export const POST: APIRoute = async ({ request }) => {
     );
   }
 
-  // Honeypot: BOT が埋めた場合は成功を装って無視する
-  if (body.website) {
-    return new Response(JSON.stringify({ ok: true }), {
-      status: 200,
-      headers: { "Content-Type": "application/json" },
-    });
-  }
+  const { articlePath, articleTitle } = body;
 
-  // Turnstile 検証
-  const ip = request.headers.get("x-forwarded-for") ?? "";
-  const isValid = await verifyTurnstile(body.turnstileToken ?? "", ip);
-  if (!isValid) {
-    return new Response(JSON.stringify({ ok: false, error: "Verification failed" }), {
-      status: 400,
-      headers: { "Content-Type": "application/json" },
-    });
-  }
-
-  const { articlePath, articleTitle, rating, improvement } = body;
-
-  if (!articlePath || typeof rating !== "number" || rating < 1 || rating > 5 || !improvement) {
+  if (!articlePath) {
     return new Response(
       JSON.stringify({ ok: false, error: "Invalid input" }),
       { status: 400, headers: { "Content-Type": "application/json" } }
     );
   }
 
-  const fields: Record<string, string | number> = {
+  const fields: Record<string, string> = {
     ArticlePath: articlePath,
     ArticleTitle: articleTitle ?? "",
-    Rating: rating,
-    Improvement: improvement,
-    SubmittedAt: new Date().toISOString(),
+    LikedAt: new Date().toISOString(),
   };
 
   const url = `https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${encodeURIComponent(AIRTABLE_TABLE_NAME)}`;
@@ -79,7 +51,7 @@ export const POST: APIRoute = async ({ request }) => {
 
   if (!res.ok) {
     const err = await res.text();
-    console.error("[survey] Airtable error:", res.status, err);
+    console.error("[like] Airtable error:", res.status, err);
     return new Response(
       JSON.stringify({ ok: false, error: "Save failed" }),
       { status: 502, headers: { "Content-Type": "application/json" } }

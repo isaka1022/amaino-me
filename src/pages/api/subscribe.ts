@@ -1,4 +1,5 @@
 import type { APIRoute } from "astro";
+import { verifyTurnstile } from "../../lib/turnstile";
 
 export const prerender = false;
 
@@ -18,7 +19,7 @@ export const POST: APIRoute = async ({ request }) => {
     );
   }
 
-  let body: { email?: string; name?: string; source?: string };
+  let body: { email?: string; name?: string; source?: string; website?: string; turnstileToken?: string };
   try {
     body = await request.json();
   } catch {
@@ -26,6 +27,24 @@ export const POST: APIRoute = async ({ request }) => {
       JSON.stringify({ ok: false, error: "Invalid JSON" }),
       { status: 400, headers: { "Content-Type": "application/json" } }
     );
+  }
+
+  // Honeypot: BOT が埋めた場合は成功を装って無視する
+  if (body.website) {
+    return new Response(JSON.stringify({ ok: true }), {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
+  // Turnstile 検証
+  const ip = request.headers.get("x-forwarded-for") ?? "";
+  const isValid = await verifyTurnstile(body.turnstileToken ?? "", ip);
+  if (!isValid) {
+    return new Response(JSON.stringify({ ok: false, error: "Verification failed" }), {
+      status: 400,
+      headers: { "Content-Type": "application/json" },
+    });
   }
 
   const email = typeof body.email === "string" ? body.email.trim() : "";
