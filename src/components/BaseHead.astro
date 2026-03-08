@@ -50,7 +50,7 @@ const absoluteImageUrl = new URL(image, siteOrigin).toString();
 const prevHref = prevUrl ? new URL(prevUrl, siteOrigin).toString() : null;
 const nextHref = nextUrl ? new URL(nextUrl, siteOrigin).toString() : null;
 const robots = noindex
-	? "noindex,nofollow,noarchive"
+	? "noindex,follow,noarchive"
 	: "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1";
 const keywordsContent = Array.isArray(keywords) ? keywords.join(", ") : keywords;
 const globalJsonLd: Array<Record<string, unknown>> = [
