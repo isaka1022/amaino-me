@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "RubyのNumbered parameterについて調べたこと"
 description: "ある日、レビューしていたRuby on Railsのコードの中で下記のような実装がありまして、所見で何をしているのかわからなかったので調べたことのメモ書きです。"
 pubDate: "2022-07-20"

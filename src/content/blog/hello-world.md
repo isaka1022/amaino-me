@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "amaino.me を開設しました"
 description: "パーソナルサイト amaino.me を開設しました。AI・健康・マラソン・ノマドライフについて、noteとは違う切り口で発信していきます。"
 pubDate: "Mar 03 2026"

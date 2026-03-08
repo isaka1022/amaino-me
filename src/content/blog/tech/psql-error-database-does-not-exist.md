@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "PostgreSQLに接続しようとすると psql: FATAL: database 'username' does not exist で接続できない"
 description: "PostgreSQLにて環境構築を行った後に、たしかにユーザーは存在しているのに接続できないエラーが起きた。"
 pubDate: "2022-01-24"

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "sedコマンドの使い方"
 description: "開発中にsedコマンドを使うことがあったので、備忘録として残しておきます。"
 pubDate: "2022-07-11"

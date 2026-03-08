@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "RailsでMySQLのクエリをチューニングする"
 description: "僕がよくつかうWEBアプリケーションの構成はRuby on Rails + MySQLの組み合わせです。"
 pubDate: "2022-07-19"

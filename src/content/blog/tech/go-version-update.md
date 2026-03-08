@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Go Modulesでgo.modのGo versionを変更する"
 description: "職場で使われていたGoのバージョンが1.13と古かったので、1.18にアップデートした際の手順をまとめました。"
 pubDate: "2022-07-21"

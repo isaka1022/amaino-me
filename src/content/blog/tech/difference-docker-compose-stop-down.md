@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "docker compose stopとdocker compose downは何が違うのか"
 description: "いつもわからなくなって、いつも調べて納得したような気持ちになるので、定着のためにまとめます。"
 pubDate: "2022-08-31"

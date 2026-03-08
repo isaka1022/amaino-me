@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Gem::LoadError: can't activate mysql2 (< 0.6.0, >= 0.4.4), already activated mysql2-0.3.18. Make sure all dependencies are added to Gemfile."
 description: "Qiita初投稿です。  バージョン情報など Ruby 2.5.1 Rails 5.2.3 MySQL@5.6  状況 gemファイルのmysqlの行を      gem 'mysql2', '0.3.18'    と変更した後、 ターミナルより    $rake db:create    を実行したところ、    rake aborted! LoadError: Error loading th"
 pubDate: "2019-04-27"
