@@ -1,7 +1,6 @@
 ---
-draft: true
-title: "PostgreSQLに接続しようとすると psql: FATAL: database 'username' does not exist で接続できない"
-description: "PostgreSQLにて環境構築を行った後に、たしかにユーザーは存在しているのに接続できないエラーが起きた。"
+title: "psql: FATAL: database does not exist の原因と解決法"
+description: "psqlでFATAL: database \"username\" does not existエラーが出る原因は、-dオプション未指定時にロール名と同名のDBを探すため。解決法を解説。"
 pubDate: "2022-01-24"
 category: "tech"
 tags: ["PostgreSQL"]

@@ -10,6 +10,16 @@
       "permanent": true
     },
     {
+      "source": "/blog/tech/",
+      "destination": "/blog/category/tech/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tech",
+      "destination": "/blog/category/tech/",
+      "permanent": true
+    },
+    {
       "source": "/blog/programming/post-2871/",
       "destination": "/blog/category/tech/",
       "permanent": true

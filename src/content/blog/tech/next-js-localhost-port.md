@@ -1,11 +1,10 @@
 ---
-title: "【Next.js】localhostで任意のポート番号を指定する"
-description: "next.jsの開発をしていたときに、通常の"
+title: "【Next.js】ポート番号を変更する方法（next dev -p）"
+description: "Next.jsの開発サーバーのポート番号を変更するには、package.jsonのdevスクリプトに -p オプションを追加します。3000番以外で起動する設定方法を解説。"
 pubDate: "2021-04-30"
 category: "tech"
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/next-js-localhost-port/"
-draft: true
 ---
 
 next.jsの開発をしていたときに、通常の

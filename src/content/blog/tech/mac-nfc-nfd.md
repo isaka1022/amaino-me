@@ -1,12 +1,12 @@
 ---
-title: "Macの濁点、半濁点問題"
-description: "WEBアプリケーションの開発時に、あるモデルのタイトルで検索する機能を作成していた際に起こった問題についてです。"
+title: "Macの濁点・半濁点問題とは？NFCとNFDの違いと対処法"
+description: "Macでは濁点・半濁点がNFD形式で処理されるため、文字列検索が一致しないことがあります。NFC/NFDの違いとHFS+の仕組み、正規化による対処法を解説。"
 pubDate: "2022-07-13"
 category: "tech"
 tags: ["Mac"]
 source: "techblog"
 originalUrl: "https://techblog.amaino.me/development/mac-nfc-nfd/"
-heroImage: "/blog/wp-content/uploads/2022/07/技術ブログアイキャッチ-2.jpg"
+heroImage: "/blog/wp-content/uploads/2022/07/技術ブログアイキャッチ-2.jpg"
 ---
 
 WEBアプリケーションの開発時に、あるモデルのタイトルで検索する機能を作成していた際に起こった問題についてです。
