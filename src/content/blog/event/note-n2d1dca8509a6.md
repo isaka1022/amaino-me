@@ -7,7 +7,8 @@ tags: []
 source: "note"
 originalUrl: "https://note.com/amaino/n/n2d1dca8509a6"
 heroImage: "/blog/note/n2d1dca8509a6_f9716fd296bc43d48da14b382d403666.png"
-draft: true
+draft: false
+updatedDate: "2026-03-08"
 ---
 
 ![](/blog/note/n2d1dca8509a6_f9716fd296bc43d48da14b382d403666.png)
