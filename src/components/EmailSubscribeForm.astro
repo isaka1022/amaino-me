@@ -5,6 +5,7 @@ export interface Props {
   source?: string;
 }
 const { title = "メールで更新を受け取る", compact = false, source = "amaino.me" } = Astro.props;
+const siteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
 ---
 
 <div class={`email-subscribe-form not-prose${compact ? " compact" : ""}`}>
@@ -27,6 +28,22 @@ const { title = "メールで更新を受け取る", compact = false, source = "
       class="input input-bordered input-sm w-full"
       autocomplete="email"
     />
+    <!-- Honeypot: BOT 対策（人間には見えない） -->
+    <input
+      type="text"
+      name="website"
+      tabindex="-1"
+      autocomplete="off"
+      aria-hidden="true"
+      style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;"
+    />
+    <!-- Turnstile widget -->
+    {siteKey && (
+      <div
+        class="cf-turnstile-widget"
+        data-sitekey={siteKey}
+      ></div>
+    )}
     <button type="submit" class="btn btn-primary btn-sm w-full">
       登録する
     </button>
@@ -35,7 +52,38 @@ const { title = "メールで更新を受け取る", compact = false, source = "
 </div>
 
 <script>
+  declare global {
+    interface Window {
+      turnstile?: {
+        render: (container: string | HTMLElement, options: Record<string, unknown>) => string;
+        reset: (widgetId: string) => void;
+        remove: (widgetId: string) => void;
+        getResponse: (widgetId: string) => string | undefined;
+      };
+    }
+  }
+
+  // Turnstile を explicit モードで管理するための Map（widgetId）
+  const widgetIds = new WeakMap<HTMLElement, string>();
+
+  function renderTurnstileWidgets() {
+    if (!window.turnstile) return;
+    document.querySelectorAll<HTMLElement>(".cf-turnstile-widget").forEach((el) => {
+      if (widgetIds.has(el)) return; // 既にレンダリング済み
+      const siteKey = el.dataset.sitekey;
+      if (!siteKey) return;
+      const id = window.turnstile!.render(el, {
+        sitekey: siteKey,
+        theme: "light",
+        size: "flexible",
+      });
+      widgetIds.set(el, id);
+    });
+  }
+
   function initSubscribeForms() {
+    renderTurnstileWidgets();
+
     document.querySelectorAll<HTMLFormElement>(".subscribe-form").forEach((form) => {
       if (form.dataset.initialized) return;
       form.dataset.initialized = "true";
@@ -48,6 +96,12 @@ const { title = "メールで更新を受け取る", compact = false, source = "
         const nameEl = form.querySelector<HTMLInputElement>('input[name="name"]');
         const name = nameEl ? nameEl.value.trim() : undefined;
         const source = form.dataset.source || "amaino.me";
+        const website = form.querySelector<HTMLInputElement>('input[name="website"]')?.value ?? "";
+
+        // Turnstile トークンを取得
+        const widgetEl = form.querySelector<HTMLElement>(".cf-turnstile-widget");
+        const widgetId = widgetEl ? widgetIds.get(widgetEl) : undefined;
+        const turnstileToken = widgetId ? (window.turnstile?.getResponse(widgetId) ?? "") : "";
 
         btn.disabled = true;
         btn.textContent = "送信中...";
@@ -57,11 +111,13 @@ const { title = "メールで更新を受け取る", compact = false, source = "
           const res = await fetch("/api/subscribe", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email, source, ...(name ? { name } : {}) }),
+            body: JSON.stringify({ email, source, website, turnstileToken, ...(name ? { name } : {}) }),
           });
           const data = await res.json();
           if (data.ok) {
             form.reset();
+            // Turnstile をリセット
+            if (widgetId) window.turnstile?.reset(widgetId);
             msg.textContent = "登録しました！ありがとうございます。";
             msg.classList.remove("hidden", "text-error");
             msg.classList.add("text-success");
@@ -79,6 +135,22 @@ const { title = "メールで更新を受け取る", compact = false, source = "
     });
   }
 
+  // Turnstile JS が読み込まれたら explicit render
+  function loadTurnstileScript() {
+    if (document.getElementById("turnstile-script")) return;
+    const script = document.createElement("script");
+    script.id = "turnstile-script";
+    script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+    script.async = true;
+    script.defer = true;
+    script.onload = renderTurnstileWidgets;
+    document.head.appendChild(script);
+  }
+
   initSubscribeForms();
-  document.addEventListener("astro:page-load", initSubscribeForms);
+  loadTurnstileScript();
+  document.addEventListener("astro:page-load", () => {
+    initSubscribeForms();
+    renderTurnstileWidgets();
+  });
 </script>

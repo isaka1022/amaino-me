@@ -4,13 +4,13 @@ interface Props {
   articlePath: string;
 }
 const { articleTitle, articlePath } = Astro.props;
+const siteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
 
-const REASONS = [
-  { value: "search", label: "検索で見つけた" },
-  { value: "sns", label: "SNSで見た" },
-  { value: "browsing", label: "サイトを巡回中" },
-  { value: "newsletter", label: "メルマガ経由" },
-  { value: "other", label: "その他" },
+const IMPROVEMENTS = [
+  { value: "more_examples", label: "もっと具体例がほしかった" },
+  { value: "deeper", label: "もっと深く掘り下げてほしかった" },
+  { value: "basics", label: "前提知識の説明が不足していた" },
+  { value: "nothing", label: "特になし" },
 ] as const;
 ---
 
@@ -35,24 +35,36 @@ const REASONS = [
       </div>
     </div>
 
-    <!-- 読んだ理由 -->
+    <!-- 物足りなかった点 -->
     <div class="mb-5">
-      <p class="text-sm font-medium mb-2">この記事を読んだ理由・きっかけは？</p>
-      <div class="flex flex-col gap-2" id="survey-reasons">
-        {REASONS.map(({ value, label }) => (
+      <p class="text-sm font-medium mb-2">記事で物足りなかった点は？</p>
+      <div class="flex flex-col gap-2" id="survey-improvements">
+        {IMPROVEMENTS.map(({ value, label }) => (
           <label class="flex items-center gap-2 cursor-pointer">
-            <input type="radio" name="survey-reason" value={value} class="radio radio-sm" />
+            <input type="radio" name="survey-improvement" value={value} class="radio radio-sm" />
             <span class="text-sm">{label}</span>
           </label>
         ))}
       </div>
-      <textarea
-        id="survey-reason-other"
-        class="textarea textarea-bordered w-full mt-2 text-sm hidden"
-        placeholder="具体的に教えてください"
-        rows={2}
-      ></textarea>
     </div>
+
+    <!-- Honeypot: BOT 対策（人間には見えない） -->
+    <input
+      type="text"
+      id="survey-honeypot"
+      tabindex="-1"
+      autocomplete="off"
+      aria-hidden="true"
+      style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;"
+    />
+
+    <!-- Turnstile invisible widget -->
+    {siteKey && (
+      <div
+        id="survey-turnstile"
+        data-sitekey={siteKey}
+      ></div>
+    )}
 
     <!-- アクション -->
     <div id="survey-actions" class="flex gap-2 justify-end">
@@ -106,17 +118,42 @@ const REASONS = [
     const closeBtn = document.getElementById("survey-close");
     const actions = document.getElementById("survey-actions");
     const doneMsg = document.getElementById("survey-done");
-    const reasonOtherEl = /** @type {HTMLTextAreaElement} */ (
-      document.getElementById("survey-reason-other")
-    );
+    const turnstileEl = document.getElementById("survey-turnstile");
 
-    // 「その他」選択で自由入力欄を表示
-    document.querySelectorAll('input[name="survey-reason"]').forEach((el) => {
-      el.addEventListener("change", () => {
-        const isOther = /** @type {HTMLInputElement} */ (el).value === "other";
-        reasonOtherEl.classList.toggle("hidden", !isOther);
-        updateSubmitState();
+    // Turnstile invisible widget のレンダリング
+    let surveyTurnstileId = null;
+    function renderSurveyTurnstile() {
+      if (!window.turnstile || !turnstileEl || surveyTurnstileId !== null) return;
+      const siteKey = turnstileEl.dataset.sitekey;
+      if (!siteKey) return;
+      surveyTurnstileId = window.turnstile.render(turnstileEl, {
+        sitekey: siteKey,
+        size: "invisible",
+        callback: (token) => {
+          doSubmit(token);
+        },
+        "error-callback": () => {
+          doSubmit("");
+        },
       });
+    }
+
+    // Turnstile JS が読み込み済みでなければ読み込む（EmailSubscribeForm と共用）
+    if (!document.getElementById("turnstile-script")) {
+      const script = document.createElement("script");
+      script.id = "turnstile-script";
+      script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+      script.async = true;
+      script.defer = true;
+      script.onload = renderSurveyTurnstile;
+      document.head.appendChild(script);
+    } else {
+      // 既に読み込まれている場合はすぐにレンダリング
+      renderSurveyTurnstile();
+    }
+
+    document.querySelectorAll('input[name="survey-improvement"]').forEach((el) => {
+      el.addEventListener("change", updateSubmitState);
     });
 
     document.querySelectorAll('input[name="survey-rating"]').forEach((el) => {
@@ -125,31 +162,24 @@ const REASONS = [
 
     function updateSubmitState() {
       const hasRating = !!document.querySelector('input[name="survey-rating"]:checked');
-      const hasReason = !!document.querySelector('input[name="survey-reason"]:checked');
-      submitBtn.disabled = !(hasRating && hasReason);
+      const hasImprovement = !!document.querySelector('input[name="survey-improvement"]:checked');
+      submitBtn.disabled = !(hasRating && hasImprovement);
     }
 
-    submitBtn.addEventListener("click", async () => {
-      const ratingEl = /** @type {HTMLInputElement|null} */ (
-        document.querySelector('input[name="survey-rating"]:checked')
-      );
-      const reasonEl = /** @type {HTMLInputElement|null} */ (
-        document.querySelector('input[name="survey-reason"]:checked')
-      );
-      if (!ratingEl || !reasonEl) return;
+    async function doSubmit(turnstileToken) {
+      const ratingEl = document.querySelector('input[name="survey-rating"]:checked');
+      const improvementEl = document.querySelector('input[name="survey-improvement"]:checked');
+      if (!ratingEl || !improvementEl) return;
 
       const rating = parseInt(ratingEl.value, 10);
-      const reason = reasonEl.value;
-      const reasonOther = reason === "other" ? reasonOtherEl.value.trim() : undefined;
-
-      submitBtn.disabled = true;
-      submitBtn.textContent = "送信中...";
+      const improvement = improvementEl.value;
+      const website = document.getElementById("survey-honeypot")?.value ?? "";
 
       try {
         await fetch("/api/survey", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ articlePath, articleTitle, rating, reason, reasonOther }),
+          body: JSON.stringify({ articlePath, articleTitle, rating, improvement, website, turnstileToken }),
         });
       } catch (_) {
         // 送信失敗してもUIは完了にする（ユーザー体験を損なわない）
@@ -158,6 +188,19 @@ const REASONS = [
       sendGa("survey_submitted");
       actions.classList.add("hidden");
       doneMsg.classList.remove("hidden");
+    }
+
+    submitBtn.addEventListener("click", () => {
+      submitBtn.disabled = true;
+      submitBtn.textContent = "送信中...";
+
+      if (window.turnstile && surveyTurnstileId !== null) {
+        // Turnstile のコールバックで doSubmit が呼ばれる
+        window.turnstile.execute(surveyTurnstileId);
+      } else {
+        // Turnstile 未設定（開発環境等）はそのまま送信
+        doSubmit("");
+      }
     });
 
     skipBtn.addEventListener("click", () => {
