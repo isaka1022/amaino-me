@@ -33,6 +33,7 @@ const blogSchema = z.object({
     .optional(),
   lang: z.enum(["ja", "en"]).default("ja"),
   draft: z.boolean().default(false),
+  unlisted: z.boolean().default(false),
   originalUrl: z.string().optional(),
   source: z.enum(["wordpress", "techblog", "note", "qiita", "original"]).optional(),
 });

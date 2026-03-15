@@ -44,12 +44,15 @@ if (categoryParam !== "all") {
 if (statusParam === "draft") {
   filteredPosts = filteredPosts.filter((p) => p.data.draft);
 } else if (statusParam === "published") {
-  filteredPosts = filteredPosts.filter((p) => !p.data.draft);
+  filteredPosts = filteredPosts.filter((p) => !p.data.draft && !p.data.unlisted);
+} else if (statusParam === "unlisted") {
+  filteredPosts = filteredPosts.filter((p) => !p.data.draft && p.data.unlisted);
 }
 
 const categories = [...new Set(allPosts.map((p) => p.data.category ?? "uncategorized"))].sort();
 const draftCount = allPosts.filter((p) => p.data.draft).length;
-const publishedCount = allPosts.length - draftCount;
+const unlistedCount = allPosts.filter((p) => !p.data.draft && p.data.unlisted).length;
+const publishedCount = allPosts.length - draftCount - unlistedCount;
 
 function buildFilterUrl(params: Record<string, string>): string {
   const url = new URL(Astro.url);
@@ -66,7 +69,7 @@ function buildFilterUrl(params: Record<string, string>): string {
   <div class="mb-6">
     <h1 class="text-2xl font-bold mb-2">ブログ記事一覧</h1>
     <p class="text-sm opacity-70">
-      全 {allPosts.length} 件（公開: {publishedCount} / 下書き: {draftCount}）
+      全 {allPosts.length} 件（公開: {publishedCount} / 限定公開: {unlistedCount} / 下書き: {draftCount}）
     </p>
   </div>
 
@@ -83,6 +86,12 @@ function buildFilterUrl(params: Record<string, string>): string {
       class={`badge badge-lg ${statusParam === "published" ? "badge-primary" : "badge-ghost"}`}
     >
       公開
+    </a>
+    <a
+      href={buildFilterUrl({ status: "unlisted", category: categoryParam })}
+      class={`badge badge-lg ${statusParam === "unlisted" ? "badge-primary" : "badge-ghost"}`}
+    >
+      限定公開
     </a>
     <a
       href={buildFilterUrl({ status: "draft", category: categoryParam })}
@@ -142,9 +151,13 @@ function buildFilterUrl(params: Record<string, string>): string {
               <td>{CATEGORY_LABELS[post.data.category ?? "uncategorized"] ?? post.data.category}</td>
               <td>{post.data.pubDate.toISOString().slice(0, 10)}</td>
               <td>
-                <span class={`badge badge-sm ${post.data.draft ? "badge-warning" : "badge-success"}`}>
-                  {post.data.draft ? "下書き" : "公開"}
-                </span>
+                {post.data.draft ? (
+                  <span class="badge badge-sm badge-warning">下書き</span>
+                ) : post.data.unlisted ? (
+                  <span class="badge badge-sm badge-info">限定公開</span>
+                ) : (
+                  <span class="badge badge-sm badge-success">公開</span>
+                )}
               </td>
               <td>{post.data.source ? SOURCE_LABELS[post.data.source] ?? post.data.source : "-"}</td>
             </tr>

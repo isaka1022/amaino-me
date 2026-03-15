@@ -4,18 +4,27 @@ import type { BlogSchema } from "../../content.config";
 import PostLayout from "../../layouts/PostLayout.astro";
 
 export async function getStaticPaths() {
-  const allPosts = await getCollection("blog", ({ data }) => !data.draft);
-  allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  // unlisted記事もページ生成するため、draftのみ除外
+  const allGeneratedPosts = await getCollection("blog", ({ data }) => !data.draft);
+  allGeneratedPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-  return allPosts.map((entry, index) => ({
-    params: { slug: entry.id },
-    props: {
-      entry,
-      prevPost: allPosts[index + 1] ?? null,
-      nextPost: allPosts[index - 1] ?? null,
-      allPosts,
-    },
-  }));
+  // 一覧系（前後ナビ・関連記事）はunlistedも除外
+  const listedPosts = allGeneratedPosts.filter((p) => !p.data.unlisted);
+
+  return allGeneratedPosts.map((entry) => {
+    const listedIndex = listedPosts.findIndex((p) => p.id === entry.id);
+    const isListed = listedIndex !== -1;
+
+    return {
+      params: { slug: entry.id },
+      props: {
+        entry,
+        prevPost: isListed ? (listedPosts[listedIndex + 1] ?? null) : null,
+        nextPost: isListed ? (listedPosts[listedIndex - 1] ?? null) : null,
+        allPosts: listedPosts,
+      },
+    };
+  });
 }
 
 interface Props {
@@ -65,6 +74,7 @@ const relatedPosts = allPosts
   relatedPosts={relatedPosts.map((p) => ({ title: p.data.title, url: `/blog/${p.id}`, pubDate: p.data.pubDate }))}
   source={post.source}
   originalUrl={post.originalUrl}
+  noindex={entry.data.unlisted}
 >
   <Content />
 </PostLayout>

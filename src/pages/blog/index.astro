@@ -21,7 +21,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   uncategorized: "その他",
 };
 
-const posts = await getCollection("blog", ({ data }) => !data.draft);
+const posts = await getCollection("blog", ({ data }) => !data.draft && !data.unlisted);
 posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const categoryCounts = new Map<string, number>();

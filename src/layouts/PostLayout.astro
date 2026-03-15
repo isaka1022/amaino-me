@@ -32,6 +32,7 @@ export interface Props extends BlogSchema {
   prevPost?: PostNav | null;
   nextPost?: PostNav | null;
   relatedPosts?: RelatedPost[];
+  noindex?: boolean;
 }
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -67,6 +68,7 @@ const {
   relatedPosts = [],
   source,
   originalUrl,
+  noindex = false,
 } = Astro.props;
 
 dayjs.extend(localizedFormat);
@@ -133,6 +135,7 @@ const categoryLabel = category ? (CATEGORY_LABELS[category] ?? category) : null;
   jsonLd={[articleJsonLd, breadcrumbJsonLd]}
   publishedTime={pubDate.toISOString()}
   modifiedTime={(updatedDate ?? pubDate).toISOString()}
+  noindex={noindex}
 >
   <main class="md:flex md:justify-center">
     <article class="prose max-w-[750px] prose-img:mx-auto">

@@ -6,7 +6,7 @@ import { SITE_URL } from "../../../config";
 
 export async function getStaticPaths() {
   const PAGE_SIZE = 10;
-  const posts = await getCollection("blog", ({ data }) => !data.draft);
+  const posts = await getCollection("blog", ({ data }) => !data.draft && !data.unlisted);
   posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
   const totalPages = Math.ceil(posts.length / PAGE_SIZE);
 

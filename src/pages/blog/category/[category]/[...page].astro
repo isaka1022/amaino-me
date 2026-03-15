@@ -22,7 +22,7 @@ const CATEGORY_LABELS: Record<string, string> = {
 };
 
 export async function getStaticPaths({ paginate }) {
-  const allPosts = await getCollection("blog", ({ data }) => !data.draft);
+  const allPosts = await getCollection("blog", ({ data }) => !data.draft && !data.unlisted);
   allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
   const categories = [...new Set(allPosts.map((p) => p.data.category).filter(Boolean))];
