@@ -3,9 +3,20 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
 import { SITE_URL } from "../config";
-const posts = (await getCollection("blog", ({ data }) => !data.draft)).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const posts = (await getCollection("blog", ({ data }) => !data.draft && !data.unlisted)).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const last_posts = posts.slice(0, 3);
+
+const popularPostIds = [
+  "tech/new-grad-estimation-mastery",
+  "book/liberal-arts/writing-skill-of-science",
+  "drama/spec",
+  "travel/kanazawa-to-izumo",
+];
+
+const popularPosts = popularPostIds
+  .map((id) => posts.find((p) => p.id === id))
+  .filter((p): p is NonNullable<typeof p> => p != null);
 ---
 
 <BaseLayout
@@ -33,6 +44,26 @@ const last_posts = posts.slice(0, 3);
       </a>
     </div>
   </div>
+
+  <div>
+    <div class="text-xl w-full font-bold mb-5 mt-10">人気の記事</div>
+  </div>
+
+  {
+    popularPosts.map((post) => (
+      <>
+        <HorizontalCard
+          title={post.data.title}
+          img={post.data.heroImage}
+          desc={post.data.description}
+          url={"/blog/" + post.id}
+          target="_self"
+          badge={post.data.badge}
+        />
+        <div class="divider my-0" />
+      </>
+    ))
+  }
 
   <div>
     <div class="text-xl w-full font-bold mb-5 mt-10">最新の記事</div>
