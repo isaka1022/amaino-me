@@ -4,6 +4,42 @@
   "installCommand": "rm -rf node_modules && npm ci",
   "redirects": [
     {
+      "source": "/computer-science/%e3%83%8f%e3%83%bc%e3%83%89%e3%82%a6%e3%82%a7%e3%82%a2%e3%81%a8%e3%82%bd%e3%83%95%e3%83%88%e3%82%a6%e3%82%a7%e3%82%a2/",
+      "has": [{ "type": "host", "value": "techblog.amaino.me" }],
+      "destination": "https://amaino.me/blog/tech/hardware-and-software",
+      "permanent": true
+    },
+    {
+      "source": "/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/how-to-be-a-engineer/",
+      "has": [{ "type": "host", "value": "techblog.amaino.me" }],
+      "destination": "https://amaino.me/blog/tech/how-to-be-a-engineer",
+      "permanent": true
+    },
+    {
+      "source": "/development/:slug",
+      "has": [{ "type": "host", "value": "techblog.amaino.me" }],
+      "destination": "https://amaino.me/blog/tech/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/computer-science/:slug",
+      "has": [{ "type": "host", "value": "techblog.amaino.me" }],
+      "destination": "https://amaino.me/blog/tech/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/:slug",
+      "has": [{ "type": "host", "value": "techblog.amaino.me" }],
+      "destination": "https://amaino.me/blog/tech/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/:slug",
+      "has": [{ "type": "host", "value": "techblog.amaino.me" }],
+      "destination": "https://amaino.me/blog/tech/:slug",
+      "permanent": true
+    },
+    {
       "source": "/:path(.*)",
       "has": [{ "type": "host", "value": "techblog.amaino.me" }],
       "destination": "https://amaino.me/blog/category/tech/",
